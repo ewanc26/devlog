@@ -2,7 +2,7 @@
 title: Gradient Profile Banner Generator
 description: Generates gradient profile banners for Bluesky users with custom sizing and grain effects.
 date: 2025-02-20
-tags: [bots, atproto]
+tags: [atproto, bots]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp4a34z2k"
 ---

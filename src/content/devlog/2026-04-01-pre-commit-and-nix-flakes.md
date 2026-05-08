@@ -2,7 +2,7 @@
 title: Pre-commit Configs and Nix Flakes Across All Projects
 description: Added pre-commit hooks and Nix flakes to all 30+ projects for consistent dev environments.
 date: 2026-04-01
-tags: [infra, nix, tooling]
+tags: [infra, tooling]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp2sqqw2v"
 ---

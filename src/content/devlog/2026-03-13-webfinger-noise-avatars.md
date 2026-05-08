@@ -2,7 +2,7 @@
 title: Webfinger and Noise Avatars
 description: Webfinger well-known routes for fediverse resolution and deterministic noise avatars for AT Protocol fallbacks.
 date: 2026-03-13
-tags: [website, atproto, ui]
+tags: [atproto, website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp3bbpv22"
 ---

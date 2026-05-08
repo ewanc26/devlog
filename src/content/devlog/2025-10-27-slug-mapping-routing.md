@@ -2,7 +2,7 @@
 title: Website — Slug Mapping and Robust Routing
 description: Configurable slug-to-publication mapping and slug param matcher for clean URLs.
 date: 2025-10-27
-tags: [website, atproto]
+tags: [atproto, website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefvnk7zm2k"
 ---

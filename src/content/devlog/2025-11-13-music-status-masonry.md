@@ -2,7 +2,7 @@
 title: MusicStatusCard and Masonry Layout
 description: Music status card with MusicBrainz integration and masonry-style homepage layout.
 date: 2025-11-13
-tags: [website, ui, music]
+tags: [website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp3qwp522"
 ---

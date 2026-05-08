@@ -2,7 +2,7 @@
 title: Moon Tracker Bot
 description: Daily moon phase posts to Bluesky with multi-source API and optional Ollama LLM descriptions.
 date: 2025-06-17
-tags: [bots, atproto]
+tags: [atproto, bots]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp3zrvn22"
 ---

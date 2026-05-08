@@ -1,16 +1,8 @@
 <script lang="ts">
 	import { formatDate } from '$lib/format';
+	import { tagClass } from '$lib/tags';
 	import type { PageData } from './$types';
 	let { data }: { data: PageData } = $props();
-
-	const tagClass = (tag: string) => {
-		const t = tag.toLowerCase();
-		if (t === 'feature' || t === 'feat' || t === 'new') return 'tag-feature';
-		if (t === 'fix' || t === 'bugfix' || t === 'bug') return 'tag-fix';
-		if (t === 'infra' || t === 'config' || t === 'nix' || t === 'infra') return 'tag-infra';
-		if (t === 'breaking' || t === 'major') return 'tag-breaking';
-		return 'tag-default';
-	};
 
 	// Group posts by month
 	const grouped = $derived.by(() => {
@@ -38,7 +30,7 @@
 	<meta name="twitter:description" content="Changelog and devlog for ewan's projects." />
 </svelte:head>
 
-<p class="text-[var(--color-muted)] text-[0.9em] mb-8 leading-[1.6]">
+<p class="text-[var(--color-muted)] text-[0.9em] mb-10 leading-[1.6]">
 	What changed, when, and why.
 </p>
 
@@ -47,13 +39,17 @@
 		No entries yet.
 	</p>
 {:else}
-	{#each grouped as group}
-		<p class="text-[0.72em] font-semibold uppercase tracking-[0.1em] text-[var(--color-dim)] mb-4">{group.month}</p>
+	<div class="timeline">
+		{#each grouped as group, gi}
+			<div class="timeline-month">
+				<span class="timeline-month-label">{group.month}</span>
+			</div>
 
-		<div class="timeline mb-8">
-			{#each group.posts as post}
+			{#each group.posts as post, pi}
+				{@const isFirst = gi === 0 && pi === 0}
 				<div class="timeline-entry">
-					<a href="/{post.slug}" class="no-underline block">
+					<div class="timeline-marker" class:timeline-marker-active={isFirst}></div>
+					<a href="/{post.slug}" class="timeline-link no-underline block">
 						<p class="text-[0.75em] text-[var(--color-dim)] font-mono mb-1">{formatDate(post.date)}</p>
 						<h2 class="text-[1em] font-medium text-[var(--color-text)] hover:text-[var(--color-accent)] transition-colors leading-[1.4] mb-1">
 							{post.title}
@@ -71,6 +67,6 @@
 					</a>
 				</div>
 			{/each}
-		</div>
-	{/each}
+		{/each}
+	</div>
 {/if}

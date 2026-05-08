@@ -2,7 +2,7 @@
 title: GitHub Metadata Package
 description: Package for fetching and displaying GitHub repository metadata.
 date: 2026-03-28
-tags: [pkgs, github]
+tags: [pkgs]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefvndj6m2k"
 ---

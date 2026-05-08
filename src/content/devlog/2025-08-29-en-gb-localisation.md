@@ -2,7 +2,7 @@
 title: Website — en-GB Localisation
 description: Added en-GB localisation throughout the site — licence, colour, behaviour.
 date: 2025-08-29
-tags: [website, i18n]
+tags: [website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefvny5lw2i"
 ---
