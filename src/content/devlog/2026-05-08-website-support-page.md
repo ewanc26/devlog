@@ -5,6 +5,7 @@ date: 2026-05-08
 time: "22:00"
 tags: [website]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleqck5uio2k"
 ---
 
 The support modal in the website footer is now a proper page at `/support`. FooterDonations simplified to a plain anchor — no more modal state management.

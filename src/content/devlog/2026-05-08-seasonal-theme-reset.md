@@ -4,6 +4,7 @@ description: "The colour theme picker now shows when a seasonal theme is active 
 date: 2026-05-08
 tags: [website, pkgs]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlerbk7xid2k"
 ---
 
 ## what changed

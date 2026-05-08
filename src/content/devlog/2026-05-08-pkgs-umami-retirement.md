@@ -5,6 +5,7 @@ date: 2026-05-08
 time: "22:15"
 tags: [tooling]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleqck7txi2k"
 ---
 
 Umami analytics retired — the server laptop that was running it is no longer in use. Removed the Umami script tag from all web packages in the monorepo:
