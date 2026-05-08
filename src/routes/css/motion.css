@@ -1,0 +1,61 @@
+/* ─── motion ────────────────────────────────────────────────────────────────── */
+
+/* Scroll reveal — entries start hidden, revealed by IntersectionObserver */
+.timeline-entry,
+.timeline-month {
+  opacity: 0;
+  transform: translateY(8px);
+  transition:
+    opacity 0.4s ease-out,
+    transform 0.4s ease-out;
+}
+
+.timeline-entry.revealed,
+.timeline-month.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger: set via JS as CSS custom property --stagger */
+.timeline-entry.revealed,
+.timeline-month.revealed {
+  transition-delay: var(--stagger, 0s);
+}
+
+/* View Transitions API */
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root) {
+  animation: 0.2s ease-out both vt-fade-out;
+}
+
+::view-transition-new(root) {
+  animation: 0.25s ease-out both vt-fade-in;
+}
+
+@keyframes vt-fade-out {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
+@keyframes vt-fade-in {
+  from { opacity: 0; filter: brightness(1.05); }
+  to   { opacity: 1; filter: brightness(1); }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .timeline-entry,
+  .timeline-month {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation-duration: 0.01s;
+  }
+}
