@@ -1,5 +1,5 @@
 import { getPost, listPosts } from '$lib/posts';
-import { renderMarkdown, extractToc } from '$lib/format';
+import { renderMarkdown, extractToc } from '$lib/markdown';
 import { error } from '@sveltejs/kit';
 import type { EntryGenerator, PageServerLoad } from './$types';
 

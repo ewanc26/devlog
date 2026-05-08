@@ -1,0 +1,16 @@
+/* ─── design tokens ──────────────────────────────────────────────────────── */
+:root {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --color-bg:        #1a1816;
+  --color-surface:   #232019;
+  --color-surface-1: #2d2a22;
+  --color-border:    #38342b;
+  --color-border-1:  #44403a;
+  --color-text:      #ede9e0;
+  --color-muted:     #9e9688;
+  --color-dim:       #665e54;
+  --color-accent:    #e2a93b;
+  --color-accent-dim: color-mix(in srgb, var(--color-accent) 15%, transparent);
+}

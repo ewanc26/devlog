@@ -1,0 +1,63 @@
+/* ─── prose ────────────────────────────────────────────────────────────────── */
+
+.prose {
+  --tw-prose-body:       var(--color-text);
+  --tw-prose-lead:       var(--color-muted);
+  --tw-prose-headings:   var(--color-text);
+  --tw-prose-links:      var(--color-accent);
+  --tw-prose-code:       var(--color-accent);
+  --tw-prose-pre-bg:     var(--color-surface);
+  --tw-prose-hr:         var(--color-border);
+  --tw-prose-quotes:     var(--color-muted);
+  --tw-prose-bold:       var(--color-text);
+  --tw-prose-counters:   var(--color-dim);
+  --tw-prose-bullets:    var(--color-dim);
+  --tw-prose-th-borders: var(--color-border-1);
+  --tw-prose-td-borders: var(--color-border);
+  font-family: var(--font-sans);
+  max-width: 65ch !important;
+  overflow-wrap: break-word;
+}
+
+.prose :where(table) {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.prose pre {
+  max-width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+}
+
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+}
+
+.prose :not(pre) > code {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 0.15em 0.4em;
+}
+
+.prose a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: color-mix(in srgb, var(--color-accent) 40%, transparent);
+  transition: text-decoration-color 0.15s;
+}
+
+.prose a:hover {
+  text-decoration-color: var(--color-accent);
+}
+
+.prose h2, .prose h3 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.prose ul li::marker { content: '›  '; }
