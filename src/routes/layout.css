@@ -45,42 +45,11 @@
 
 .timeline {
   position: relative;
-  padding-left: 1.75rem;
-}
-
-/* Vertical spine */
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 0.4rem;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: var(--color-border-1);
 }
 
 /* Each entry */
 .timeline-entry {
-  position: relative;
   padding-bottom: 2rem;
-}
-
-/* Marker dot */
-.timeline-entry::before {
-  content: '';
-  position: absolute;
-  left: -1.35rem;
-  top: 0.5rem;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--color-dim);
-}
-
-/* Latest entry marker */
-.timeline-entry:first-child::before {
-  background: var(--color-accent);
-  box-shadow: 0 0 10px color-mix(in srgb, var(--color-accent) 35%, transparent);
 }
 
 /* ─── month header ─────────────────────────────────────────────────────────── */
