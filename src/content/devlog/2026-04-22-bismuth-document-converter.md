@@ -4,6 +4,7 @@ description: Converts site.standard.document records to Markdown with math and c
 date: 2026-04-22
 tags: [pkgs, atproto, cli]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp2ksxv22"
 ---
 
 ## @ewanc26/bismuth

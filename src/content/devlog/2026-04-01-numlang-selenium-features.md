@@ -4,6 +4,7 @@ description: Expanded numlang with new opcodes and selenium with ritual and offe
 date: 2026-04-01
 tags: [esolangs, compilers]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp2v3x62v"
 ---
 
 ## numlang
