@@ -1,14 +1,11 @@
 ---
-title: Sigi — A Pure Symbolic Stack Language
-description: New esoteric language where all syntax is punctuation. No words, no letters — just symbols.
+title: Sigi — Pure Symbolic Stack Language
+description: A pure symbolic stack language where all syntax is punctuation — no alphanumeric tokens.
 date: 2026-04-01
-tags: [feature, esolang, compiler]
+tags: [esolangs, compilers]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleepzh4ng2v"
 ---
 
 ## sigi
 
-Created a new esoteric language where the entire syntax is punctuation. No identifiers, no keywords — every token is a symbol character. Stack-based execution model, compiles to C via the same pipeline as selenium and numlang.
-
-The language explores what happens when you strip away every convention of readable syntax and push computation into pure symbolic territory. Operands push, operators pop. The result is something that looks like line noise but runs deterministically.
+A pure symbolic stack language — all punctuation syntax, no alphanumeric tokens. Every operation is expressed through combinations of symbols like `+`, `~`, `|`, `@`, and `#`. Compiles to C via Python. The most minimal of the three esolangs — the entire grammar fits in a handful of rules.

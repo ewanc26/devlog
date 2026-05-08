@@ -1,10 +1,9 @@
 ---
 title: croft.click Landing Page and Shared Landing UI
-description: New landing page for croft.click and a shared @ewanc26/landing-ui package consumed by all web packages.
+description: Landing page at croft.click and a shared @ewanc26/landing-ui package for all web packages.
 date: 2026-04-25
-tags: [feature, webdev, monorepo]
+tags: [pkgs, webdev]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleepzaqk62v"
 ---
 
 ## @ewanc26/landing-ui
@@ -13,11 +12,4 @@ Extracted a shared landing page layout package consumed by `bismuth-web`, `jaspe
 
 ## croft.click
 
-Added a landing page at croft.click that lists all projects with logo images and live iframe previews. Project cards show the app running in a preview window. The page is deployed as `@ewanc26/croft-click` in the pkgs monorepo.
-
-## Other monorepo changes
-
-- Modularised croft.click into components
-- Added project card preview styles and layout
-- Replaced iframes with logo images in project cards (later iteration)
-- Added Umami analytics disclosure to all about pages (later removed)
+Added a landing page at croft.click listing all projects with logo images. Deployed as `@ewanc26/croft-click` in the pkgs monorepo.
