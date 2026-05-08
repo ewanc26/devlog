@@ -6,6 +6,15 @@ import rehypeSlug from 'rehype-slug';
 import rehypeStringify from 'rehype-stringify';
 import type { Root } from 'mdast';
 
+/** Strip h1 headings — the title is rendered separately above the content. */
+function remarkStripH1() {
+	return (tree: Root) => {
+		tree.children = tree.children.filter(
+			(node) => node.type !== 'heading' || node.depth !== 1
+		);
+	};
+}
+
 // ─── date formatting ──────────────────────────────────────────────────────────
 
 /**
@@ -40,6 +49,7 @@ export interface TocEntry {
 const processor = unified()
 	.use(remarkParse)
 	.use(remarkGfm)
+	.use(remarkStripH1)
 	.use(remarkRehype)
 	.use(rehypeSlug)
 	.use(rehypeStringify);
