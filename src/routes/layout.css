@@ -1,0 +1,186 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+/* ─── design tokens ──────────────────────────────────────────────────────── */
+:root {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --color-bg:        #1a1816;
+  --color-surface:   #232019;
+  --color-surface-1: #2d2a22;
+  --color-border:    #38342b;
+  --color-border-1:  #44403a;
+  --color-text:      #ede9e0;
+  --color-muted:     #9e9688;
+  --color-dim:       #665e54;
+  --color-accent:    #e2a93b;
+  --color-accent-dim: color-mix(in srgb, var(--color-accent) 15%, transparent);
+  --color-tag-feature: #e2a93b;
+  --color-tag-fix:    #6b9fbf;
+  --color-tag-infra:  #7dba8a;
+  --color-tag-breaking: #d45454;
+}
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html {
+    overflow-x: hidden;
+    font-family: var(--font-sans);
+    font-size: clamp(14px, 3.5vw, 16px);
+    line-height: 1.6;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    overflow-x: hidden;
+    min-height: 100dvh;
+  }
+}
+
+/* ─── timeline ────────────────────────────────────────────────────────────── */
+
+.timeline {
+  position: relative;
+  padding-left: 1.75rem;
+}
+
+/* Vertical spine */
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0.4rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--color-border-1);
+}
+
+/* Each entry */
+.timeline-entry {
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+/* Marker dot */
+.timeline-entry::before {
+  content: '';
+  position: absolute;
+  left: -1.35rem;
+  top: 0.5rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-dim);
+}
+
+/* Latest entry marker */
+.timeline-entry:first-child::before {
+  background: var(--color-accent);
+  box-shadow: 0 0 10px color-mix(in srgb, var(--color-accent) 35%, transparent);
+}
+
+/* ─── month header ─────────────────────────────────────────────────────────── */
+
+.month-header {
+  position: relative;
+  padding-left: 1.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.month-header::before {
+  content: '';
+  position: absolute;
+  left: 0.4rem;
+  top: 50%;
+  width: 2px;
+  height: 100%;
+  background: var(--color-border-1);
+}
+
+/* ─── tags ─────────────────────────────────────────────────────────────────── */
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.68em;
+  font-weight: 500;
+  padding: 0.15em 0.5em;
+  border-radius: 3px;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+}
+
+.tag-feature  { background: color-mix(in srgb, var(--color-tag-feature) 15%, transparent); color: var(--color-tag-feature); }
+.tag-fix     { background: color-mix(in srgb, var(--color-tag-fix) 15%, transparent); color: var(--color-tag-fix); }
+.tag-infra   { background: color-mix(in srgb, var(--color-tag-infra) 15%, transparent); color: var(--color-tag-infra); }
+.tag-breaking { background: color-mix(in srgb, var(--color-tag-breaking) 15%, transparent); color: var(--color-tag-breaking); }
+.tag-default { background: color-mix(in srgb, var(--color-muted) 10%, transparent); color: var(--color-muted); }
+
+/* ─── prose ────────────────────────────────────────────────────────────────── */
+
+.prose {
+  --tw-prose-body:       var(--color-text);
+  --tw-prose-lead:       var(--color-muted);
+  --tw-prose-headings:   var(--color-text);
+  --tw-prose-links:      var(--color-accent);
+  --tw-prose-code:       var(--color-accent);
+  --tw-prose-pre-bg:     var(--color-surface);
+  --tw-prose-hr:         var(--color-border);
+  --tw-prose-quotes:     var(--color-muted);
+  --tw-prose-bold:       var(--color-text);
+  --tw-prose-counters:   var(--color-dim);
+  --tw-prose-bullets:    var(--color-dim);
+  --tw-prose-th-borders: var(--color-border-1);
+  --tw-prose-td-borders: var(--color-border);
+  font-family: var(--font-sans);
+  max-width: 65ch !important;
+  overflow-wrap: break-word;
+}
+
+.prose :where(table) {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.prose pre {
+  max-width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+}
+
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+}
+
+.prose :not(pre) > code {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 0.15em 0.4em;
+}
+
+.prose a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: color-mix(in srgb, var(--color-accent) 40%, transparent);
+  transition: text-decoration-color 0.15s;
+}
+
+.prose a:hover {
+  text-decoration-color: var(--color-accent);
+}
+
+.prose h2, .prose h3 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.prose ul li::marker { content: '›  '; }

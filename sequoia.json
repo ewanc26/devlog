@@ -1,0 +1,7 @@
+{
+	"siteUrl": "https://devlog.croft.click",
+	"contentDir": "./src/content/devlog",
+	"publicDir": "./static",
+	"outputDir": "./dist",
+	"publicationUri": "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.publication/PLACEHOLDER"
+}
