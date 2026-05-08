@@ -1,23 +1,26 @@
 /**
- * Map a tag string to its CSS class for colouring.
- * Scope-based taxonomy: atproto, website, pkgs, bots, esolangs, infra, game, tooling, rust, learning, personal, collab.
+ * Derive a tag colour from its name using a hash.
+ * Returns an inline style string — no CSS classes needed.
  */
-export function tagClass(tag: string): string {
-	const t = tag.toLowerCase();
-	if (t === 'atproto') return 'tag-atproto';
-	if (t === 'website') return 'tag-website';
-	if (t === 'pkgs') return 'tag-pkgs';
-	if (t === 'bots') return 'tag-bots';
-	if (t === 'esolangs') return 'tag-esolangs';
-	if (t === 'infra') return 'tag-infra';
-	if (t === 'game') return 'tag-game';
-	if (t === 'tooling') return 'tag-tooling';
-	if (t === 'rust') return 'tag-rust';
-	if (t === 'learning') return 'tag-learning';
-	if (t === 'personal') return 'tag-personal';
-	if (t === 'health') return 'tag-personal';
-	if (t === 'reflection') return 'tag-personal';
-	if (t === 'collab') return 'tag-collab';
-	if (t === 'python') return 'tag-tooling';
-	return 'tag-default';
+
+function hashTag(tag: string): number {
+	// FNV-1a with bit mixing for better short-string distribution
+	let h = 2166136261;
+	for (let i = 0; i < tag.length; i++) {
+		h ^= tag.charCodeAt(i);
+		h = Math.imul(h, 16777619);
+	}
+	// Final avalanche — mix bits so close hashes produce distant hues
+	h ^= h >>> 16;
+	h = Math.imul(h, 0x45d9f3b);
+	h ^= h >>> 13;
+	return h >>> 0;
+}
+
+export function tagStyle(tag: string): string {
+	const h = hashTag(tag.toLowerCase());
+	const hue = h % 360;
+	const sat = 30 + ((h >>> 8) % 30);       // 30–59%
+	const lit = 60 + ((h >>> 16) % 18);       // 60–77%
+	return `color: hsl(${hue}, ${sat}%, ${lit}%); background: hsla(${hue}, ${sat}%, ${lit}%, 0.15);`;
 }

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { formatDate } from '$lib/format';
-	import { tagClass } from '$lib/tags';
+	import { tagStyle } from '$lib/tags';
 	import type { PageData } from './$types';
 	let { data }: { data: PageData } = $props();
 </script>
@@ -28,7 +28,7 @@
 		{#if data.post.tags.length}
 			<div class="flex gap-1.5 flex-wrap mb-6">
 				{#each data.post.tags as tag}
-					<span class="tag {tagClass(tag)}">{tag}</span>
+					<span class="tag" style={tagStyle(tag)}>{tag}</span>
 				{/each}
 			</div>
 		{/if}
