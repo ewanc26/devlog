@@ -4,7 +4,7 @@ description: Returned to NixOS on the Dell Inspiron 3501 after a stint with Bazz
 date: 2026-02-10
 tags: [infra]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiufp35v2i"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni3n67b2k"
 ---
 
 ## nixos return

@@ -4,7 +4,7 @@ description: Full OAuth flow for importing Instagram posts to AT Protocol as Gra
 date: 2026-04-15
 tags: [atproto, pkgs, tooling]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp2osro2v"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni2er4m22"
 ---
 
 ## @ewanc26/jasper

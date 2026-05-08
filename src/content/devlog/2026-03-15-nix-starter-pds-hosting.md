@@ -4,7 +4,7 @@ description: Added PDS and gatekeeper configuration to nix-starter for the serve
 date: 2026-03-15
 tags: [atproto, infra]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp34izq2y"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni33sa72s"
 ---
 
 ## nix-starter-configs

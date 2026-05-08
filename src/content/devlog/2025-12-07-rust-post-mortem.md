@@ -4,7 +4,7 @@ description: After five Rustlings sessions and countless compiler battles, calle
 date: 2025-12-07
 tags: [rust, reflection]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiufwe642g"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni45l5p2y"
 ---
 
 ## rust post-mortem

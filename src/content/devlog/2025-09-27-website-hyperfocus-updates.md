@@ -4,7 +4,7 @@ description: Three significant UX improvements shipped in one evening — naviga
 date: 2025-09-27
 tags: [website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiugcjsu2g"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni5a6dl2i"
 ---
 
 ## website evening sprint

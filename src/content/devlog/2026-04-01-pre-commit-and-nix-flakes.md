@@ -4,7 +4,7 @@ description: Added pre-commit hooks and Nix flakes to all 30+ projects for consi
 date: 2026-04-01
 tags: [infra, tooling]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp2sqqw2v"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni2nw3v2g"
 ---
 
 ## Pre-commit and flakes

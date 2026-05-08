@@ -4,7 +4,7 @@ description: Automatically updates a Bluesky profile avatar on a schedule with o
 date: 2025-02-21
 tags: [atproto, bots]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp45un62v"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni6yrhf2g"
 ---
 
 ## bluesky-avatar-updater

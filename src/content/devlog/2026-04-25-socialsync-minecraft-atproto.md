@@ -4,7 +4,7 @@ description: Minecraft mod syncing player stats, achievements, and sessions to A
 date: 2026-04-25
 tags: [atproto, game]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp2gami2k"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlenhzyw7m22"
 ---
 
 ## socialsync

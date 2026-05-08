@@ -4,6 +4,6 @@ description: Rebuilding the website from scratch using SvelteKit for better perf
 date: 2025-03-18
 tags: [website, tooling]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mldxsjf6oc2v"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni6ubkx2y"
 ---
 Migrated the website from the old codebase to SvelteKit. Core blog functionality ported with a cleaner component structure. New CSS foundation with standardised typography and variables. `Navigation.svelte` and `ThemeSwitch.svelte` components. Data fetching still needs wiring up.

@@ -4,7 +4,7 @@ description: Apple's CEO transition — cautiously optimistic about what a hardw
 date: 2026-04-27
 tags: [infra, reflection]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiufbo2m2g"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlenhzwzo422"
 ---
 
 ## apple ceo transition

@@ -4,7 +4,7 @@ description: Migrated layout and components to Svelte 5 runes and reactive meta 
 date: 2025-10-19
 tags: [website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefvnmf4a2v"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni4x7hp2y"
 ---
 
 ## Svelte 5 runes
