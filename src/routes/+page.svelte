@@ -49,7 +49,7 @@
 				{@const isFirst = gi === 0 && pi === 0}
 				<div class="timeline-entry">
 					<div class="timeline-marker" class:timeline-marker-active={isFirst}></div>
-					<a href="/{post.slug}" class="timeline-link no-underline block">
+					<a href="/{post.path}" class="timeline-link no-underline block">
 						<p class="text-[0.72em] text-[var(--color-dim)] font-mono mb-1">{formatDate(post.date)}</p>
 						<h2 class="text-[1em] font-medium text-[var(--color-text)] leading-[1.4] mb-1 transition-colors duration-150 group-hover:text-[var(--color-accent)]">
 							{post.title}

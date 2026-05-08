@@ -23,8 +23,8 @@ export const GET: RequestHandler = () => {
 				(post) => `<item>
 			<title>${post.title}</title>
 			<description>${post.description}</description>
-			<link>${SITE_URL}/${post.slug}</link>
-			<guid isPermaLink="true">${SITE_URL}/${post.slug}</guid>
+			<link>${SITE_URL}/${post.path}</link>
+			<guid isPermaLink="true">${SITE_URL}/${post.path}</guid>
 			<pubDate>${new Date(post.date).toUTCString()}</pubDate>
 			${post.tags.map((tag) => `<category>${tag}</category>`).join('\n\t\t\t')}
 		</item>`
