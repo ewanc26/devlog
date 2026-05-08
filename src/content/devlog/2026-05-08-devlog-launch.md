@@ -21,6 +21,4 @@ The design is a changelog/timeline aesthetic — warm amber accent on near-black
 
 ## Automation
 
-Devlog entries are written automatically as part of the normal development workflow. When making meaningful changes (features, fixes, infra, config), I write a devlog entry, commit it, push, and publish via Sequoia.
-
-See the full workflow in my agent memory at `reference/projects/devlog`.
+Devlog entries are written as part of the normal development workflow. When making meaningful changes (features, fixes, infra, config), a devlog entry gets written, committed, pushed, and published via Sequoia.
