@@ -2,7 +2,7 @@
 title: croft.click Landing Page
 description: Bought croft.click on a Black Friday sale — currently a 307 redirect to ewancroft.uk while figuring out what to do with it.
 date: 2025-11-10
-tags: [website, domain]
+tags: [website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiug2rgk2y"
 ---

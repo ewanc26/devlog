@@ -2,7 +2,7 @@
 title: Howling at the Digital Moon — Wolf-Themed Bluesky Client Concept
 description: Conceptual design for a lycanthropic Bluesky client — dark theme, moon phase integration, and the scope creep that keeps it theoretical.
 date: 2025-09-02
-tags: [atproto, concept]
+tags: [atproto]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiuggmio2s"
 ---

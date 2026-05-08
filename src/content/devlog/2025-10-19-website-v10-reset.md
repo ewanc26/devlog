@@ -2,7 +2,7 @@
 title: Website — v10 Reset
 description: Nuked ewancroft.uk from orbit and started fresh — the tenth iteration, built from scratch with a clean architecture.
 date: 2025-10-19
-tags: [website, svelte]
+tags: [website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiugas5m2g"
 ---

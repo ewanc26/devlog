@@ -2,7 +2,7 @@
 title: Reverse Engineering an Apple Shortcut
 description: Deconstructed dame.is's dynamic avatar Apple Shortcut and rebuilt it as a Python automation — hourly profile image updates via AT Protocol.
 date: 2025-02-23
-tags: [atproto, automation, python]
+tags: [atproto, tooling, python]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiuh4tyv2i"
 ---
