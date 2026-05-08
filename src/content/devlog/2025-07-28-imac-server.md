@@ -4,6 +4,7 @@ description: Attempting to repurpose a 2008 iMac as a server — bricked OS, fai
 date: 2025-07-28
 tags: [infra, hardware]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiugthse22"
 ---
 
 ## imac server attempt

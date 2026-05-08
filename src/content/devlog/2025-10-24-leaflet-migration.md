@@ -4,6 +4,7 @@ description: Moving the blog from WhiteWind to Leaflet on AT Protocol — conver
 date: 2025-10-24
 tags: [atproto, blogging]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiug6vlu22"
 ---
 
 ## blog platform migration

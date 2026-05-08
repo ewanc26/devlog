@@ -4,6 +4,7 @@ description: Five Rustlings sessions covering variables through type systems —
 date: 2025-08-01
 tags: [rust, learning]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiugp6y22v"
 ---
 
 ## rust learning

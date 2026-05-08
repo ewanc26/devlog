@@ -4,6 +4,7 @@ description: Hidden Easter egg on the website — click the version number 24 ti
 date: 2025-12-17
 tags: [website, fun]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiufuojo2k"
 ---
 
 ## happy mac easter egg

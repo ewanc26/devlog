@@ -4,6 +4,7 @@ description: Redesigned the profile component from centred business-card layout 
 date: 2025-07-27
 tags: [website]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiuguwl22v"
 ---
 
 ## profile redesign

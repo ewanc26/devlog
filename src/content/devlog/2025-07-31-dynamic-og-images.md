@@ -4,6 +4,7 @@ description: Server-side Open Graph image generation with SvelteKit — fonts th
 date: 2025-07-31
 tags: [website, svelte]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiugrcuf2i"
 ---
 
 ## og image generation

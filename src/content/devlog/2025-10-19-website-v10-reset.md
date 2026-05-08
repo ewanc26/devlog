@@ -4,6 +4,7 @@ description: Nuked ewancroft.uk from orbit and started fresh — the tenth itera
 date: 2025-10-19
 tags: [website, svelte]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiugas5m2g"
 ---
 
 ## website v10

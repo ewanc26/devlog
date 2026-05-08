@@ -4,6 +4,7 @@ description: Adopting standard.site lexicons for cross-platform interoperability
 date: 2026-01-05
 tags: [atproto, lexicon]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiufr74m22"
 ---
 
 ## standard.site adoption
