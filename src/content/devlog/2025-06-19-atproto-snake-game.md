@@ -4,7 +4,7 @@ description: Browser Snake game with AT Protocol OAuth login and score submissio
 date: 2025-06-19
 tags: [atproto, game]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp3xofg2v"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni6ecll2i"
 ---
 
 ## atproto-snake

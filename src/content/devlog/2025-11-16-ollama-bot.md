@@ -4,7 +4,7 @@ description: Experimental bot using Ollama for LLM-generated Bluesky posts.
 date: 2025-11-16
 tags: [atproto, bots]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefvniiua2y"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni4e5d22v"
 ---
 
 ## bluesky-ollama

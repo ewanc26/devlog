@@ -4,7 +4,7 @@ description: Comprehensive caching to prevent 504s, skeleton loaders for instant
 date: 2025-12-30
 tags: [website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp3knec2s"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni3vjrr2k"
 ---
 
 ## Caching

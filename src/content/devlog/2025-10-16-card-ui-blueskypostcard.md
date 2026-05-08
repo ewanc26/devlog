@@ -4,7 +4,7 @@ description: Homepage redesign with reusable Card UI system and BlueskyPostCard 
 date: 2025-10-16
 tags: [atproto, website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp3sehw2v"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni54eix2y"
 ---
 
 ## Card UI system

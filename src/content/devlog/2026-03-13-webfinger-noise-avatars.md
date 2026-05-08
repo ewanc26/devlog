@@ -4,7 +4,7 @@ description: Webfinger well-known routes for fediverse resolution and determinis
 date: 2026-03-13
 tags: [atproto, website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp3bbpv22"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni37ggx2s"
 ---
 
 ## Webfinger

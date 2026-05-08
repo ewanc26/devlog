@@ -4,7 +4,7 @@ description: Replaced Aternos with a self-hosted server on the M2 Mac Mini — n
 date: 2025-06-11
 tags: [infra, game]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiugwtmn2i"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni6hvg52g"
 ---
 
 ## minecraft self-hosting

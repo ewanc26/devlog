@@ -4,7 +4,7 @@ description: Renamed lastfm-importer to malachite, added Spotify support, intera
 date: 2026-01-13
 tags: [atproto, pkgs, tooling]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp3il4n22"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni3r33v2g"
 ---
 
 ## malachite

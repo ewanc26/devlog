@@ -4,7 +4,7 @@ description: Bought croft.click on a Black Friday sale — currently a 307 redir
 date: 2025-11-10
 tags: [website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiug2rgk2y"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni4mhpp2y"
 ---
 
 ## croft.click

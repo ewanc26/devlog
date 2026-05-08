@@ -4,7 +4,7 @@ description: Replaced static HTML with a dynamic AT Protocol-powered frontend fe
 date: 2025-01-28
 tags: [atproto, website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp4e4xf22"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni7dfc422"
 ---
 
 ## AT Protocol integration

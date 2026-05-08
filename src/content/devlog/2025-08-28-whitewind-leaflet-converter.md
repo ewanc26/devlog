@@ -4,7 +4,7 @@ description: Built a conversion tool to migrate blog content between AT Protocol
 date: 2025-08-28
 tags: [atproto, tooling]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiugiyw62k"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni5rm6x2y"
 ---
 
 ## blog platform converter

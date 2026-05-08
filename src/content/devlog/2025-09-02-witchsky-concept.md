@@ -4,7 +4,7 @@ description: Conceptual design for a lycanthropic Bluesky client — dark theme,
 date: 2025-09-02
 tags: [atproto]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiuggmio2s"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni5kusr2k"
 ---
 
 ## witchsky concept

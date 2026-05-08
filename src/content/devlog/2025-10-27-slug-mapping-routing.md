@@ -4,7 +4,7 @@ description: Configurable slug-to-publication mapping and slug param matcher for
 date: 2025-10-27
 tags: [atproto, website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefvnk7zm2k"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni4oelv2g"
 ---
 
 ## Slug mapping

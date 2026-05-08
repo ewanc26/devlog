@@ -4,7 +4,7 @@ description: Dynamic OG image generation, reading time, heading underlines, and 
 date: 2025-09-14
 tags: [website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp3u3vy2y"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni5cf7m22"
 ---
 
 ## OG images

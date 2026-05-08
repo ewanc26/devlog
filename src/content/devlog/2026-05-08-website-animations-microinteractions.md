@@ -4,7 +4,7 @@ description: Animation foundation with easing tokens, staggered entrances, scrol
 date: 2026-05-08
 tags: [website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp2c2dy2y"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlenhzeso52g"
 ---
 
 ## Animation foundation

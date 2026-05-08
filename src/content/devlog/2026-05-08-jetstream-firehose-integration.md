@@ -4,7 +4,7 @@ description: Hooking the site up to the AT Protocol firehose for live-updating f
 date: 2026-05-08
 tags: [atproto, website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mldxsiyvm32i"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlenhzgyft2i"
 ---
 Integrated real-time updates via `europe.firehose.network` Jetstream. The site listens to the firehose and displays live-update pulse indicators on cards as state changes happen.
 
