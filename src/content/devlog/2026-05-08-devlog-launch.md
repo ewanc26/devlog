@@ -4,6 +4,7 @@ description: New changelog site for tracking project updates, published to AT Pr
 date: 2026-05-08
 tags: [feature, infra]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mldwgx4s552g"
 ---
 
 ## devlog.croft.click
