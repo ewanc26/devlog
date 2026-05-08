@@ -2,7 +2,7 @@
 title: PDS DoS Incident
 description: Accidentally rate-limited the entire PDS by blasting records at the API — the lesson that built Malachite's rate limiting.
 date: 2025-11-15
-tags: [atproto, infra, malachite]
+tags: [atproto, infra]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiufype422"
 ---

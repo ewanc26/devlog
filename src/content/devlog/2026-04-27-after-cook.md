@@ -2,7 +2,7 @@
 title: After Cook
 description: Apple's CEO transition — cautiously optimistic about what a hardware-focused leader might mean for the ecosystem.
 date: 2026-04-27
-tags: [hardware, reflection]
+tags: [infra, reflection]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiufbo2m2g"
 ---

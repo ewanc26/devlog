@@ -2,7 +2,7 @@
 title: Nix Config Rewrite
 description: Rewrote the entire nix-config around proper Nix modules — replaced custom patterns with the module system, switched to sops-nix, moved desktop to KDE Plasma.
 date: 2026-02-19
-tags: [nix, infra]
+tags: [infra]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiufkgde2g"
 ---

@@ -2,7 +2,7 @@
 title: Back to NixOS
 description: Returned to NixOS on the Dell Inspiron 3501 after a stint with Bazzite — declarative config keeps pulling back.
 date: 2026-02-10
-tags: [nix, infra]
+tags: [infra]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiufp35v2i"
 ---

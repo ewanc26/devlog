@@ -2,7 +2,7 @@
 title: Welcome to Macintosh — Happy Mac Easter Egg
 description: Hidden Easter egg on the website — click the version number 24 times for a pixelated Happy Mac bouncing across the viewport with the startup chord.
 date: 2025-12-17
-tags: [website, fun]
+tags: [website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiufuojo2k"
 ---
