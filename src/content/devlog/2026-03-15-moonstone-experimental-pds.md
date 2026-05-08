@@ -1,14 +1,11 @@
 ---
 title: Moonstone — Experimental PDS
-description: Started building a custom AT Protocol PDS in Rust, decoupled from Bluesky infrastructure.
+description: Experimental AT Protocol PDS implementation in Rust.
 date: 2026-03-15
-tags: [atproto, rust, infra]
+tags: [atproto, infra, rust]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleepzusd62k"
 ---
 
-## moonstone-pds
+## moonstone
 
-Began implementing a custom PDS in Rust, initially layered on top of `@atproto/pds` and progressively decoupling from Bluesky-specific infrastructure. The goal is a standalone PDS that supports native `did:web` account creation, custom moderation routes, and email validation without depending on the Bluesky appview.
-
-Added default crawler declarations, custom HTTP lifecycle management (replacing the default `pds.start()`), and moderation/temp routes. The server is configured via NixOS module in nix-starter-configs.
+An experimental PDS implementation in Rust. A from-scratch exploration of what a minimal AT Protocol data server looks like.

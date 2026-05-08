@@ -1,16 +1,15 @@
 ---
 title: Numlang and Selenium Feature Expansions
-description: Major language feature additions to both compilers — while loops, string literals, bitwise ops, switch statements, and more.
+description: Expanded numlang with new opcodes and selenium with ritual and offering syntax.
 date: 2026-04-01
-tags: [feature, esolang, compiler]
+tags: [esolangs, compilers]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleepzluji2i"
 ---
 
 ## numlang
 
-Added while loops, stack operations, modulo, comments, a `--run` flag for immediate execution, and semantic analysis. Then added string literals with full C escape support, block IF/ELSE, float literals, variables (0–99), REPEAT loops, and inverse trigonometric operations with stack introspection. Added a full set of example programs and tests.
+Added new opcodes and control flow to the stack-based numbers-only language.
 
 ## selenium
 
-Added break and continue statements, for loops (orbit), prefix increment/decrement, ternary conditional operator, switch statement, input functions, and bitwise operators with correct precedence. Added a `--run` flag and a hello world example. Fixed the `-lm` flag for math.h function linking.
+Expanded the lunar/poetic syntax language with `ritual` for function definitions, `offering` for variables, and `incantation` for control flow. Added lunar types like `waxing` and `waning`.

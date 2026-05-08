@@ -1,24 +1,19 @@
 ---
 title: Website — OG Images, Work Page, GitHub Integration
-description: Dynamic OG image generation, Sifa professional profile on /work, and live GitHub contribution graph.
+description: Dynamic OG images, /work route for Sifa professional profile, and GitHub metadata integration.
 date: 2026-03-20
-tags: [feature, webdev, atproto]
+tags: [website, ui, seo]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleepzp3nm22"
 ---
 
-## Dynamic OG images
+## OG images
 
-Integrated `@ewanc26/og` for server-side OG image generation on every route. Each page renders its own `MetaTags` component with route-specific titles and descriptions. Fonts are embedded as base64 in the OG package for serverless compatibility — no CDN dependency at render time.
+Added dynamic OG image generation using `@ewanc26/og` with font fallbacks.
 
-## /work route
+## Work page
 
-Added a `/work` route displaying Sifa professional profile data pulled from the PDS. Supports all Sifa lexicon types: education, certifications, skills, external accounts, and projects. The GitHub profile page shows a live contribution graph.
+Added a `/work` route displaying Sifa professional profile data from AT Protocol lexicons. Supports all Sifa profile lexicons.
 
-## Fediverse integration
+## GitHub integration
 
-Added webfinger well-known routes, fediverse creator metatags, and dynamic `@ewancroft.uk@ewancroft.uk` resolution. The site now properly identifies as a fediverse actor for Mastodon/AT Protocol cross-visibility.
-
-## Self-hosted Inter
-
-Replaced Google Fonts Inter with a self-hosted variable font file for performance and privacy.
+Added `@ewanc26/github-metadata` for fetching repository metadata. Replaced local implementations with `@ewanc26` package re-exports.
