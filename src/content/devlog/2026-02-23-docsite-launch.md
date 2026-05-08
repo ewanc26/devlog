@@ -4,6 +4,7 @@ description: Centralised project documentation at docs.ewancroft.uk, published t
 date: 2026-02-23
 tags: [atproto, docs]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp3gdtf2g"
 ---
 
 ## docsite

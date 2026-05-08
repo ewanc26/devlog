@@ -4,6 +4,7 @@ description: CLI tool for importing Last.fm and Spotify scrobbles to AT Protocol
 date: 2025-11-14
 tags: [pkgs, atproto, cli]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp3p36r2k"
 ---
 
 ## malachite

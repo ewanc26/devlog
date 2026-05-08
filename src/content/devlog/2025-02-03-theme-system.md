@@ -4,6 +4,7 @@ description: Theme toggle with multiple colour themes, persisted via localStorag
 date: 2025-02-03
 tags: [website, ui]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp4bsmg2v"
 ---
 
 ## Theme toggle

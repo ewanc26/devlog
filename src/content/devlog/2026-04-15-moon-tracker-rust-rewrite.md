@@ -4,6 +4,7 @@ description: Rewrote the moon phase bot from TypeScript to Rust using atrium-rs.
 date: 2026-04-15
 tags: [bots, atproto, rust]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp2msh52g"
 ---
 
 ## bluesky-moon-tracker

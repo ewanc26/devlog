@@ -4,6 +4,7 @@ description: A pure symbolic stack language where all syntax is punctuation — 
 date: 2026-04-01
 tags: [esolangs, compilers]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp2r36522"
 ---
 
 ## sigi

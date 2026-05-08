@@ -4,6 +4,7 @@ description: Ported the Markov chain bot to Bluesky with configurable character 
 date: 2024-06-09
 tags: [bots, atproto]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp4fqpn22"
 ---
 
 ## bluesky-markov
