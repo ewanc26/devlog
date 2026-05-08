@@ -50,12 +50,12 @@
 				<div class="timeline-entry">
 					<div class="timeline-marker" class:timeline-marker-active={isFirst}></div>
 					<a href="/{post.slug}" class="timeline-link no-underline block">
-						<p class="text-[0.75em] text-[var(--color-dim)] font-mono mb-1">{formatDate(post.date)}</p>
-						<h2 class="text-[1em] font-medium text-[var(--color-text)] hover:text-[var(--color-accent)] transition-colors leading-[1.4] mb-1">
+						<p class="text-[0.72em] text-[var(--color-dim)] font-mono mb-1">{formatDate(post.date)}</p>
+						<h2 class="text-[1em] font-medium text-[var(--color-text)] leading-[1.4] mb-1 transition-colors duration-150 group-hover:text-[var(--color-accent)]">
 							{post.title}
 						</h2>
 						{#if post.description}
-							<p class="text-[0.85em] text-[var(--color-muted)] leading-[1.5] mb-2">{post.description}</p>
+							<p class="text-[0.82em] text-[var(--color-muted)] leading-[1.5] mb-2">{post.description}</p>
 						{/if}
 						{#if post.tags.length}
 							<div class="flex gap-1.5 flex-wrap">
