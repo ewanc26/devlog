@@ -4,6 +4,7 @@ description: Added pre-commit hooks to every repo and nix flake.nix files for re
 date: 2026-04-01
 tags: [infra, nix, tooling]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleepzjkx62k"
 ---
 
 ## Pre-commit

@@ -4,6 +4,7 @@ description: Dynamic OG image generation, Sifa professional profile on /work, an
 date: 2026-03-20
 tags: [feature, webdev, atproto]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleepzp3nm22"
 ---
 
 ## Dynamic OG images

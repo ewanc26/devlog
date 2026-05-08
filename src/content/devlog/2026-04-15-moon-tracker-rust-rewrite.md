@@ -4,6 +4,7 @@ description: Rewrote the Bluesky moon phase bot from TypeScript to Rust using at
 date: 2026-04-15
 tags: [atproto, rust, rewrite]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleepzcvyu22"
 ---
 
 ## bluesky-moon-tracker

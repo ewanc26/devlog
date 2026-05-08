@@ -4,6 +4,7 @@ description: Syncing Minecraft stats, achievements, and play sessions to AT Prot
 date: 2026-04-25
 tags: [atproto, feature, minecraft]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleepz6q2e2s"
 ---
 
 ## socialsync

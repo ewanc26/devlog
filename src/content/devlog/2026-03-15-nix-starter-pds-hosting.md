@@ -4,6 +4,7 @@ description: Added PDS and Mastodon configuration to nix-starter, plus a new hos
 date: 2026-03-15
 tags: [infra, nix, atproto]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleepzrmpm2g"
 ---
 
 ## nix-starter-configs
