@@ -12,7 +12,7 @@
 	<meta property="og:title" content="{data.post.title} | devlog" />
 	<meta property="og:description" content={data.post.description} />
 	<meta property="og:type" content="article" />
-	{#if data.post.date}<meta property="article:published_time" content={data.post.date} />{/if}
+	{#if data.post.date}<meta property="article:published_time" content={data.post.time ? `${data.post.date}T${data.post.time}` : data.post.date} />{/if}
 	{#if data.post.tags.length}{#each data.post.tags as tag}<meta property="article:tag" content={tag} />{/each}{/if}
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="{data.post.title} | devlog" />
@@ -23,7 +23,7 @@
 <div class="flex gap-10 items-start w-full">
 	<!-- Article -->
 	<div class="flex-1 min-w-0">
-		<p class="text-[0.75em] text-[var(--color-dim)] font-mono mb-2">{formatDate(data.post.date)}</p>
+		<p class="text-[0.75em] text-[var(--color-dim)] font-mono mb-2">{formatDate(data.post.date, data.post.time)}</p>
 		<h1 class="text-[1.5em] font-semibold tracking-tight text-[var(--color-text)] leading-[1.3] mb-3">{data.post.title}</h1>
 
 		{#if data.post.tags.length}
