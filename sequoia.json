@@ -3,5 +3,7 @@
 	"contentDir": "./src/content/devlog",
 	"publicDir": "./static",
 	"outputDir": "./dist",
+	"pathTemplate": "/{year}/{month}/{day}/{slug}",
+	"stripDatePrefix": true,
 	"publicationUri": "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.publication/PLACEHOLDER"
 }
