@@ -4,6 +4,7 @@ description: Added pronouns to the profile card and improved accessibility acros
 date: 2025-12-29
 tags: [website, ui, accessibility]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefvngtdc2s"
 ---
 
 ## Pronouns
