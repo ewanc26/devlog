@@ -7,33 +7,33 @@
 	let query = $state('');
 	let activeTag = $state('');
 
-	// Collect unique tags sorted by frequency
-	const allTags = $derived.by(() => {
+	// First pass: filter by query only (tag chips should reflect this set)
+	const queryFiltered = $derived.by(() => {
+		if (!query) return data.posts;
+		const q = query.toLowerCase();
+		return data.posts.filter((p) => {
+			const text = `${p.title} ${p.description} ${p.tags.join(' ')}`.toLowerCase();
+			return text.includes(q);
+		});
+	});
+
+	// Tags from the query-filtered set, sorted by frequency
+	const visibleTags = $derived.by(() => {
 		const counts = new Map<string, number>();
-		for (const post of data.posts) {
+		for (const post of queryFiltered) {
 			for (const tag of post.tags) {
 				counts.set(tag, (counts.get(tag) ?? 0) + 1);
 			}
 		}
 		return [...counts.entries()]
 			.sort((a, b) => b[1] - a[1])
-			.map(([tag]) => tag);
+			.map(([tag, count]) => ({ tag, count }));
 	});
 
-	// Filter posts by query + active tag
+	// Second pass: also filter by active tag
 	const filtered = $derived.by(() => {
-		let posts = data.posts;
-		if (activeTag) {
-			posts = posts.filter((p) => p.tags.includes(activeTag));
-		}
-		if (query) {
-			const q = query.toLowerCase();
-			posts = posts.filter((p) => {
-				const text = `${p.title} ${p.description} ${p.tags.join(' ')}`.toLowerCase();
-				return text.includes(q);
-			});
-		}
-		return posts;
+		if (!activeTag) return queryFiltered;
+		return queryFiltered.filter((p) => p.tags.includes(activeTag));
 	});
 </script>
 
@@ -51,5 +51,5 @@
 	What changed, when, and why.
 </p>
 
-<SearchBar bind:query bind:activeTag tags={allTags} />
+<SearchBar bind:query bind:activeTag tags={visibleTags} />
 <Timeline posts={filtered} />
