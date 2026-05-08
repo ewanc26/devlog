@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { tagStyle } from '$lib/tags';
 	import { Search, X } from '@lucide/svelte';
+	import { fade } from 'svelte/transition';
 
 	interface TagEntry { tag: string; count: number }
 
@@ -33,7 +34,7 @@
 			aria-label="Search entries"
 		/>
 		{#if hasFilter}
-			<button class="search-clear" onclick={clear} aria-label="Clear search">
+			<button class="search-clear" onclick={clear} aria-label="Clear search" transition:fade={{ duration: 150 }}>
 				<X size={14} />
 			</button>
 		{/if}
@@ -46,6 +47,7 @@
 					class:search-tag-active={activeTag === tag}
 					style={tagStyle(tag)}
 					onclick={() => toggleTag(tag)}
+					transition:fade={{ duration: 150 }}
 				>
 					{tag}<span class="search-tag-count">{count}</span>
 				</button>
