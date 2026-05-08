@@ -1,16 +1,8 @@
 <script lang="ts">
 	import { formatDate } from '$lib/format';
+	import { tagClass } from '$lib/tags';
 	import type { PageData } from './$types';
 	let { data }: { data: PageData } = $props();
-
-	const tagClass = (tag: string) => {
-		const t = tag.toLowerCase();
-		if (t === 'feature' || t === 'feat' || t === 'new') return 'tag-feature';
-		if (t === 'fix' || t === 'bugfix' || t === 'bug') return 'tag-fix';
-		if (t === 'infra' || t === 'config' || t === 'nix') return 'tag-infra';
-		if (t === 'breaking' || t === 'major') return 'tag-breaking';
-		return 'tag-default';
-	};
 </script>
 
 <svelte:head>

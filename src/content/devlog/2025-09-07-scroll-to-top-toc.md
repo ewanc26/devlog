@@ -2,7 +2,7 @@
 title: Website — Scroll-to-Top and ToC Improvements
 description: Scroll-to-top button, mobile progress bar, and improved table of contents layout.
 date: 2025-09-07
-tags: [website, ui]
+tags: [website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefvnvl6f2g"
 ---

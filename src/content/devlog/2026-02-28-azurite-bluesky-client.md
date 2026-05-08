@@ -2,7 +2,7 @@
 title: Azurite — Experimental Bluesky Client
 description: Bluesky client with keychain auth, timeline, notifications, search, thread view, and compose.
 date: 2026-02-28
-tags: [atproto, client]
+tags: [atproto]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp3eq3522"
 ---

@@ -2,7 +2,7 @@
 title: Bismuth — Document to Markdown Converter
 description: Converts site.standard.document records to Markdown with math and code highlighting.
 date: 2026-04-22
-tags: [pkgs, atproto, cli]
+tags: [atproto, pkgs, tooling]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp2ksxv22"
 ---

@@ -2,7 +2,7 @@
 title: devlog.croft.click launch
 description: New changelog site for tracking project updates, published to AT Protocol via Sequoia.
 date: 2026-05-08
-tags: [feature, infra]
+tags: [infra]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mldwgx4s552g"
 ---

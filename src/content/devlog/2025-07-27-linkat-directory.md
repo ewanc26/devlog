@@ -2,7 +2,7 @@
 title: Linkat Directory
 description: Linkat-powered user directory with profile banners, descriptions, and metadata display.
 date: 2025-07-27
-tags: [atproto, webdev]
+tags: [atproto, tooling]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp3vrtw2v"
 ---

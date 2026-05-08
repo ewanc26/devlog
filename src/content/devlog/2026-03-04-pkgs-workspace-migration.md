@@ -2,7 +2,7 @@
 title: Pkgs Monorepo — Workspace Migration
 description: Migrated to pnpm workspaces, published @ewanc26/tid to npm, and consolidated packages.
 date: 2026-03-04
-tags: [pkgs, monorepo]
+tags: [pkgs]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp3cwhf22"
 ---

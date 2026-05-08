@@ -16,10 +16,16 @@
   --color-dim:       #665e54;
   --color-accent:    #e2a93b;
   --color-accent-dim: color-mix(in srgb, var(--color-accent) 15%, transparent);
-  --color-tag-feature: #e2a93b;
-  --color-tag-fix:    #6b9fbf;
-  --color-tag-infra:  #7dba8a;
-  --color-tag-breaking: #d45454;
+
+  /* scope tags */
+  --color-tag-atproto:  #e2a93b;
+  --color-tag-website:  #6b9fbf;
+  --color-tag-pkgs:     #c9a0dc;
+  --color-tag-bots:     #7dba8a;
+  --color-tag-esolangs: #e8c547;
+  --color-tag-infra:    #7dba8a;
+  --color-tag-game:     #d4a054;
+  --color-tag-tooling:  #9e9688;
 }
 
 @layer base {
@@ -45,29 +51,75 @@
 
 .timeline {
   position: relative;
+  padding-left: 1.75rem;
 }
 
-/* Each entry */
+/* vertical spine */
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0.35rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--color-border-1);
+}
+
+/* month header — sits on the timeline, breaks the spine */
+.timeline-month {
+  position: relative;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.timeline-month-label {
+  display: inline-block;
+  font-size: 0.72em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-dim);
+  background: var(--color-bg);
+  padding: 0.25em 0.6em 0.25em 0;
+  position: relative;
+}
+
+/* month dot on the spine */
+.timeline-month::before {
+  content: '';
+  position: absolute;
+  left: -1.75rem;
+  top: 0.45em;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-border-1);
+  border: 2px solid var(--color-bg);
+  z-index: 1;
+}
+
+/* each entry */
 .timeline-entry {
+  position: relative;
   padding-bottom: 2rem;
 }
 
-/* ─── month header ─────────────────────────────────────────────────────────── */
-
-.month-header {
-  position: relative;
-  padding-left: 1.75rem;
-  margin-bottom: 1.25rem;
+/* dot marker on the spine */
+.timeline-marker {
+  position: absolute;
+  left: -1.75rem;
+  top: 0.35em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-dim);
+  z-index: 1;
 }
 
-.month-header::before {
-  content: '';
-  position: absolute;
-  left: 0.4rem;
-  top: 50%;
-  width: 2px;
-  height: 100%;
-  background: var(--color-border-1);
+/* most recent entry gets the accent dot with glow */
+.timeline-marker-active {
+  background: var(--color-accent);
+  box-shadow: 0 0 6px 2px color-mix(in srgb, var(--color-accent) 30%, transparent);
 }
 
 /* ─── tags ─────────────────────────────────────────────────────────────────── */
@@ -84,11 +136,15 @@
   text-transform: lowercase;
 }
 
-.tag-feature  { background: color-mix(in srgb, var(--color-tag-feature) 15%, transparent); color: var(--color-tag-feature); }
-.tag-fix     { background: color-mix(in srgb, var(--color-tag-fix) 15%, transparent); color: var(--color-tag-fix); }
-.tag-infra   { background: color-mix(in srgb, var(--color-tag-infra) 15%, transparent); color: var(--color-tag-infra); }
-.tag-breaking { background: color-mix(in srgb, var(--color-tag-breaking) 15%, transparent); color: var(--color-tag-breaking); }
-.tag-default { background: color-mix(in srgb, var(--color-muted) 10%, transparent); color: var(--color-muted); }
+.tag-atproto  { background: color-mix(in srgb, var(--color-tag-atproto) 15%, transparent); color: var(--color-tag-atproto); }
+.tag-website  { background: color-mix(in srgb, var(--color-tag-website) 15%, transparent); color: var(--color-tag-website); }
+.tag-pkgs     { background: color-mix(in srgb, var(--color-tag-pkgs) 15%, transparent); color: var(--color-tag-pkgs); }
+.tag-bots     { background: color-mix(in srgb, var(--color-tag-bots) 15%, transparent); color: var(--color-tag-bots); }
+.tag-esolangs { background: color-mix(in srgb, var(--color-tag-esolangs) 15%, transparent); color: var(--color-tag-esolangs); }
+.tag-infra    { background: color-mix(in srgb, var(--color-tag-infra) 15%, transparent); color: var(--color-tag-infra); }
+.tag-game     { background: color-mix(in srgb, var(--color-tag-game) 15%, transparent); color: var(--color-tag-game); }
+.tag-tooling  { background: color-mix(in srgb, var(--color-tag-tooling) 10%, transparent); color: var(--color-tag-tooling); }
+.tag-default  { background: color-mix(in srgb, var(--color-muted) 10%, transparent); color: var(--color-muted); }
 
 /* ─── prose ────────────────────────────────────────────────────────────────── */
 

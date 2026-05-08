@@ -2,7 +2,7 @@
 title: OG Images and Blog Enhancements
 description: Dynamic OG image generation, reading time, heading underlines, and code block styling.
 date: 2025-09-14
-tags: [website, ui, seo]
+tags: [website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp3u3vy2y"
 ---

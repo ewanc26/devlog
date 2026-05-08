@@ -2,7 +2,7 @@
 title: Website — Inter Font and Semantic Colour Naming
 description: Added Inter as the primary typeface and switched to semantic colour naming.
 date: 2025-10-16
-tags: [website, ui]
+tags: [website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefvnphqi2v"
 ---

@@ -2,7 +2,7 @@
 title: Numlang and Selenium Feature Expansions
 description: Expanded numlang with new opcodes and selenium with ritual and offering syntax.
 date: 2026-04-01
-tags: [esolangs, compilers]
+tags: [esolangs]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefp2v3x62v"
 ---
