@@ -16,20 +16,6 @@
   --color-dim:       #665e54;
   --color-accent:    #e2a93b;
   --color-accent-dim: color-mix(in srgb, var(--color-accent) 15%, transparent);
-
-  /* scope tags */
-  --color-tag-atproto:  #e2a93b;
-  --color-tag-website:  #6b9fbf;
-  --color-tag-pkgs:     #c9a0dc;
-  --color-tag-bots:     #7dba8a;
-  --color-tag-esolangs: #e8c547;
-  --color-tag-infra:    #7dba8a;
-  --color-tag-game:     #d4a054;
-  --color-tag-tooling:  #9e9688;
-  --color-tag-rust:     #e05d44;
-  --color-tag-learning: #b4a0d1;
-  --color-tag-personal: #8ab4c0;
-  --color-tag-collab:   #d4a054;
 }
 
 @layer base {
@@ -168,20 +154,6 @@
   letter-spacing: 0.02em;
   text-transform: lowercase;
 }
-
-.tag-atproto  { background: color-mix(in srgb, var(--color-tag-atproto) 15%, transparent); color: var(--color-tag-atproto); }
-.tag-website  { background: color-mix(in srgb, var(--color-tag-website) 15%, transparent); color: var(--color-tag-website); }
-.tag-pkgs     { background: color-mix(in srgb, var(--color-tag-pkgs) 15%, transparent); color: var(--color-tag-pkgs); }
-.tag-bots     { background: color-mix(in srgb, var(--color-tag-bots) 15%, transparent); color: var(--color-tag-bots); }
-.tag-esolangs { background: color-mix(in srgb, var(--color-tag-esolangs) 15%, transparent); color: var(--color-tag-esolangs); }
-.tag-infra    { background: color-mix(in srgb, var(--color-tag-infra) 15%, transparent); color: var(--color-tag-infra); }
-.tag-game     { background: color-mix(in srgb, var(--color-tag-game) 15%, transparent); color: var(--color-tag-game); }
-.tag-tooling  { background: color-mix(in srgb, var(--color-tag-tooling) 10%, transparent); color: var(--color-tag-tooling); }
-.tag-rust     { background: color-mix(in srgb, var(--color-tag-rust) 15%, transparent); color: var(--color-tag-rust); }
-.tag-learning { background: color-mix(in srgb, var(--color-tag-learning) 15%, transparent); color: var(--color-tag-learning); }
-.tag-personal { background: color-mix(in srgb, var(--color-tag-personal) 15%, transparent); color: var(--color-tag-personal); }
-.tag-collab   { background: color-mix(in srgb, var(--color-tag-collab) 15%, transparent); color: var(--color-tag-collab); }
-.tag-default  { background: color-mix(in srgb, var(--color-muted) 10%, transparent); color: var(--color-muted); }
 
 /* ─── prose ────────────────────────────────────────────────────────────────── */
 
