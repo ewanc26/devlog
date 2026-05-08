@@ -4,6 +4,7 @@ description: Added en-GB localisation throughout the site — licence, colour, b
 date: 2025-08-29
 tags: [website, i18n]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlefvny5lw2i"
 ---
 
 ## en-GB localisation
