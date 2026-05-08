@@ -2,10 +2,12 @@
 	import { tagStyle } from '$lib/tags';
 	import { Search, X } from '@lucide/svelte';
 
+	interface TagEntry { tag: string; count: number }
+
 	let { query = $bindable(''), activeTag = $bindable(''), tags }: {
 		query: string;
 		activeTag: string;
-		tags: string[];
+		tags: TagEntry[];
 	} = $props();
 
 	function toggleTag(tag: string) {
@@ -38,14 +40,14 @@
 	</div>
 	{#if tags.length}
 		<div class="search-tags">
-			{#each tags as tag}
+			{#each tags as { tag, count } (tag)}
 				<button
 					class="tag search-tag"
 					class:search-tag-active={activeTag === tag}
 					style={tagStyle(tag)}
 					onclick={() => toggleTag(tag)}
 				>
-					{tag}
+					{tag}<span class="search-tag-count">{count}</span>
 				</button>
 			{/each}
 		</div>

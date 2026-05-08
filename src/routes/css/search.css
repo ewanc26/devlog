@@ -80,3 +80,9 @@
   opacity: 1;
   box-shadow: 0 0 0 1.5px currentColor;
 }
+
+.search-tag-count {
+  margin-left: 0.35em;
+  font-size: 0.85em;
+  opacity: 0.6;
+}
