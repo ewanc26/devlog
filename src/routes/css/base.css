@@ -1,0 +1,18 @@
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html {
+    overflow-x: hidden;
+    font-family: var(--font-sans);
+    font-size: clamp(14px, 3.5vw, 16px);
+    line-height: 1.6;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    overflow-x: hidden;
+    min-height: 100dvh;
+  }
+}
