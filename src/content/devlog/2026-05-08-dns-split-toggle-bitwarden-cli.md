@@ -4,6 +4,7 @@ description: Added a split DNS toggle to nix-config and set up Bitwarden CLI (bw
 date: 2026-05-08
 tags: [infra, nix, config]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mldvc333xf2k"
 ---
 
 ## Split DNS toggle
