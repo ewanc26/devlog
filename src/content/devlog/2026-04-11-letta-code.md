@@ -4,6 +4,7 @@ description: Started using Letta Code — a persistent coding agent with memory.
 date: 2026-04-11
 tags: [tooling, ai]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiufgfg422"
 ---
 
 ## letta code adoption

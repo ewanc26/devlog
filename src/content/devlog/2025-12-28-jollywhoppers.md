@@ -4,6 +4,7 @@ description: Became a member of Jollywhoppers — building atproto-connect, a Fa
 date: 2025-12-28
 tags: [atproto, game, collab]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiufsnvc2v"
 ---
 
 ## jollywhoppers membership

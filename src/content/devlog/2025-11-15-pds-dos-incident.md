@@ -4,6 +4,7 @@ description: Accidentally rate-limited the entire PDS by blasting records at the
 date: 2025-11-15
 tags: [atproto, infra, malachite]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleiufype422"
 ---
 
 ## pds rate limit incident
