@@ -4,6 +4,7 @@ description: Animation foundation with easing tokens, staggered card entrances, 
 date: 2026-05-08
 tags: [feature, webdev, animations]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleepz2maw2v"
 ---
 
 ## Animation foundation

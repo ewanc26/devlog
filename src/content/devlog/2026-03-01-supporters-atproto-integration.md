@@ -4,6 +4,7 @@ description: Ko-fi and GitHub Sponsors integration with custom lexicons and webh
 date: 2026-03-01
 tags: [atproto, feature, lexicons]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleepzxrxu22"
 ---
 
 ## @ewanc26/supporters

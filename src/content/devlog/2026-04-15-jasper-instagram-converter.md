@@ -4,6 +4,7 @@ description: Full OAuth implementation, web UI, Spark story and video support, a
 date: 2026-04-15
 tags: [atproto, feature, oauth]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleepzf7am22"
 ---
 
 ## @ewanc26/jasper

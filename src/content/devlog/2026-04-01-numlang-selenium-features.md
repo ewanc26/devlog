@@ -4,6 +4,7 @@ description: Major language feature additions to both compilers — while loops,
 date: 2026-04-01
 tags: [feature, esolang, compiler]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleepzluji2i"
 ---
 
 ## numlang

@@ -4,6 +4,7 @@ description: Migrated all @ewanc26 packages into a single pnpm workspace monorep
 date: 2026-03-01
 tags: [infra, monorepo, pnpm]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleepzzwde22"
 ---
 
 ## Monorepo migration

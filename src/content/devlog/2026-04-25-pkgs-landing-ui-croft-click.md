@@ -4,6 +4,7 @@ description: New landing page for croft.click and a shared @ewanc26/landing-ui p
 date: 2026-04-25
 tags: [feature, webdev, monorepo]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleepzaqk62v"
 ---
 
 ## @ewanc26/landing-ui

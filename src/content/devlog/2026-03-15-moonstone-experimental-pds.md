@@ -4,6 +4,7 @@ description: Started building a custom AT Protocol PDS in Rust, decoupled from B
 date: 2026-03-15
 tags: [atproto, rust, infra]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleepzusd62k"
 ---
 
 ## moonstone-pds
