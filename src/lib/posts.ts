@@ -8,6 +8,7 @@ export interface PostMeta {
 	title: string;
 	description: string;
 	date: string;
+	time: string;
 	tags: string[];
 	draft: boolean;
 }
@@ -22,6 +23,15 @@ function toISODate(raw: unknown): string {
 	if (!raw) return '';
 	if (raw instanceof Date) return raw.toISOString().slice(0, 10);
 	return String(raw).slice(0, 10);
+}
+
+/** Extract an optional time string (HH:MM or HH:MM:SS) from frontmatter. */
+function toTime(raw: unknown): string {
+	if (!raw) return '';
+	const s = String(raw).trim();
+	// Accept HH:MM or HH:MM:SS
+	if (/^\d{2}:\d{2}(:\d{2})?$/.test(s)) return s;
+	return '';
 }
 
 /** Strip the YYYY-MM-DD- prefix from a filename slug. */
@@ -40,6 +50,12 @@ function slugFrom(filename: string) {
 	return filename.replace(/\.mdx?$/, '');
 }
 
+/** Composite sort key: date + time (padded) + slug for stable ordering. */
+function sortKey(post: PostMeta): string {
+	const time = post.time || '99:99'; // entries without time sort after timed ones
+	return `${post.date}T${time}-${post.slug}`;
+}
+
 export function listPosts(): PostMeta[] {
 	return readdirSync(POSTS_DIR)
 		.filter((f) => /\.mdx?$/.test(f))
@@ -54,12 +70,13 @@ export function listPosts(): PostMeta[] {
 				title: data.title ?? slug,
 				description: data.description ?? '',
 				date,
+				time: toTime(data.time),
 				tags: data.tags ?? [],
 				draft: data.draft ?? false
 			};
 		})
 		.filter((p) => !p.draft)
-		.sort((a, b) => b.date.localeCompare(a.date));
+		.sort((a, b) => sortKey(b).localeCompare(sortKey(a)));
 }
 
 export function getPost(slug: string): Post {
@@ -72,6 +89,7 @@ export function getPost(slug: string): Post {
 		title: data.title ?? slug,
 		description: data.description ?? '',
 		date,
+		time: toTime(data.time),
 		tags: data.tags ?? [],
 		draft: data.draft ?? false,
 		content
