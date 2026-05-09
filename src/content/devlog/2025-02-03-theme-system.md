@@ -1,7 +1,7 @@
 ---
 title: Theme System and Multi-Theme Support
 description: Theme toggle with multiple colour themes, persisted via localStorage, later expanded for WCAG 2.1 AA compliance.
-date: 2025-02-03T11:23:26Z
+date: 2025-02-03T20:33:26Z
 tags: [website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni775nz2k"

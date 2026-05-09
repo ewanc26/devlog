@@ -1,7 +1,7 @@
 ---
 title: "Website: Wheel of the Year seasonal themes with auto-midnight updates"
 description: "Colour themes now follow the Wheel of the Year — eight distinct themes for each sabbat, shifting automatically as midnight crosses into a new period."
-date: 2026-05-08T22:43:13Z
+date: 2026-05-08T22:20:35Z
 tags: [website, pkgs]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlgjaahafg2k"

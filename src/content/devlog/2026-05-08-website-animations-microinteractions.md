@@ -1,7 +1,7 @@
 ---
 title: Website — Animations and Micro-interactions
 description: Animation foundation with easing tokens, staggered entrances, scroll reveals, and View Transitions API.
-date: 2026-05-08T11:23:36Z
+date: 2026-05-08T11:09:49Z
 tags: [website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlenhzeso52g"

@@ -1,7 +1,7 @@
 ---
 title: Nix Config — Three Machines, One Config
 description: One flake managing macmini, laptop, and a theoretical server — two booting successfully, one still aspirational.
-date: 2026-02-12T17:17:48Z
+date: 2026-02-11T17:17:48Z
 tags: [infra]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni3lcmz2k"

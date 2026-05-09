@@ -19,7 +19,7 @@
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<meta property="og:type" content="article" />
-	{#if data.post.date}<meta property="article:published_time" content={data.post.time ? `${data.post.date}T${data.post.time}` : data.post.date} />{/if}
+	{#if data.post.date}<meta property="article:published_time" content={data.post.date.includes('T') ? data.post.date : `${data.post.date}T${data.post.time || '12:00'}:00Z`} />{/if}
 	{#if data.post.tags.length}{#each data.post.tags as tag}<meta property="article:tag" content={tag} />{/each}{/if}
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="{data.post.title} | devlog" />

@@ -1,7 +1,7 @@
 ---
 title: Opal — Cross-Platform Bluesky Migration
 description: Convert Twitter, Mastodon, Threads, and Nostr posts to Bluesky with thread splitting and TID-based rkeys.
-date: 2026-05-08T14:17:32Z
+date: 2026-05-01T21:55:43Z
 tags: [atproto, pkgs, tooling]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlenhzpmak2v"
