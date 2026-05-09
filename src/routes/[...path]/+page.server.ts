@@ -1,5 +1,5 @@
 import { getPost, listPosts } from '$lib/posts';
-import { renderMarkdown, extractToc } from '$lib/markdown';
+import { renderMarkdown } from '$lib/markdown';
 import { error } from '@sveltejs/kit';
 import type { EntryGenerator, PageServerLoad } from './$types';
 
@@ -15,9 +15,6 @@ export const load: PageServerLoad = async ({ params }) => {
 	if (!post) error(404, 'not found');
 
 	const full = getPost(post.slug);
-	const [html, toc] = await Promise.all([
-		renderMarkdown(full.content),
-		Promise.resolve(extractToc(full.content))
-	]);
+	const { html, toc } = await renderMarkdown(full.content);
 	return { post: full, html, toc };
 };
