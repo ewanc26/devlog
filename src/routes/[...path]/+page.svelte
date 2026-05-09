@@ -2,10 +2,11 @@
 	import { formatDate } from '$lib/date';
 	import Tag from '$lib/components/Tag.svelte';
 	import TableOfContents from '$lib/components/TableOfContents.svelte';
+	import { PUBLIC_SITE_URL } from '$env/static/public';
 	import type { PageData } from './$types';
 	let { data }: { data: PageData } = $props();
 
-	const ogImageUrl = `/api/og?title=${encodeURIComponent(data.post.title)}&description=${encodeURIComponent(data.post.description ?? '')}`;
+	const ogImageUrl = `${PUBLIC_SITE_URL}/api/og?title=${encodeURIComponent(data.post.title)}&description=${encodeURIComponent(data.post.description ?? '')}`;
 </script>
 
 <svelte:head>
@@ -14,8 +15,6 @@
 	<meta property="og:title" content="{data.post.title} | devlog" />
 	<meta property="og:description" content={data.post.description} />
 	<meta property="og:image" content={ogImageUrl} />
-	<meta property="og:image:width" content="1200" />
-	<meta property="og:image:height" content="630" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<meta property="og:type" content="article" />

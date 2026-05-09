@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Timeline from '$lib/components/Timeline.svelte';
 	import SearchBar from '$lib/components/SearchBar.svelte';
+	import { PUBLIC_SITE_URL } from '$env/static/public';
 	import type { PageData } from './$types';
 	let { data }: { data: PageData } = $props();
 
@@ -42,9 +43,14 @@
 	<meta name="description" content="Changelog and devlog for ewan's projects." />
 	<meta property="og:title" content="devlog.croft.click" />
 	<meta property="og:description" content="Changelog and devlog for ewan's projects." />
-	<meta name="twitter:card" content="summary" />
+	<meta property="og:image" content="{PUBLIC_SITE_URL}/api/og?title=devlog.croft.click&description=Changelog+and+devlog+for+ewan%27s+projects." />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="og:type" content="website" />
+	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="devlog.croft.click" />
 	<meta name="twitter:description" content="Changelog and devlog for ewan's projects." />
+	<meta name="twitter:image" content="{PUBLIC_SITE_URL}/api/og?title=devlog.croft.click&description=Changelog+and+devlog+for+ewan%27s+projects." />
 </svelte:head>
 
 <p class="text-[var(--color-muted)] text-[0.9em] mb-10 leading-[1.6]">
