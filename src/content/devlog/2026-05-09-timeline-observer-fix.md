@@ -4,6 +4,7 @@ description: Every devlog entry was invisible on load — $state on an Intersect
 date: 2026-05-09
 tags: [website, tooling]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlgifdxnoh22"
 ---
 
 ## The problem
