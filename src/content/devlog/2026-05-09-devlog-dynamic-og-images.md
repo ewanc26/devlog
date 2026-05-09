@@ -5,6 +5,7 @@ date: 2026-05-09
 time: "15:11"
 tags: [website, pkgs, tooling]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlgjsay5m722"
 ---
 
 Each devlog post now generates its own OpenGraph image on demand at `/og`. OG images are served as PNG with 24-hour cache headers, generated using `@ewanc26/og` with the devlog colour palette (warm amber `#e2a93b` on dark `#1a1816`).
