@@ -22,7 +22,7 @@
 
 	// Scroll reveal via IntersectionObserver
 	let timelineEl: HTMLDivElement | undefined = $state();
-	let observer: IntersectionObserver | undefined = $state();
+	let observer: IntersectionObserver | undefined;
 
 	$effect(() => {
 		if (!timelineEl || observer) return;
