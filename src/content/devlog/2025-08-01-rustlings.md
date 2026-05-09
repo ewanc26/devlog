@@ -1,7 +1,7 @@
 ---
 title: Rustlings — First Steps into Rust
 description: Five Rustlings sessions covering variables through type systems — the enthusiasm, the compiler battles, and the decision to stop.
-date: 2025-08-01
+date: 2025-08-01T12:00:00Z
 tags: [rust, learning]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni5zz3f2g"

@@ -1,7 +1,7 @@
 ---
 title: Four Days with Letta Code
 description: Started using Letta Code — a persistent coding agent with memory. 80 commits across 15 repositories in four days.
-date: 2026-04-11
+date: 2026-04-11T12:00:00Z
 tags: [tooling]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni2jpd422"

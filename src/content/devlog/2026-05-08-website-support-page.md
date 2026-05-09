@@ -1,8 +1,7 @@
 ---
 title: "Website: Support modal spun out to its own page"
 description: "Moved the support modal from a footer overlay to a standalone /support route, matching the site's page pattern."
-date: 2026-05-08
-time: "22:00"
+date: 2026-05-08T11:23:36Z
 tags: [website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleqck5uio2k"

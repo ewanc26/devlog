@@ -1,7 +1,7 @@
 ---
 title: Link Rot and Eight Iterations of ewancroft.uk
 description: Eight versions of the website, each leaving dead URLs — the Hugo years, the SvelteKit migration, and building a slug mapping system to fix it.
-date: 2025-09-14
+date: 2025-09-13T18:58:51Z
 tags: [website, reflection]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni5epgm22"

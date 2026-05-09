@@ -1,7 +1,7 @@
 ---
 title: "Website: Seasonal Theme Reset"
 description: "The colour theme picker now shows when a seasonal theme is active and lets you lock it in explicitly."
-date: 2026-05-08
+date: 2026-05-08T11:23:36Z
 tags: [website, pkgs]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlerbk7xid2k"

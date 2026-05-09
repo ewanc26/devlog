@@ -1,7 +1,7 @@
 ---
 title: Supporters, Popfeed, and Donation Addresses
 description: Ko-fi and GitHub Sponsors webhooks, Popfeed review cards, and crypto donation addresses.
-date: 2026-03-24
+date: 2026-03-24T00:10:59Z
 tags: [atproto, website, pkgs]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni2v2pr2k"

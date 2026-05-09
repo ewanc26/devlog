@@ -1,7 +1,7 @@
 ---
 title: Website — Tangled Integration and Removal
 description: Added Tangled repository displays, then removed them when the service was no longer needed.
-date: 2026-04-29
+date: 2026-04-29T19:27:30Z
 tags: [website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlenhzupkr2k"

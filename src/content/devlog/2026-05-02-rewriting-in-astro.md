@@ -1,7 +1,7 @@
 ---
 title: The Great Astro Rewrite
 description: Porting the entire site from SvelteKit to Astro for ultimate static performance and a terminal-inspired layout.
-date: 2026-05-02
+date: 2026-05-02T18:31:19Z
 tags: [website, infra, tooling]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlenhzs2ek2v"

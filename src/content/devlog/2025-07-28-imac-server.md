@@ -1,7 +1,7 @@
 ---
 title: The iMac Server
 description: Attempting to repurpose a 2008 iMac as a server — bricked OS, failed USB installs, and the eventual Mac Mini replacement.
-date: 2025-07-28
+date: 2025-07-28T12:00:00Z
 tags: [infra]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni65nbu22"

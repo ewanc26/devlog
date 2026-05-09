@@ -1,7 +1,7 @@
 ---
 title: Moon Tracker — Rust Rewrite
 description: Rewrote the moon phase bot from TypeScript to Rust using atrium-rs.
-date: 2026-04-15
+date: 2026-04-14T22:58:00Z
 tags: [atproto, bots, infra]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni2c6xs2v"

@@ -1,7 +1,7 @@
 ---
 title: WhiteWind to Leaflet Converter
 description: Built a conversion tool to migrate blog content between AT Protocol publishing platforms — out of spite for the lack of one.
-date: 2025-08-28
+date: 2025-08-29T21:22:42Z
 tags: [atproto, tooling]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni5rm6x2y"

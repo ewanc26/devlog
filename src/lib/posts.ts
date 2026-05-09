@@ -19,18 +19,32 @@ export interface Post extends PostMeta {
 
 const POSTS_DIR = resolve('src/content/devlog');
 
+/** Parse a date field (YYYY-MM-DD or full ISO 8601) into a YYYY-MM-DD string. */
 function toISODate(raw: unknown): string {
 	if (!raw) return '';
 	if (raw instanceof Date) return raw.toISOString().slice(0, 10);
 	return String(raw).slice(0, 10);
 }
 
-/** Extract an optional time string (HH:MM or HH:MM:SS) from frontmatter. */
-function toTime(raw: unknown): string {
-	if (!raw) return '';
-	const s = String(raw).trim();
-	// Accept HH:MM or HH:MM:SS
-	if (/^\d{2}:\d{2}(:\d{2})?$/.test(s)) return s;
+/**
+ * Extract a time string (HH:MM or HH:MM:SS) from frontmatter.
+ * Supports a standalone `time` field, or extracts time from a full ISO 8601
+ * `date` field (e.g. `2026-05-08T16:00:00Z` → `16:00`).
+ */
+function toTime(rawDate: unknown, rawTime?: unknown): string {
+	// Standalone time field takes priority
+	if (rawTime) {
+		const s = String(rawTime).trim();
+		if (/^\d{2}:\d{2}(:\d{2})?$/.test(s)) return s;
+	}
+
+	// Extract time from full ISO 8601 date
+	if (rawDate) {
+		const s = String(rawDate).trim();
+		const match = s.match(/T(\d{2}:\d{2})(?::(\d{2}))?/);
+		if (match) return match[2] ? `${match[1]}:${match[2]}` : match[1];
+	}
+
 	return '';
 }
 
@@ -70,7 +84,7 @@ export function listPosts(): PostMeta[] {
 				title: data.title ?? slug,
 				description: data.description ?? '',
 				date,
-				time: toTime(data.time),
+				time: toTime(data.date, data.time),
 				tags: data.tags ?? [],
 				draft: data.draft ?? false
 			};
@@ -89,7 +103,7 @@ export function getPost(slug: string): Post {
 		title: data.title ?? slug,
 		description: data.description ?? '',
 		date,
-		time: toTime(data.time),
+		time: toTime(data.date, data.time),
 		tags: data.tags ?? [],
 		draft: data.draft ?? false,
 		content

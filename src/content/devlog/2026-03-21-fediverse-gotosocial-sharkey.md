@@ -1,7 +1,7 @@
 ---
 title: Fediverse — GoToSocial and Sharkey
 description: Stood up a GoToSocial instance, migrated to Sharkey when the lack of quote posts became too annoying, and why the fediverse is more fun than remembered.
-date: 2026-03-21
+date: 2026-03-21T12:00:00Z
 tags: [atproto, infra]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni2xjsz2k"

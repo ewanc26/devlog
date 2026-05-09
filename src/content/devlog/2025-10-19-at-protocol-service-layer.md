@@ -1,7 +1,7 @@
 ---
 title: Building a Modular AT Protocol Service Layer
 description: Deep integration with the AT Protocol, pulling posts directly from the PDS and introducing a new Card UI system.
-date: 2025-10-19
+date: 2025-10-13T16:27:40Z
 tags: [atproto, website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni4yzt32i"

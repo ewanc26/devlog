@@ -1,7 +1,7 @@
 ---
 title: Tangled Sync
 description: Sync tool for mirroring GitHub repos to Tangled with force-sync and AT Protocol testing.
-date: 2025-10-11
+date: 2025-10-11T14:28:19Z
 tags: [atproto, tooling]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni566ud2i"

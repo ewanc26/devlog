@@ -1,7 +1,7 @@
 ---
 title: Struggles Adapting to the AT Protocol
 description: Early experiences with the AT Protocol SDK — confusing docs, Python and TypeScript friction, and the learning curve of a new API paradigm.
-date: 2025-01-31
+date: 2025-01-30T16:57:29Z
 tags: [atproto, reflection]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni7b6y422"

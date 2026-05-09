@@ -1,7 +1,7 @@
 ---
 title: Website — Svelte 5 Runes Migration
 description: Migrated layout and components to Svelte 5 runes and reactive meta handling.
-date: 2025-10-19
+date: 2025-10-19T11:27:02Z
 tags: [website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni4x7hp2y"

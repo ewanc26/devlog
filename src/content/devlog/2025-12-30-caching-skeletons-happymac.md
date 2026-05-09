@@ -1,7 +1,7 @@
 ---
 title: Caching, Skeleton Loading, and Happy Mac
 description: Comprehensive caching to prevent 504s, skeleton loaders for instant page loads, and a Happy Mac easter egg.
-date: 2025-12-30
+date: 2025-12-30T13:46:32Z
 tags: [website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni3vjrr2k"

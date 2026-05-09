@@ -1,7 +1,7 @@
 ---
 title: Social Sync — Minecraft Meets AT Protocol
 description: Minecraft mod syncing player stats, achievements, and sessions to AT Protocol with OAuth and encrypted storage.
-date: 2026-04-25
+date: 2026-04-25T23:43:29Z
 tags: [atproto, game]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlenhzyw7m22"
