@@ -1,7 +1,7 @@
 ---
 title: Real-time Updates via Jetstream Firehose
 description: Hooking the site up to the AT Protocol firehose for live-updating feeds and dynamic view transitions.
-date: 2026-05-08T11:23:36Z
+date: 2026-05-08T10:44:54Z
 tags: [atproto, website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlenhzgyft2i"

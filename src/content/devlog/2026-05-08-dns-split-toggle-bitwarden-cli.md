@@ -1,7 +1,7 @@
 ---
 title: DNS split toggle and Bitwarden CLI
 description: Added a split DNS toggle to nix-config and set up Bitwarden CLI (bw) for the EU-hosted vault.
-date: 2026-05-08T10:04:54Z
+date: 2026-05-08T12:25:51Z
 tags: [infra]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlenhziugc2v"

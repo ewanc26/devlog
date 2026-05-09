@@ -1,7 +1,7 @@
 ---
 title: Website — Dynamic OG Images
 description: Server-side Open Graph image generation with SvelteKit — fonts that wouldn't load, endpoints that worked in dev but not production, and the eventual working solution.
-date: 2025-07-30T19:37:11Z
+date: 2025-07-30T20:04:32Z
 tags: [website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni63ucx2y"

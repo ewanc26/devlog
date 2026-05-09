@@ -1,7 +1,7 @@
 ---
 title: Jasper — Instagram to Grain/Spark Converter
 description: Full OAuth flow for importing Instagram posts to AT Protocol as Grain/Spark records.
-date: 2026-04-14T21:34:21Z
+date: 2026-04-14T20:47:13Z
 tags: [atproto, pkgs, tooling]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni2er4m22"
