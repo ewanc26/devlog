@@ -1,12 +1,11 @@
 <script lang="ts">
 	import { formatDate } from '$lib/date';
-	import { PUBLIC_SITE_URL } from '$env/static/public';
 	import Tag from '$lib/components/Tag.svelte';
 	import TableOfContents from '$lib/components/TableOfContents.svelte';
 	import type { PageData } from './$types';
 	let { data }: { data: PageData } = $props();
 
-	const ogImageUrl = `${PUBLIC_SITE_URL}/og?title=${encodeURIComponent(data.post.title)}&description=${encodeURIComponent(data.post.description ?? '')}`;
+	const ogImageUrl = `/api/og?title=${encodeURIComponent(data.post.title)}&description=${encodeURIComponent(data.post.description ?? '')}`;
 </script>
 
 <svelte:head>
@@ -15,6 +14,10 @@
 	<meta property="og:title" content="{data.post.title} | devlog" />
 	<meta property="og:description" content={data.post.description} />
 	<meta property="og:image" content={ogImageUrl} />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
 	<meta property="og:type" content="article" />
 	{#if data.post.date}<meta property="article:published_time" content={data.post.time ? `${data.post.date}T${data.post.time}` : data.post.date} />{/if}
 	{#if data.post.tags.length}{#each data.post.tags as tag}<meta property="article:tag" content={tag} />{/each}{/if}
