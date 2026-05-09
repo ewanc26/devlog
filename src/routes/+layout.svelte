@@ -2,28 +2,20 @@
 	import './layout.css';
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
-	import { beforeNavigate, afterNavigate } from '$app/navigation';
+	import { onNavigate } from '$app/navigation';
 	import type { LayoutData } from './$types';
 
 	let { children, data }: { children: any; data: LayoutData } = $props();
 
 	// View Transitions API — cross-fade between pages
-	let transitionResolve: (() => void) | null = null;
-
-	beforeNavigate(() => {
+	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
-		const transition = document.startViewTransition(async () => {
-			await new Promise<void>((resolve) => {
-				transitionResolve = resolve;
+		return new Promise((resolve) => {
+			document.startViewTransition(async () => {
+				resolve();
+				await navigation.complete;
 			});
 		});
-	});
-
-	afterNavigate(() => {
-		if (transitionResolve) {
-			transitionResolve();
-			transitionResolve = null;
-		}
 	});
 </script>
 
