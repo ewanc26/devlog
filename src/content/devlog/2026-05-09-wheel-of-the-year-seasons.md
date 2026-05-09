@@ -5,6 +5,7 @@ date: 2026-05-09
 time: "15:00"
 tags: [website, pkgs]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlgjaahafg2k"
 ---
 
 Colour themes now follow the Wheel of the Year. Eight seasonal themes map to the eight sabbats, replacing the previous four-theme rotation.
