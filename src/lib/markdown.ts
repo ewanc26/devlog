@@ -60,9 +60,9 @@ export async function renderMarkdown(markdown: string): Promise<RenderResult> {
 		toc.push({ level: node.depth, text, id });
 	}
 
-	// Run the full pipeline (remark → rehype → stringify)
-	const result = await processor.process(tree);
-	const html = String(result);
+	// Run transformers (remark → rehype) then stringify to HTML
+	const hast = await processor.run(tree);
+	const html = processor.stringify(hast);
 
 	return { html, toc };
 }
