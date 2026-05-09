@@ -70,8 +70,11 @@ function sortKey(post: PostMeta): string {
 	return `${post.date}T${time}-${post.slug}`;
 }
 
+let cachedPosts: PostMeta[] | null = null;
+
 export function listPosts(): PostMeta[] {
-	return readdirSync(POSTS_DIR)
+	if (cachedPosts) return cachedPosts;
+	cachedPosts = readdirSync(POSTS_DIR)
 		.filter((f) => /\.mdx?$/.test(f))
 		.map((filename) => {
 			const raw = readFileSync(`${POSTS_DIR}/${filename}`, 'utf-8');
@@ -91,6 +94,7 @@ export function listPosts(): PostMeta[] {
 		})
 		.filter((p) => !p.draft)
 		.sort((a, b) => sortKey(b).localeCompare(sortKey(a)));
+	return cachedPosts;
 }
 
 export function getPost(slug: string): Post {

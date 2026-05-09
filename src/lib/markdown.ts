@@ -21,6 +21,11 @@ export interface TocEntry {
 	id: string;
 }
 
+export interface RenderResult {
+	html: string;
+	toc: TocEntry[];
+}
+
 const processor = unified()
 	.use(remarkParse)
 	.use(remarkGfm)
@@ -29,10 +34,37 @@ const processor = unified()
 	.use(rehypeSlug)
 	.use(rehypeStringify);
 
-/** Render markdown to an HTML string with heading id attributes. */
-export async function renderMarkdown(markdown: string): Promise<string> {
-	const result = await processor.process(markdown);
-	return String(result);
+/**
+ * Render markdown to HTML and extract the table of contents in a single pass.
+ * The AST is parsed once, then the TOC is extracted before the rehype pipeline
+ * converts it to HTML.
+ */
+export async function renderMarkdown(markdown: string): Promise<RenderResult> {
+	const tree = processor.parse(markdown);
+
+	// Extract TOC from the parsed AST (before rehype transforms)
+	const toc: TocEntry[] = [];
+	for (const node of tree.children) {
+		if (node.type !== 'heading' || node.depth < 2 || node.depth > 3) continue;
+		const text = node.children
+			.filter((c) => c.type === 'text' || c.type === 'inlineCode')
+			.map((c) => ('value' in c ? c.value : ''))
+			.join('');
+		// Match github-slugger exactly (used by rehype-slug):
+		// replace each whitespace char individually (no collapse), strip non-word chars
+		const id = text
+			.toLowerCase()
+			.replace(/[^\w\s-]/g, '')
+			.trim()
+			.replace(/\s/g, '-');
+		toc.push({ level: node.depth, text, id });
+	}
+
+	// Run the full pipeline (remark → rehype → stringify)
+	const result = await processor.process(tree);
+	const html = String(result);
+
+	return { html, toc };
 }
 
 /** Extract h2/h3 headings from raw markdown for the table of contents. */

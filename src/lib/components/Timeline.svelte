@@ -1,6 +1,6 @@
 <script lang="ts">
 	import TimelineEntry from './TimelineEntry.svelte';
-	import { fade, slide } from 'svelte/transition';
+	import { fade } from 'svelte/transition';
 	import type { PostMeta } from '$lib/posts';
 
 	let { posts }: { posts: PostMeta[] } = $props();
