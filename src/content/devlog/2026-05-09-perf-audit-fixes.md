@@ -4,6 +4,7 @@ description: Docsite client bundle dropped from 1.3MB to 12KB, devlog layout dat
 date: 2026-05-09T17:10:00Z
 tags: [website, tooling, atproto, pkgs]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlgrcoq7sf2g"
 ---
 
 Ran performance audits on all three SvelteKit sites and implemented fixes for the major bottlenecks found.
