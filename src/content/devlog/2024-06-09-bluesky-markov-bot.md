@@ -1,7 +1,7 @@
 ---
 title: Bluesky Markov Chain Bot
 description: Ported the Markov chain bot to Bluesky with configurable character limits.
-date: 2024-06-09
+date: 2024-06-09T08:02:01Z
 tags: [atproto, bots]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni7ffms2v"

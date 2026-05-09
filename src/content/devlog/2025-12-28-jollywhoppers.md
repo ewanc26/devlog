@@ -1,7 +1,7 @@
 ---
 title: Joining Jollywhoppers
 description: Became a member of Jollywhoppers — building atproto-connect, a Fabric Minecraft mod linking the game to AT Protocol.
-date: 2025-12-28
+date: 2025-12-28T12:00:00Z
 tags: [atproto, game, collab]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni3zl7x2y"

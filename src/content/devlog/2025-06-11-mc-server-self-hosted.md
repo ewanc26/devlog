@@ -1,7 +1,7 @@
 ---
 title: Self-Hosted Minecraft Server
 description: Replaced Aternos with a self-hosted server on the M2 Mac Mini — no more queues, full control, direct access.
-date: 2025-06-11
+date: 2025-06-10T18:30:12Z
 tags: [infra, game]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni6hvg52g"

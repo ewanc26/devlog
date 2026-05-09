@@ -1,7 +1,7 @@
 ---
 title: Sigi — Pure Symbolic Stack Language
 description: A pure symbolic stack language where all syntax is punctuation — no alphanumeric tokens.
-date: 2026-04-01
+date: 2026-04-10T20:15:37Z
 tags: [esolangs]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni2lje32i"

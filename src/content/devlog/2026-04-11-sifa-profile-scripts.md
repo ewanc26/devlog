@@ -1,7 +1,7 @@
 ---
 title: Sifa Professional Profile Scripts
 description: Scripts for populating and maintaining the Sifa professional profile on AT Protocol.
-date: 2026-04-11
+date: 2026-04-11T11:53:38Z
 tags: [atproto, tooling]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni2h6ez2k"

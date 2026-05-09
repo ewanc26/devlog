@@ -1,7 +1,7 @@
 ---
 title: Giving Up on Rust — A Post-Mortem
 description: After five Rustlings sessions and countless compiler battles, called it — Rust isn't the right tool for the projects being built.
-date: 2025-12-07
+date: 2025-12-07T12:00:00Z
 tags: [rust, reflection]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni45l5p2y"

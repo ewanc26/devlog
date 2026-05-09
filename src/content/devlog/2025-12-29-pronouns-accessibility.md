@@ -1,7 +1,7 @@
 ---
 title: Website — Pronouns and Accessibility Improvements
 description: Added pronouns to the profile card and improved accessibility across themes.
-date: 2025-12-29
+date: 2025-12-29T05:36:47Z
 tags: [website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni3xnp72y"

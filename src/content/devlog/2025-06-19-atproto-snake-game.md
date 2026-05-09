@@ -1,7 +1,7 @@
 ---
 title: AT Protocol Snake Game
 description: Browser Snake game with AT Protocol OAuth login and score submission via custom lexicons.
-date: 2025-06-19
+date: 2025-06-19T15:35:49Z
 tags: [atproto, game]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni6ecll2i"

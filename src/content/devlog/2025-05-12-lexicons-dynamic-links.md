@@ -1,7 +1,7 @@
 ---
 title: Custom Lexicons and Dynamic Link Board
 description: Added custom lexicon definitions for status records and replaced static links with a dynamic link board from AT Protocol.
-date: 2025-05-12
+date: 2025-05-12T17:30:05Z
 tags: [atproto, website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni6o5bp2y"

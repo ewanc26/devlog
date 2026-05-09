@@ -1,7 +1,7 @@
 ---
 title: Completing the Leaflet Migration
 description: All WhiteWind posts converted to Leaflet format — blog.ewancroft.uk becomes home base, with link rot as the lingering cost.
-date: 2025-10-25
+date: 2025-10-24T21:20:53Z
 tags: [atproto]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni4qqur2k"

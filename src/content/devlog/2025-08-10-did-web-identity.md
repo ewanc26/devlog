@@ -1,7 +1,7 @@
 ---
 title: did:web ATProto Identity Proof of Concept
 description: Created @web.ewancroft.uk as a functional did:web identity within the AT Protocol ecosystem — research experiment, not a permanent switch.
-date: 2025-08-10
+date: 2025-08-10T12:00:00Z
 tags: [atproto]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni5ui722v"

@@ -1,7 +1,7 @@
 ---
 title: Migrating the Site to SvelteKit
 description: Rebuilding the website from scratch using SvelteKit for better performance and a more modern development experience.
-date: 2025-03-18
+date: 2025-03-17T17:41:46Z
 tags: [website, tooling]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni6ubkx2y"

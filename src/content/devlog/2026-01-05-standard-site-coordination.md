@@ -1,7 +1,7 @@
 ---
 title: Standard.site and Coordination
 description: Adopting standard.site lexicons for cross-platform interoperability — why coordination matters more than individual features in the AT Protocol ecosystem.
-date: 2026-01-05
+date: 2026-01-05T14:48:40Z
 tags: [atproto]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni3ther2k"

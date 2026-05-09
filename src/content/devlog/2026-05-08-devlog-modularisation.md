@@ -1,7 +1,7 @@
 ---
 title: Devlog Modularisation
 description: Split the monolithic layout.css and inline page logic into focused modules and components.
-date: 2026-05-08
+date: 2026-05-08T14:51:40Z
 tags: [website, tooling]
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlenhzl4i72y"
 ---

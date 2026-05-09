@@ -1,7 +1,7 @@
 ---
 title: Website — Hyperfocus Updates
 description: Three significant UX improvements shipped in one evening — navigation, content display, and interaction patterns.
-date: 2025-09-27
+date: 2025-09-26T23:54:02Z
 tags: [website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni5a6dl2i"

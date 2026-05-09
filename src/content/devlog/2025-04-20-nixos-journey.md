@@ -1,7 +1,7 @@
 ---
 title: My Journey to NixOS
 description: Adopting NixOS on the Dell Inspiron 3501 — from macOS user to declarative Linux config, the learning curve, and what actually clicked.
-date: 2025-04-20
+date: 2025-04-20T12:00:00Z
 tags: [infra]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni6s4km22"

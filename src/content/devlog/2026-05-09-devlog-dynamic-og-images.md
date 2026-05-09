@@ -1,8 +1,7 @@
 ---
 title: "devlog: Dynamic OG image generation with @ewanc26/og"
 description: "Each devlog post now generates its own OG image on demand using @ewanc26/og — warm amber on dark, with noise texture."
-date: 2026-05-09
-time: "15:11"
+date: 2026-05-08T23:20:28Z
 tags: [website, pkgs, tooling]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlgjsay5m722"

@@ -1,7 +1,7 @@
 ---
 title: M2 to M4 Mac Mini Upgrade
 description: Upgraded from the M2 Mac Mini to the M4 — better performance, more headroom for self-hosted services.
-date: 2025-08-09
+date: 2025-08-09T12:00:00Z
 tags: [infra]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni5xxjk2v"

@@ -1,7 +1,7 @@
 ---
 title: Card UI and BlueskyPostCard
 description: Homepage redesign with reusable Card UI system and BlueskyPostCard with lightbox and rich text.
-date: 2025-10-16
+date: 2025-10-16T00:47:18Z
 tags: [atproto, website]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni54eix2y"

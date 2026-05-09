@@ -1,7 +1,7 @@
 ---
 title: Testing Leaflet
 description: Evaluating Leaflet as a WhiteWind replacement — subdomain requirements, AT Protocol integration gaps, and early impressions.
-date: 2025-05-23
+date: 2025-05-22T20:27:43Z
 tags: [atproto]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni6mjxj2k"

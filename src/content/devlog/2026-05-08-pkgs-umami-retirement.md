@@ -1,8 +1,7 @@
 ---
 title: "pkgs: Remove Umami analytics from all packages"
 description: "Umami analytics retired — all Umami script tags removed from bismuth-web, malachite-web, jasper-web, opal-web, and croft-click."
-date: 2026-05-08
-time: "22:15"
+date: 2026-05-08T15:17:32Z
 tags: [tooling]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleqck7txi2k"

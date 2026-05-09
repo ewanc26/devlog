@@ -1,7 +1,7 @@
 ---
 title: Timeline Scroll Reveal Fix
 description: Every devlog entry was invisible on load — $state on an IntersectionObserver variable caused the effect to disconnect it before it could fire.
-date: 2026-05-09
+date: 2026-05-08T19:35:53Z
 tags: [website, tooling]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlgifdxnoh22"

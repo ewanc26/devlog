@@ -1,7 +1,7 @@
 ---
 title: Docsite Launch
 description: Centralised project documentation at docs.ewancroft.uk, published to AT Protocol via Sequoia.
-date: 2026-02-23
+date: 2026-02-23T22:08:01Z
 tags: [atproto, tooling]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni3hq5c2v"

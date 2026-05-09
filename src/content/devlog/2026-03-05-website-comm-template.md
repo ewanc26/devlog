@@ -1,7 +1,7 @@
 ---
 title: Website Comm Template
 description: SvelteKit template with Resend-backed contact form and dark mode.
-date: 2026-03-05
+date: 2026-03-05T09:22:21Z
 tags: [tooling]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni3bewx2s"
