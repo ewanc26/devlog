@@ -4,6 +4,7 @@ description: "Era analysis, time-of-day mood weighting, genre blending, Gini-bas
 date: 2026-05-10T16:15:00Z
 tags: [atproto, pkgs, music, typescript]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlj5wso53h2i"
 ---
 
 Six improvements to the tourmaline analysis pipeline.
