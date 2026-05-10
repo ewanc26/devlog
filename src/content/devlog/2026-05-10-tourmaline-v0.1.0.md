@@ -27,6 +27,4 @@ The only write operation. Uses `@atproto/oauth-client-browser` with granular sco
 
 Chrome tourmaline green (`#4ade80`) on dark backgrounds with green undertone (`#0a0f0a`). Named after the mineral — tourmaline is pleochroic, showing different colours from different angles.
 
-**Stack:** SvelteKit 5 + Svelte 5 + Tailwind CSS 4 + TypeScript. Chart.js for genre, mood, and era visualisations. Vercel deployment.
-
-Part of the @ewanc26/pkgs monorepo.
+Stack: SvelteKit 5 + Svelte 5 + Tailwind CSS 4 + TypeScript. Chart.js for genre, mood, and era visualisations. Vercel deployment.
