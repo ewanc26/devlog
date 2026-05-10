@@ -1,13 +1,13 @@
 ---
 title: "tourmaline v0.1.0 — AT Protocol scrobble analyser with share-to-Bluesky"
-description: "First release of tourmaline — personality archetypes, genre profiles, mood mapping, and OAuth-powered sharing to Bluesky."
+description: "First release of tourmaline — personality archetypes, genre profiles, mood mapping, and share-to-Bluesky for Teal.fm scrobbles."
 date: 2026-05-10T01:50:00Z
 tags: [atproto, pkgs, music, typescript]
 draft: false
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlhodpxizc2i"
 ---
 
-Released tourmaline v0.1.0. An AT Protocol scrobble analyser that reads `fm.teal.alpha.feed.play` records from any PDS and builds a listener personality profile.
+Released tourmaline v0.1.0. A Teal.fm scrobble analyser that reads `fm.teal.alpha.feed.play` records from any PDS and builds a listener personality profile.
 
 **What it does:**
 
