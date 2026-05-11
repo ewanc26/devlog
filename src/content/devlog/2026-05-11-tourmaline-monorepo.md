@@ -4,6 +4,7 @@ description: "Moved Tourmaline from standalone repo into packages/tourmaline, en
 date: 2026-05-11T12:36:00Z
 tags: [atproto, pkgs, tourmaline, typescript, svelte]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mll6tqwwcc22"
 ---
 
 **Tourmaline into the monorepo.** Moved from `github.com/ewanc26/tourmaline` to `packages/tourmaline` in the pkgs monorepo. Added `@ewanc26/landing-ui` and `@ewanc26/noise-avatar` as workspace dependencies. Removed `.git`, `pnpm-lock.yaml`, and `pnpm-workspace.yaml` from the package. Updated all GitHub links to point to the monorepo path (`pkgs/tree/main/packages/tourmaline`), including the MusicBrainz user agent string.
