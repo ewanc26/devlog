@@ -4,6 +4,7 @@ description: "Replaced analytics taglines, removed duplicate footers from Landin
 date: 2026-05-11T12:48:00Z
 tags: [pkgs, tourmaline, typescript, svelte]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mll7iem4n22i"
 ---
 
 **Analytics references removed.** Footer taglines in malachite-web and opal-web changed from "privacy-first analytics" to "privacy-first scrobble import" and "privacy-first social import" respectively. Neither tool does analytics.
