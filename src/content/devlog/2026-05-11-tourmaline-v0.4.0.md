@@ -4,6 +4,7 @@ description: "Profile redesign with tabbed layout, listening sessions, on this d
 date: 2026-05-11T06:50:00Z
 tags: [atproto, pkgs, music, typescript]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlkormok3s2i"
 ---
 
 **Tabbed profile redesign.** The single long scroll is now 4 tabs: Overview (minutes, streaks, personality, yearly wrapped), Taste (genre, mood, era, evolution, remarkable days), Habits (clock, heatmap, service origins, sessions), Catalogue (top artists/tracks/albums, discovery, on this day). Stats row stays above tabs. Tab state syncs to `?tab=` URL param.

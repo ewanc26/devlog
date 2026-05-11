@@ -4,6 +4,7 @@ description: "Minutes listened, music evolution, remarkable days, discovery, and
 date: 2026-05-11T05:40:00Z
 tags: [atproto, pkgs, music, typescript]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlkormqlxr2s"
 ---
 
 Five new profile sections, all with scroll-reveal animations.
