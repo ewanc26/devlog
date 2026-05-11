@@ -4,6 +4,7 @@ description: "Added web OAuth import flow, post threading for long content, and 
 date: 2026-05-11T07:00:00Z
 tags: [atproto, pkgs, typescript]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlkvmvruyq2k"
 ---
 
 **Web OAuth import flow.** opal-web now has a full OAuth import flow: sign in with AT Protocol, authorise, and import posts directly from the browser. Includes a publisher, rate limiter, and import UI. Landing page got about page and import footer link.

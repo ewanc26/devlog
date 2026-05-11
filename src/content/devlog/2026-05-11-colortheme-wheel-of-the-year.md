@@ -4,6 +4,7 @@ description: "Replaced astronomical season detection with traditional Wheel of t
 date: 2026-05-11T05:00:00Z
 tags: [pkgs, tooling, paganism, typescript]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlkvmvviaa2k"
 ---
 
 Replaced astronomical season detection with the **traditional Wheel of the Year** sabbat dates. Eight sabbats: Samhain, Yule, Imbolc, Ostara, Beltane, Litha, Lughnasadh, Mabon. Each sabbat triggers a theme transition (e.g. Samhain → dark purple, Yule → deep blue, Beltane → bright green).

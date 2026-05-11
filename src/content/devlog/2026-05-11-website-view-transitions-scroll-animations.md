@@ -4,6 +4,7 @@ description: "Added View Transitions API crossfades, scroll-triggered section re
 date: 2026-05-11T08:00:00Z
 tags: [website, typescript]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlkvmvq37g2i"
 ---
 
 **View Transitions API.** Page crossfades on navigation using `beforeNavigate` to start `document.startViewTransition()` and `afterNavigate` to resolve the transition promise. Previous attempt using `onNavigate` with `requestAnimationFrame` didn't properly let SvelteKit update the DOM inside the transition. Also fixed an SSR crash where `$state(data.prop)` stored the function as the value instead of calling it — Svelte 5's `$state` takes a value directly, not a function wrapper (unlike React's `useState(fn)`).
