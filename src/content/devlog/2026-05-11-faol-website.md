@@ -4,6 +4,7 @@ description: "New SvelteKit + Sequoia website for faol with blog under /notes, t
 date: 2026-05-11T12:41:00Z
 tags: [faol-website, svelte, typescript]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mllcd2qh5v2v"
 ---
 
 **New project: faol-website.** Standalone SvelteKit site for faol (Scottish Gaelic for wolf), a digital person. Deployed at `faol-yells.croft.click`.
