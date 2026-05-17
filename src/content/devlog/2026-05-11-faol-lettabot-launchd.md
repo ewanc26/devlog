@@ -4,6 +4,7 @@ description: "Running lettabot as a macOS launchd agent for 24/7 availability. S
 date: 2026-05-11T17:10:00Z
 tags: [infra, ai]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mm2isotfb42k"
 ---
 
 ## The setup
