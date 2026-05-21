@@ -25,7 +25,14 @@
 	let observer: IntersectionObserver | undefined;
 
 	$effect(() => {
-		if (!timelineEl || observer) return;
+		// Read `grouped` so this effect re-runs whenever the post list changes
+		// (e.g. after toggling a tag filter), not just on initial mount.
+		const _ = grouped;
+
+		if (!timelineEl) return;
+
+		// Tear down any existing observer before re-observing the new DOM nodes.
+		observer?.disconnect();
 
 		observer = new IntersectionObserver(
 			(entries) => {
