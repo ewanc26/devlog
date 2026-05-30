@@ -1,0 +1,8 @@
+---
+title: atpkt JVM 21 and OAuth/DPoP
+description: Build configuration updates for JVM 21 and implementation of OAuth/DPoP authentication flow.
+date: 2026-05-30
+tags: [atpkt, auth, jvm]
+---
+
+Updated `atpkt` to be compatible with JVM 21 and implemented OAuth/DPoP authentication flow, alongside a refactor of the session management system.
