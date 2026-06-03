@@ -4,7 +4,7 @@ description: "Moved the support modal from a footer overlay to a standalone /sup
 date: 2026-05-08T21:43:13Z
 tags: [website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleqck5uio2k"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55avucy2v"
 ---
 
 The support modal in the website footer is now a proper page at `/support`. FooterDonations simplified to a plain anchor — no more modal state management.

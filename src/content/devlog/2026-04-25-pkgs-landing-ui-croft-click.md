@@ -4,7 +4,7 @@ description: Landing page at croft.click and a shared @ewanc26/landing-ui packag
 date: 2026-04-27T01:58:31Z
 tags: [pkgs, tooling]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni22yc72y"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55br4gp2g"
 ---
 
 ## @ewanc26/landing-ui

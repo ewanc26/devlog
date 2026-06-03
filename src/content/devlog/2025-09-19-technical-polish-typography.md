@@ -3,7 +3,7 @@ title: Technical Polish — Inter, KaTeX, and Prose Styling
 date: 2025-09-19
 description: Swapping to Inter for better readability, adding KaTeX support, and refining prose styling.
 tags: [website, design, typography]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcr4lhp2w"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55esajl2z"
 ---
 
 ### Typography & Readability

@@ -4,7 +4,7 @@ description: Eight versions of the website, each leaving dead URLs — the Hugo 
 date: 2025-09-13T17:58:51Z
 tags: [website, reflection]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni5epgm22"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55evqtd2z"
 ---
 
 ## website history and link rot

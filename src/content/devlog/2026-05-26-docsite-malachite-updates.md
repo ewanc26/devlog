@@ -3,7 +3,7 @@ title: Documentation Parity & Performance
 date: 2026-05-26
 description: Updating Malachite documentation for new service support and optimizing client bundles.
 tags: [docsite, documentation, performance, malachite]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcqgnnz2c"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf556qhgz2g"
 ---
 
 ### Malachite Documentation

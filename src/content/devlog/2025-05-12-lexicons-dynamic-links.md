@@ -4,7 +4,7 @@ description: Added custom lexicon definitions for status records and replaced st
 date: 2025-05-12T17:30:05Z
 tags: [atproto, website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni6o5bp2y"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55fvu6d2z"
 ---
 
 ## Custom lexicons

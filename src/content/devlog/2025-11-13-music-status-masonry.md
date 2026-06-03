@@ -4,7 +4,7 @@ description: Music status card with MusicBrainz integration and masonry-style ho
 date: 2025-11-13T21:53:54Z
 tags: [website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni4khhs2v"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55e5od32z"
 ---
 
 ## MusicStatusCard

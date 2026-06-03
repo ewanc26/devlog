@@ -4,7 +4,7 @@ description: "Added genre bars, mood indicators, stat badges, and dynamic SVG la
 date: 2026-05-10T16:25:00Z
 tags: [atproto, pkgs, music, typescript]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlj6dg5ayw2k"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55a5i5w2i"
 ---
 
 Redesigned the personality card in both the Svelte component and the SVG share image.

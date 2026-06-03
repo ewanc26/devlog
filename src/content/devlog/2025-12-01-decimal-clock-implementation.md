@@ -4,7 +4,7 @@ description: Added a bespoke decimal clock to the footer because base-10 time ju
 date: 2025-12-01T21:58:09Z
 tags: [website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni47qsu22"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55dtpxl2z"
 ---
 Added a decimal clock component to the footer. Displays time in base-10 format. Viewport-optimised: only computes when visible.
 

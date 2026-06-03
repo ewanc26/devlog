@@ -4,7 +4,7 @@ description: Experimental AT Protocol PDS implementation in Rust.
 date: 2026-03-08T14:59:26Z
 tags: [atproto, infra]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni35m5r2k"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55cp4c32j"
 ---
 
 ## moonstone

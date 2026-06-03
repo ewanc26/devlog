@@ -3,7 +3,7 @@ title: Winter Overhaul — A Fresh Start
 date: 2024-12-05
 description: A complete overhaul of the website, focusing on a cleaner aesthetic and simplified architecture.
 tags: [website, design]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcrctjj2q"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55gnyt72r"
 ---
 
 ### The Overhaul

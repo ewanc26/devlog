@@ -3,7 +3,7 @@ title: Professional Identity & Lexicon Expansion
 date: 2025-05-23
 description: Integrating professional profile data from AT Protocol and expanding status lexicons.
 tags: [website, atproto, identity]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcr7pvz2q"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55fsmzw2i"
 ---
 
 ### Professional Profile

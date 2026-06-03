@@ -4,7 +4,7 @@ description: Dynamic OG images, /work route for Sifa professional profile, and G
 date: 2026-03-19T22:23:57Z
 tags: [website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni2zo2u22"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55cjhmh2r"
 ---
 
 ## OG images

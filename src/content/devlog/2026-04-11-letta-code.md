@@ -4,7 +4,7 @@ description: Started using Letta Code — a persistent coding agent with memory.
 date: 2026-04-11T12:00:00Z
 tags: [tooling]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni2jpd422"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55c47vp2g"
 ---
 
 ## letta code adoption

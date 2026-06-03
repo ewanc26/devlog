@@ -4,7 +4,7 @@ description: Upgraded from the M2 Mac Mini to the M4 — better performance, mor
 date: 2025-08-09T12:00:00Z
 tags: [infra]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni5xxjk2v"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55f7t3t2z"
 ---
 
 ## hardware upgrade

@@ -4,7 +4,7 @@ description: "Added OG hero SVGs to all five project landing pages, bismuth fetc
 date: 2026-05-11T06:00:00Z
 tags: [pkgs, tooling, typescript]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlkvmvtlj62i"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf557r4ej2g"
 ---
 
 **Hero SVGs.** Added OG-compliant hero SVG images to all five project cards: malachite-web, opal-web, jasper-web, bismuth-web, and tourmaline. Tourmaline card now leads with Teal.fm branding.

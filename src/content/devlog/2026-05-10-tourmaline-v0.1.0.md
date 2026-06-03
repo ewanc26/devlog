@@ -4,7 +4,7 @@ description: "First release of tourmaline — personality archetypes, genre prof
 date: 2026-05-10T01:50:00Z
 tags: [atproto, pkgs, music, typescript]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlhodpxizc2i"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55agqrf2f"
 ---
 
 Released tourmaline v0.1.0. A Teal.fm scrobble analyser that reads `fm.teal.alpha.feed.play` records from any PDS and builds a listener personality profile.

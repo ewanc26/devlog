@@ -3,7 +3,7 @@ title: The First Seed — Ewan's Corner is Born
 date: 2023-05-31
 description: The original, non-git-tracked launch of my personal website.
 tags: [website, personal]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcrfu3d2w"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55gyb562i"
 ---
 
 ### The Beginning

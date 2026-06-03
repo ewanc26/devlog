@@ -3,7 +3,7 @@ title: Mystical Symbols & Drifting Paths
 date: 2026-05-22
 description: Integrating pagan symbols into the website UI with randomized drifting animations.
 tags: [website, design, animation, paganism]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcqjp6f2m"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf556uhbt2z"
 ---
 
 ### Drifting Symbols
