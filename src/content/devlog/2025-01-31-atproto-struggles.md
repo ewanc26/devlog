@@ -4,7 +4,7 @@ description: Early experiences with the AT Protocol SDK — confusing docs, Pyth
 date: 2025-01-30T16:57:29Z
 tags: [atproto, reflection]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni7b6y422"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55girnd2z"
 ---
 
 ## adapting to atproto

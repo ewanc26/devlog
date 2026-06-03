@@ -4,7 +4,7 @@ description: Scripts for populating and maintaining the Sifa professional profil
 date: 2026-04-11T11:53:38Z
 tags: [atproto, tooling]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni2h6ez2k"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55c5nop2r"
 ---
 
 ## scripts

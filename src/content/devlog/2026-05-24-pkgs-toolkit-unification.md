@@ -3,7 +3,7 @@ title: Toolkit Unification — Sign-out, TIDs, and Usage Analytics
 date: 2026-05-24
 description: Unifying TID generation, adding sign-out functionality, and implementing toolkit usage analytics.
 tags: [pkgs, architecture, analytics, atproto]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcqi5en2m"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf556shyp2r"
 ---
 
 ### TID Strategy Unification

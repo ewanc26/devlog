@@ -4,7 +4,7 @@ description: "LandingLayout improvements (subtitle, expanded footer, @theme brid
 date: 2026-05-11T12:06:00Z
 tags: [pkgs, typescript, svelte]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mll7q2f3vd2k"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf557ipsr2g"
 ---
 
 **LandingLayout improvements.** Added `subtitle` and `footerAboutUrl` props. Footer now shows source URL, privacy link, and copyright. Added `@theme` token bridge in `landing.css` so CSS custom properties map to Tailwind utility classes. Added font-smoothing. Deduplicated `@keyframes spin`. Per-project `layout.css` files now expose their own `@theme` blocks for tokens like `--border-subtle`, `--accent-bright`, `--text-muted`, `--text-dim`. Added `.svelte-kit` to root `.gitignore`, removed opal-web's tracked svelte-kit output.

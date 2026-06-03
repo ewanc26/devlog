@@ -3,7 +3,7 @@ title: The Birth of Ewan's Corner — Git Migration
 date: 2024-02-21
 description: Transitioning the website to a Hugo-powered digital garden with git version control.
 tags: [website, personal]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcrecuz2c"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55gwl2d2z"
 ---
 
 ### Git Migration

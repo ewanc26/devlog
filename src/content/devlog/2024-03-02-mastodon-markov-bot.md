@@ -4,7 +4,7 @@ description: First bot — a Markov chain text generator for Mastodon.
 date: 2024-03-02T16:13:50Z
 tags: [bots]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni7izxn2g"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55gurjj2g"
 ---
 
 ## mastodon-markov

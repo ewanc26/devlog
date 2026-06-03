@@ -3,7 +3,7 @@ title: Malachite v0.9.0 — Performance & Rate Limiting Overhaul
 date: 2026-02-07
 description: Implementing adaptive rate limiting, dynamic batching, and SHA-512 credential security.
 tags: [malachite, atproto, performance, security]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcquy5z2q"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55d6p4d2z"
 ---
 
 ### Adaptive Pacing

@@ -4,7 +4,7 @@ description: All WhiteWind posts converted to Leaflet format — blog.ewancroft.
 date: 2025-10-24T20:20:53Z
 tags: [atproto]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni4qqur2k"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55eebb32z"
 ---
 
 ## leaflet migration complete

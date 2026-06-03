@@ -4,7 +4,7 @@ description: Shortlink service resolving AT Protocol handles and DIDs with QR co
 date: 2025-11-24T09:20:00Z
 tags: [atproto, tooling]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni4bxk32i"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55dve3w2i"
 ---
 
 ## atproto-shortlink

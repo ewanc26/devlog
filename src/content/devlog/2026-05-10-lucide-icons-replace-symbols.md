@@ -4,7 +4,7 @@ description: "Swapped unicode symbols for Lucide icon components across malachit
 date: 2026-05-10T12:35:00Z
 tags: [atproto, pkgs, tooling, typescript]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlj4ub452z2y"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55adqai2v"
 ---
 
 Replaced all inline symbolic characters in Svelte components with their Lucide icon equivalents:

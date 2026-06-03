@@ -4,7 +4,7 @@ description: Added Inter as the primary typeface and switched to semantic colour
 date: 2025-10-16T00:47:18Z
 tags: [website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni52lmt2i"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55ehfao2i"
 ---
 
 ## Inter font

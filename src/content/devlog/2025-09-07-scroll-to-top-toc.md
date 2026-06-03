@@ -4,7 +4,7 @@ description: Scroll-to-top button, mobile progress bar, and improved table of co
 date: 2025-09-07T10:45:26Z
 tags: [website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni5hr7b2k"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55exbzw2i"
 ---
 
 ## Scroll-to-top

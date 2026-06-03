@@ -3,7 +3,7 @@ title: Malachite v0.4.4 — Apple Music & YouTube Music Support
 date: 2026-05-26
 description: Adding import support for Apple Music and YouTube Music, and updating branding.
 tags: [malachite, music, pkgs, import]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcqf4762y"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf556od6p2r"
 ---
 
 ### New Service Imports

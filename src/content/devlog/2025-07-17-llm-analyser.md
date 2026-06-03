@@ -4,7 +4,7 @@ description: Tool for analysing LLM outputs and responses.
 date: 2025-07-17T04:25:54Z
 tags: [tooling]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni6crr32i"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55fkivd2z"
 ---
 
 ## llm-analyser

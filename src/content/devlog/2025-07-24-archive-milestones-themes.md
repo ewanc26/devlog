@@ -3,7 +3,7 @@ title: Archive Milestones & Theme Expansion
 date: 2025-07-24
 description: Implementing post milestones, improving archive navigation, and adding the Werewolf theme.
 tags: [website, design, svelte]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcr63jn2n"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55fiwig2i"
 ---
 
 ### Milestone Recognition

@@ -4,7 +4,7 @@ description: "Swapped rbw for official bitwarden-cli, fixed activation scripts f
 date: 2026-05-11T03:00:00Z
 tags: [infra]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlkvmvzdus22"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf557xcph2r"
 ---
 
 Swapped **rbw** for the official **bitwarden-cli** package. rbw needed pinentry-mac configured with an absolute nix store path, and was pointed at the Bitwarden EU hosted server instead of the now-retired Vaultwarden instance.

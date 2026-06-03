@@ -3,7 +3,7 @@ title: Tourmaline Polish — PDS Rate Limiting & Component Reactivity
 date: 2026-05-18
 description: Implementing PDS rate limiting, fixing routing issues, and refining component reactivity for Tourmaline.
 tags: [tourmaline, pkgs, atproto, performance]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcqmz5t2w"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf556xq5o2i"
 ---
 
 ### PDS Rate Limiting

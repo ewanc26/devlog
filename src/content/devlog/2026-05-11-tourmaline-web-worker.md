@@ -4,7 +4,7 @@ description: "Moved the entire analysis pipeline from server-side POST to a brow
 date: 2026-05-11T09:50:00Z
 tags: [atproto, pkgs, music, typescript]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlkvmvo4wp2y"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf557kfqh2g"
 ---
 
 Analysis pipeline moved from server-side computation to a **web worker**. The previous approach POSTed scrobbles to `/api/profile/[did]`, but Vercel's 4.5MB serverless function body limit meant users with 50K+ scrobbles (~8.5MB JSON) got silently empty profiles.

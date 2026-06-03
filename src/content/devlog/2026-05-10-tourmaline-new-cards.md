@@ -4,7 +4,7 @@ description: "Listening clock, listening stats, and service origins"
 date: 2026-05-10T16:35:00Z
 tags: [atproto, pkgs, music, typescript]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlj6ti7d372k"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55a3vy32z"
 ---
 
 Three new cards on the tourmaline profile page.
