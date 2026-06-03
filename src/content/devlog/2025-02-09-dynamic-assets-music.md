@@ -3,7 +3,7 @@ title: Dynamic Assets & Music Integration
 date: 2025-02-09
 description: Implementing a hue-shifting favicon, dynamic embed images, and static music stats.
 tags: [website, design, music]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcrbbu72w"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55ges3o2i"
 ---
 
 ### Dynamic Visuals

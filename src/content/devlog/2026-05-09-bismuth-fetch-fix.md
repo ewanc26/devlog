@@ -4,7 +4,7 @@ description: Added --frontmatter and --output flags to the fetch subcommand, and
 date: 2026-05-09T19:00:00Z
 tags: [atproto, pkgs, tooling]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlgx5usq4722"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55altxe2z"
 ---
 
 ## @ewanc26/bismuth v0.2.4

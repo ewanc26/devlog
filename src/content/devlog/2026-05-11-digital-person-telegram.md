@@ -5,7 +5,7 @@ tags:
   - digital-person
   - telegram
   - faol
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mm5yzhppwq2v"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55a2h432z"
 ---
 
 Refactored digital-person repository to integrate a Telegram bot skill. Removed Resend email service, opting for Telegram for bot communications, and updated persona identity.

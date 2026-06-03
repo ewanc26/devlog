@@ -4,7 +4,7 @@ description: Migrated to pnpm workspaces, published @ewanc26/tid to npm, and con
 date: 2026-03-04T16:17:27Z
 tags: [pkgs]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni3djes2v"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55ctxed2z"
 ---
 
 ## pnpm workspace

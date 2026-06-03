@@ -4,7 +4,7 @@ description: Stood up a GoToSocial instance, migrated to Sharkey when the lack o
 date: 2026-03-21T12:00:00Z
 tags: [atproto, infra]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni2xjsz2k"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55cho6o2i"
 ---
 
 ## fediverse self-hosting

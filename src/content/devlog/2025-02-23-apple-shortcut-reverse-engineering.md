@@ -4,7 +4,7 @@ description: Deconstructed dame.is's dynamic avatar Apple Shortcut and rebuilt i
 date: 2025-02-23T12:00:00Z
 tags: [atproto, tooling, python]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni6wlrx2y"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55g5xwt2z"
 ---
 
 ## avatar automation

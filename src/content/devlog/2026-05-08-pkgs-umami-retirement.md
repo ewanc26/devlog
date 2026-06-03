@@ -4,7 +4,7 @@ description: "Umami analytics retired — all Umami script tags removed from bis
 date: 2026-05-08T15:17:32Z
 tags: [tooling]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleqck7txi2k"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55ayvxy2v"
 ---
 
 Umami analytics retired — the server laptop that was running it is no longer in use. Removed the Umami script tag from all web packages in the monorepo:

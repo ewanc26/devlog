@@ -4,7 +4,7 @@ description: Bluesky client with keychain auth, timeline, notifications, search,
 date: 2026-02-28T17:32:01Z
 tags: [atproto]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni3fmv52g"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55cwsf32j"
 ---
 
 ## azurite

@@ -4,7 +4,7 @@ description: OG image URLs were relative — crawlers need absolute URLs. Index 
 date: 2026-05-09T20:00:00Z
 tags: [devlog, tooling]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlgxemvxhp2k"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55ak2cx2r"
 ---
 
 OG image URLs in both the post page and the index were relative (`/api/og?...`), which crawlers can't resolve. Prefixed with `PUBLIC_SITE_URL` throughout.

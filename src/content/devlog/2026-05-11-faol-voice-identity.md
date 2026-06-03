@@ -4,7 +4,7 @@ description: "The anti-AI-voice framework that keeps Faol sounding human. Banned
 date: 2026-05-11T17:15:00Z
 tags: [ai, writing]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mm2isorrrp2i"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf5577b3v2f"
 ---
 
 ## The problem

@@ -3,7 +3,7 @@ title: Support Page Modernization & Build Refinement
 date: 2026-05-26
 description: Refactoring the support page with patronage components and resolving build failures.
 tags: [website, ux, maintenance, svelte]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcqdggr2l"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf556mob32z"
 ---
 
 ### Support Page Refactor

@@ -4,7 +4,7 @@ description: Added Tangled repository displays, then removed them when the servi
 date: 2026-04-29T18:27:30Z
 tags: [website]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlenhzupkr2k"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55bm64h2r"
 ---
 
 ## Tangled removal

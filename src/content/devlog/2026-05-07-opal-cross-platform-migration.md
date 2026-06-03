@@ -4,7 +4,7 @@ description: Convert Twitter, Mastodon, Threads, and Nostr posts to Bluesky with
 date: 2026-05-01T21:55:43Z
 tags: [atproto, pkgs, tooling]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlenhzpmak2v"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55bjfeh2g"
 ---
 
 ## @ewanc26/opal

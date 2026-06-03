@@ -4,7 +4,7 @@ description: "Added More tools sections linking each project to the other four, 
 date: 2026-05-10T12:40:00Z
 tags: [atproto, pkgs, website, tooling]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlj4ub26up2i"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55ac5ix2g"
 ---
 
 Added a "More tools" section to each of the five projects (malachite, opal, jasper, bismuth, tourmaline) linking to the other four. The four monorepo projects use a new `siblings` prop on the landing-ui `LandingPage` component. Tourmaline has its own inline implementation matching the same card style.

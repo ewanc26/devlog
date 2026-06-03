@@ -4,7 +4,7 @@ description: Generates gradient profile banners for Bluesky users with custom si
 date: 2025-02-20T13:42:05Z
 tags: [atproto, bots]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni72rvm22"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55gb5lr2g"
 ---
 
 ## bluesky-gradient

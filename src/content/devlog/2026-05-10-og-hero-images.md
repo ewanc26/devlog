@@ -4,7 +4,7 @@ description: "Added hero SVG OG images to malachite, opal, jasper, bismuth, and 
 date: 2026-05-10T12:30:00Z
 tags: [atproto, pkgs, website, tooling]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlj4ub5uzx2i"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55af6we2m"
 ---
 
 Added hero SVG OG images to all five project landing pages. Each project now has `og.svg` in its static directory and `og:image` + `twitter:image` meta tags pointing to it.

@@ -3,7 +3,7 @@ title: Kibun Status & Custom Slug Routing
 date: 2025-11-22
 description: Integrating Kibun status records and implementing a configurable slug-to-publication mapping system.
 tags: [website, atproto, architecture]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcr32bn25"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55dx3f32z"
 ---
 
 ### Kibun Status

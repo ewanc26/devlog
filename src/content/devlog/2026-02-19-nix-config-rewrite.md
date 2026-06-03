@@ -4,7 +4,7 @@ description: Rewrote the entire nix-config around proper Nix modules — replace
 date: 2026-02-18T19:19:50Z
 tags: [infra]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni3jjct2i"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55czswm2m"
 ---
 
 ## nix config rewrite

@@ -4,7 +4,7 @@ description: Daily moon phase posts to Bluesky with multi-source API and optiona
 date: 2025-06-17T21:31:25Z
 tags: [atproto, bots]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni6garz2k"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55fnmlr2g"
 ---
 
 ## bluesky-moon-tracker

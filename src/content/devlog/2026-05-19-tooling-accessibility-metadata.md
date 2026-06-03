@@ -3,7 +3,7 @@ title: AI Discoverability — AGENTS.md and llms.txt
 date: 2026-05-19
 description: Adding AGENTS.md and llms.txt files across repositories to improve AI discoverability and documentation.
 tags: [tooling, ai, documentation, pkgs]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcqldg62y"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf556w4fg2i"
 ---
 
 ### Standardizing AI Metadata

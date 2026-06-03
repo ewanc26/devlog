@@ -5,7 +5,7 @@ tags:
   - moonstone
   - atproto
   - did-web
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mm5yzi3cc32y"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55cqt3h2g"
 ---
 
 Decoupled Moonstone from Bluesky infrastructure, enabling native account creation using `did:web`. Added new moderation/temporary routes and email validation.

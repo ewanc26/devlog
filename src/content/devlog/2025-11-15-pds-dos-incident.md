@@ -4,7 +4,7 @@ description: Accidentally rate-limited the entire PDS by blasting records at the
 date: 2025-11-15T12:00:00Z
 tags: [atproto, infra]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni4ghhp2s"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55e2f2u2z"
 ---
 
 ## pds rate limit incident

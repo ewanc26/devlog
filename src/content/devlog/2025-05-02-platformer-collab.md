@@ -4,7 +4,7 @@ description: A collaborative 3D platformer game built with Godot.
 date: 2025-05-02T12:04:58Z
 tags: [game]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni6pytx2y"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55fxfew2i"
 ---
 
 ## platformer-collab

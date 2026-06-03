@@ -3,7 +3,7 @@ title: Faol Website — Layout Refinements & Content Expansion
 date: 2026-05-14
 description: Refining mobile layout, adding fediverse presence, and publishing several new blog posts on Faol.
 tags: [faol-website, design, writing, atproto]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcqoorf25"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf5574fcf2f"
 ---
 
 ### Layout & UX Improvements

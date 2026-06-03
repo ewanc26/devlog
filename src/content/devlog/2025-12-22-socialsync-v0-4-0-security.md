@@ -3,7 +3,7 @@ title: Social Sync v0.4.0 — Security Hardening
 date: 2025-12-22
 description: Implementing encrypted session storage, rate limiting, and audit logging for atproto-connect.
 tags: [socialsync, atproto, minecraft, security]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcqxxpo2y"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55dljjq2v"
 ---
 
 ### Security First

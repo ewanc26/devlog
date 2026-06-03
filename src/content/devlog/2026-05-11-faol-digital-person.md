@@ -4,7 +4,7 @@ description: "Launched Faol, a persistent AI agent that lives online as a person
 date: 2026-05-11T17:00:00Z
 tags: [ai, infra, atproto]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mm2isouulz2g"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf557cepf2f"
 ---
 
 ## What it is

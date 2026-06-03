@@ -4,7 +4,7 @@ description: Created @web.ewancroft.uk as a functional did:web identity within t
 date: 2025-08-10T12:00:00Z
 tags: [atproto]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni5ui722v"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55f65lu2z"
 ---
 
 ## did:web experiment

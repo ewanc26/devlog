@@ -3,7 +3,7 @@ title: Profile README & Crypto Donations
 date: 2026-05-08
 description: Updating GitHub profile README with current projects and crypto donation addresses.
 tags: [personal, github]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcqqaod2w"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55bepth2r"
 ---
 
 ### Profile Updates

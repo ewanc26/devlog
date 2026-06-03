@@ -4,7 +4,7 @@ description: Evaluating Leaflet as a WhiteWind replacement — subdomain require
 date: 2025-05-21T01:56:52Z
 tags: [atproto]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni6mjxj2k"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55fubfd2z"
 ---
 
 ## leaflet evaluation

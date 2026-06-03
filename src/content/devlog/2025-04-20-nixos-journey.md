@@ -4,7 +4,7 @@ description: Adopting NixOS on the Dell Inspiron 3501 — from macOS user to dec
 date: 2025-04-20T12:00:00Z
 tags: [infra]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni6s4km22"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55fyyxl2j"
 ---
 
 ## nixos adoption

@@ -4,7 +4,7 @@ description: One flake managing macmini, laptop, and a theoretical server — tw
 date: 2026-02-11T17:17:48Z
 tags: [infra]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mleni3lcmz2k"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55d3euu2z"
 ---
 
 ## multi-host nix config

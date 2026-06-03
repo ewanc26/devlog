@@ -3,7 +3,7 @@ title: Project Nixification
 date: 2026-04-29
 description: Adding Nix flakes and pre-commit hooks to standardize development environments across the ecosystem.
 tags: [nix, infra, automation]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcqrs4b2c"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55bnrrj2g"
 ---
 
 ### Standardizing Environments

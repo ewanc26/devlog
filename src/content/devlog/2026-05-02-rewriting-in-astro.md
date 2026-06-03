@@ -4,7 +4,7 @@ description: Porting the entire site from SvelteKit to Astro for ultimate static
 date: 2026-05-02T18:04:31Z
 tags: [website, infra, tooling]
 draft: false
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlenhzs2ek2v"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55bhrih2r"
 ---
 Attempted a rewrite from SvelteKit to Astro, aiming for minimal client-side JavaScript with interactive islands (Theme Toggles, Decimal Clock) via React/Preact components. Also introduced a `TerminalLayout` and added a Nix flake.
 

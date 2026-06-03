@@ -3,7 +3,7 @@ title: Minecraft Server — Dynamic Hardware Config
 date: 2026-01-21
 description: Implementing a hardware-aware configuration system for the Minecraft server.
 tags: [mc-server, infra, nix]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcqwhjj2c"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55dbvzo2i"
 ---
 
 ### Hardware-Aware Config

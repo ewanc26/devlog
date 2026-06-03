@@ -3,7 +3,7 @@ title: Initial Launch of atproto-connect
 date: 2025-12-20
 description: Bootstrapping a Minecraft-to-AT-Protocol bridge for Fabric 1.21.10.
 tags: [socialsync, atproto, minecraft, fabric]
-atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mmrbcqzknj2q"
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mnf55dourr2g"
 ---
 
 ### Project Genesis
