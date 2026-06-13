@@ -14,30 +14,30 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@ewanc26/og": "^0.1.8",
-    "@lucide/svelte": "^0.575.0",
-    "gray-matter": "^4.0.3",
-    "rehype-slug": "^6.0.0",
-    "rehype-stringify": "^10.0.1",
-    "remark-gfm": "^4.0.0",
-    "remark-parse": "^11.0.0",
-    "remark-rehype": "^11.1.2",
-    "unified": "^11.0.5"
+    "@ewanc26/og": "latest",
+    "@lucide/svelte": "latest",
+    "gray-matter": "latest",
+    "rehype-slug": "latest",
+    "rehype-stringify": "latest",
+    "remark-gfm": "latest",
+    "remark-parse": "latest",
+    "remark-rehype": "latest",
+    "unified": "latest"
   },
   "devDependencies": {
-    "@sveltejs/adapter-vercel": "^6.3.2",
-    "@sveltejs/kit": "^2.50.2",
-    "@sveltejs/vite-plugin-svelte": "^6.2.4",
-    "@tailwindcss/typography": "^0.5.19",
-    "@tailwindcss/vite": "^4.1.18",
-    "prettier": "^3.8.1",
-    "prettier-plugin-svelte": "^3.4.1",
-    "prettier-plugin-tailwindcss": "^0.7.2",
-    "sequoia-cli": "^0.5.4",
-    "svelte": "^5.51.0",
-    "svelte-check": "^4.3.6",
-    "tailwindcss": "^4.1.18",
-    "typescript": "^5.9.3",
-    "vite": "^7.3.1"
+    "@sveltejs/adapter-vercel": "latest",
+    "@sveltejs/kit": "latest",
+    "@sveltejs/vite-plugin-svelte": "latest",
+    "@tailwindcss/typography": "latest",
+    "@tailwindcss/vite": "latest",
+    "prettier": "latest",
+    "prettier-plugin-svelte": "latest",
+    "prettier-plugin-tailwindcss": "latest",
+    "sequoia-cli": "latest",
+    "svelte": "latest",
+    "svelte-check": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest",
+    "vite": "latest"
   }
 }
