@@ -1,5 +1,5 @@
 ---
-title: Maintenance: Separation of Concerns
+title: "Maintenance: Separation of Concerns"
 description: Removed sequoia.json from pkgs to maintain clear separation of project-specific configurations.
 date: 2026-06-14
 tags: [pkgs, tooling]
