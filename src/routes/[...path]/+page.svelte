@@ -1,4 +1,6 @@
 <script lang="ts">
+	// ── Individual post page ───────────────────────────────────────────────
+
 	import { formatDate } from '$lib/date';
 	import Tag from '$lib/components/Tag.svelte';
 	import TableOfContents from '$lib/components/TableOfContents.svelte';
@@ -6,6 +8,7 @@
 	import type { PageData } from './$types';
 	let { data }: { data: PageData } = $props();
 
+	// Dynamic OG image per post — generated server-side by the /api/og endpoint
 	const ogImageUrl = `${PUBLIC_SITE_URL}/api/og?title=${encodeURIComponent(data.post.title)}&description=${encodeURIComponent(data.post.description ?? '')}`;
 </script>
 

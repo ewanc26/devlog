@@ -1,4 +1,6 @@
 <script lang="ts">
+	// ── Site header: logo, back link, RSS, and main site link ──────────────
+
 	import { ArrowLeft, Rss, ExternalLink } from '@lucide/svelte';
 	import { page } from '$app/stores';
 

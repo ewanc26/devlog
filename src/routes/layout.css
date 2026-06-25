@@ -1,3 +1,5 @@
+/* ─── entry point: Tailwind v4 + custom design-system layers ───────────── */
+
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 

@@ -1,4 +1,6 @@
 <script lang="ts">
+	// ── Homepage: post listing with live search and tag filtering ──────────
+
 	import Timeline from '$lib/components/Timeline.svelte';
 	import SearchBar from '$lib/components/SearchBar.svelte';
 	import { PUBLIC_SITE_URL } from '$env/static/public';
@@ -7,6 +9,10 @@
 
 	let query = $state('');
 	let activeTag = $state('');
+
+	// Two-pass filtering: query narrows the pool, then active tag (if set)
+	// narrows it further. Tag frequencies are derived from the query-filtered
+	// set so chip counts stay relevant as you type.
 
 	// First pass: filter by query only (tag chips should reflect this set)
 	const queryFiltered = $derived.by(() => {

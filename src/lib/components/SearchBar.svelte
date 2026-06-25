@@ -5,12 +5,14 @@
 
 	interface TagEntry { tag: string; count: number }
 
+	// bindable props: parent owns query/activeTag state, we update via two-way binding
 	let { query = $bindable(''), activeTag = $bindable(''), tags }: {
 		query: string;
 		activeTag: string;
 		tags: TagEntry[];
 	} = $props();
 
+	// Toggle a tag on/off — clicking the same tag again clears it
 	function toggleTag(tag: string) {
 		activeTag = activeTag === tag ? '' : tag;
 	}

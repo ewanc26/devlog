@@ -1,4 +1,6 @@
 <script lang="ts">
+	// ── Single timeline entry: date, title, description, and tags ──────────
+
 	import { formatDate } from '$lib/date';
 	import Tag from './Tag.svelte';
 	import type { PostMeta } from '$lib/posts';

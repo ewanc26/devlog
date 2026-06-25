@@ -1,3 +1,4 @@
+/** Pre-rendered RSS 2.0 feed of all published posts, most recent first. */
 import { listPosts } from '$lib/posts';
 import type { RequestHandler } from './$types';
 

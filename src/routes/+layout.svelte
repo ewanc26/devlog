@@ -1,4 +1,6 @@
 <script lang="ts">
+	// ── Root layout: header, main content slot, footer ─────────────────────
+
 	import './layout.css';
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
