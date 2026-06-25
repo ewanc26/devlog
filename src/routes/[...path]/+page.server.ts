@@ -5,6 +5,11 @@ import type { EntryGenerator, PageServerLoad } from './$types';
 
 export const entries: EntryGenerator = () => listPosts().map(({ path }) => ({ path }));
 
+/**
+ * Load a single devlog post by its URL path.
+ * The catch-all route matches paths like 2024/03/02/mastodon-markov-bot,
+ * renders the markdown to HTML, and extracts the table of contents.
+ */
 export const load: PageServerLoad = async ({ params }) => {
 	// params.path is "2024/03/02/mastodon-markov-bot" — extract the slug part
 	const parts = params.path.split('/');

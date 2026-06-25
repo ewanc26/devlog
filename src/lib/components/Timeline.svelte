@@ -1,11 +1,13 @@
 <script lang="ts">
+	// ── Timeline: month-grouped post list with scroll-reveal animation ─────
+
 	import TimelineEntry from './TimelineEntry.svelte';
 	import { fade } from 'svelte/transition';
 	import type { PostMeta } from '$lib/posts';
 
 	let { posts }: { posts: PostMeta[] } = $props();
 
-	// Group posts by month
+	// Group posts by month for chronologically-ordered section headers
 	const grouped = $derived.by(() => {
 		const groups: { month: string; posts: PostMeta[] }[] = [];
 		let currentMonth = '';
@@ -20,7 +22,7 @@
 		return groups;
 	});
 
-	// Scroll reveal via IntersectionObserver
+	// Scroll reveal via IntersectionObserver — entries fade in as they appear
 	let timelineEl: HTMLDivElement | undefined = $state();
 	let observer: IntersectionObserver | undefined;
 
@@ -40,6 +42,7 @@
 				for (const entry of entries) {
 					if (entry.isIntersecting) {
 						const el = entry.target as HTMLElement;
+						// Apply staggered delay for a cascading reveal effect
 						el.style.setProperty('--stagger', `${visibleIndex * 0.05}s`);
 						el.classList.add('revealed');
 						observer!.unobserve(el);

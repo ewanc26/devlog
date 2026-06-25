@@ -10,6 +10,7 @@
 		<nav>
 			<ul class="list-none flex flex-col gap-1">
 				{#each toc as entry}
+					<!-- h3 entries are indented and slightly dimmer to show hierarchy -->
 					<li class:pl-3={entry.level === 3}>
 						<a href="#{entry.id}" class="text-[0.78em] no-underline text-[var(--color-muted)] leading-[1.4] block transition-colors hover:text-[var(--color-accent)] {entry.level === 3 ? 'opacity-75' : ''}">{entry.text}</a>
 					</li>
