@@ -4,6 +4,7 @@ description: Ran an auto-tagger across every repo in /Git to backfill semver tag
 date: 2026-06-30T20:00:00Z
 tags: [infra, devlog, maintenance]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mphr5hiue42d"
 ---
 
 ## mass tagging all repos

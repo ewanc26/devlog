@@ -1,3 +1,6 @@
+allowBuilds:
+  core-js: set this to true or false
+  esbuild: set this to true or false
 # Packages that trigger false-positive dependency warnings during install.
 # core-js and esbuild are pulled in by transitive deps, not directly referenced.
 ignoredBuiltDependencies:
