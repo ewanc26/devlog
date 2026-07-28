@@ -1,8 +1,11 @@
+# ── PNPM workspace config ────────────────────────────────────────
+# pnpm 11 refuses to complete `pnpm install` (and therefore `pnpm check`
+# / `pnpm build`, which re-verify the dependency state) until every
+# postinstall script is explicitly allowed or denied.
+#
+# esbuild downloads/links its native binary in postinstall and Vite
+# needs it; core-js only prints a funding banner.
+
 allowBuilds:
-  core-js: set this to true or false
-  esbuild: set this to true or false
-# Packages that trigger false-positive dependency warnings during install.
-# core-js and esbuild are pulled in by transitive deps, not directly referenced.
-ignoredBuiltDependencies:
-  - core-js
-  - esbuild
+  esbuild: true
+  core-js: false
