@@ -26,6 +26,29 @@ export interface RenderResult {
 	toc: TocEntry[];
 }
 
+/**
+ * Reproduce github-slugger (used by rehype-slug) for a single document, so ToC
+ * anchors match the ids rehype-slug writes into the rendered HTML.
+ *
+ * Returns a stateful function: repeated headings get an incrementing suffix
+ * (`foo`, `foo-1`, `foo-2`) exactly as github-slugger does. Without this,
+ * every repeat of a heading anchors back to the first occurrence.
+ */
+function createSlugger(): (text: string) => string {
+	const occurrences = new Map<string, number>();
+	return (text: string) => {
+		// replace each whitespace char individually (no collapse), strip non-word chars
+		const base = text
+			.toLowerCase()
+			.replace(/[^\w\s-]/g, '')
+			.trim()
+			.replace(/\s/g, '-');
+		const seen = occurrences.get(base) ?? 0;
+		occurrences.set(base, seen + 1);
+		return seen === 0 ? base : `${base}-${seen}`;
+	};
+}
+
 const processor = unified()
 	.use(remarkParse)
 	.use(remarkGfm)
@@ -44,20 +67,17 @@ export async function renderMarkdown(markdown: string): Promise<RenderResult> {
 
 	// Extract TOC from the parsed AST (before rehype transforms)
 	const toc: TocEntry[] = [];
+	const slugify = createSlugger();
 	for (const node of tree.children) {
-		if (node.type !== 'heading' || node.depth < 2 || node.depth > 3) continue;
+		// h1 is stripped before rehype-slug runs, but h4–h6 still consume slugs,
+		// so they must advance the counter even though the ToC omits them.
+		if (node.type !== 'heading' || node.depth < 2) continue;
 		const text = node.children
 			.filter((c) => c.type === 'text' || c.type === 'inlineCode')
 			.map((c) => ('value' in c ? c.value : ''))
 			.join('');
-		// Match github-slugger exactly (used by rehype-slug):
-		// replace each whitespace char individually (no collapse), strip non-word chars
-		const id = text
-			.toLowerCase()
-			.replace(/[^\w\s-]/g, '')
-			.trim()
-			.replace(/\s/g, '-');
-		toc.push({ level: node.depth, text, id });
+		const id = slugify(text);
+		if (node.depth <= 3) toc.push({ level: node.depth, text, id });
 	}
 
 	// Run transformers (remark → rehype) then stringify to HTML
@@ -65,28 +85,4 @@ export async function renderMarkdown(markdown: string): Promise<RenderResult> {
 	const html = processor.stringify(hast);
 
 	return { html, toc };
-}
-
-/** Extract h2/h3 headings from raw markdown for the table of contents. */
-export function extractToc(markdown: string): TocEntry[] {
-	const tree = unified().use(remarkParse).parse(markdown) as Root;
-	const entries: TocEntry[] = [];
-
-	for (const node of tree.children) {
-		if (node.type !== 'heading' || node.depth < 2 || node.depth > 3) continue;
-		const text = node.children
-			.filter((c) => c.type === 'text' || c.type === 'inlineCode')
-			.map((c) => ('value' in c ? c.value : ''))
-			.join('');
-		// Match github-slugger exactly (used by rehype-slug):
-		// replace each whitespace char individually (no collapse), strip non-word chars
-		const id = text
-			.toLowerCase()
-			.replace(/[^\w\s-]/g, '')
-			.trim()
-			.replace(/\s/g, '-');
-		entries.push({ level: node.depth, text, id });
-	}
-
-	return entries;
 }
