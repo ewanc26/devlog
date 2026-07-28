@@ -74,7 +74,7 @@ let cachedPosts: PostMeta[] | null = null;
 
 export function listPosts(): PostMeta[] {
 	if (cachedPosts) return cachedPosts;
-	cachedPosts = readdirSync(POSTS_DIR)
+	const posts: PostMeta[] = readdirSync(POSTS_DIR)
 		.filter((f) => /\.mdx?$/.test(f))
 		.map((filename) => {
 			const raw = readFileSync(`${POSTS_DIR}/${filename}`, 'utf-8');
@@ -94,7 +94,8 @@ export function listPosts(): PostMeta[] {
 		})
 		.filter((p) => !p.draft)
 		.sort((a, b) => sortKey(b).localeCompare(sortKey(a)));
-	return cachedPosts;
+	cachedPosts = posts;
+	return posts;
 }
 
 export function getPost(slug: string): Post {

@@ -7,7 +7,6 @@
  * - description: Optional one-line description
  */
 import { createOgEndpoint } from '@ewanc26/og';
-import { PUBLIC_SITE_URL } from '$env/static/public';
 
 export const GET = createOgEndpoint({
 	siteName: 'devlog.croft.click',
