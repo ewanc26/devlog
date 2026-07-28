@@ -8,13 +8,21 @@
 	import type { PageData } from './$types';
 	let { data }: { data: PageData } = $props();
 
-	// Dynamic OG image per post — generated server-side by the /api/og endpoint
-	const ogImageUrl = `${PUBLIC_SITE_URL}/api/og?title=${encodeURIComponent(data.post.title)}&description=${encodeURIComponent(data.post.description ?? '')}`;
+	// Dynamic OG image per post — generated server-side by the /api/og endpoint.
+	// Derived so it tracks `data` across client-side navigations between posts.
+	const ogImageUrl = $derived(
+		`${PUBLIC_SITE_URL}/api/og?title=${encodeURIComponent(data.post.title)}&description=${encodeURIComponent(data.post.description ?? '')}`
+	);
+
+	/** Canonical URL for this post. */
+	const canonical = $derived(`${PUBLIC_SITE_URL}/${data.post.path}`);
 </script>
 
 <svelte:head>
 	<title>{data.post.title} | devlog</title>
 	<meta name="description" content={data.post.description} />
+	<link rel="canonical" href={canonical} />
+	<meta property="og:url" content={canonical} />
 	<meta property="og:title" content="{data.post.title} | devlog" />
 	<meta property="og:description" content={data.post.description} />
 	<meta property="og:image" content={ogImageUrl} />
