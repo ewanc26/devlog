@@ -7,7 +7,9 @@ export function formatDate(dateStr: string, timeStr?: string): string {
 	if (!dateStr) return '';
 
 	// Build the full datetime string for parsing
-	const datetime = timeStr ? `${dateStr}T${timeStr}:00Z` : dateStr;
+	// timeStr may already include seconds (HH:MM:SS) from a full ISO date
+	const hasSeconds = timeStr ? timeStr.split(':').length === 3 : false;
+	const datetime = timeStr ? `${dateStr}T${timeStr}${hasSeconds ? 'Z' : ':00Z'}` : dateStr;
 	const date = new Date(datetime);
 	if (isNaN(date.getTime())) return dateStr;
 
