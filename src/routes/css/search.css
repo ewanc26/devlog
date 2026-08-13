@@ -27,7 +27,9 @@
   border-radius: 4px;
   color: var(--color-text);
   outline: none;
-  transition: border-color 0.15s, box-shadow 0.15s;
+  transition:
+    border-color 0.15s,
+    box-shadow 0.15s;
 }
 
 .search-input::placeholder {
@@ -68,7 +70,9 @@
 .search-tag {
   cursor: pointer;
   border: none;
-  transition: opacity 0.15s, box-shadow 0.15s;
+  transition:
+    opacity 0.15s,
+    box-shadow 0.15s;
   opacity: 0.65;
 }
 
@@ -85,4 +89,19 @@
   margin-left: 0.35em;
   font-size: 0.85em;
   opacity: 0.6;
+}
+
+.search-tags-more {
+  font-family: var(--font-mono);
+  font-size: 0.72em;
+  color: var(--color-dim);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.3em 0.2em;
+  transition: color 0.15s;
+}
+
+.search-tags-more:hover {
+  color: var(--color-accent);
 }
