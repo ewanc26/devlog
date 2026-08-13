@@ -23,6 +23,26 @@
 	}
 
 	const hasFilter = $derived(query.length > 0 || activeTag.length > 0);
+
+	// The tag cloud grows with every post ever written (190+ and counting) --
+	// showing all of them turns the page header into a wall of chips before
+	// any actual content. Cap it to the most-used tags; a toggle reveals the
+	// long tail for anyone who wants it. The active tag always stays visible
+	// even if it falls outside the cap, so clicking a chip never strands it.
+	const TAG_LIMIT = 20;
+	let expanded = $state(false);
+
+	const visibleTags = $derived.by(() => {
+		if (expanded || tags.length <= TAG_LIMIT) return tags;
+		const capped = tags.slice(0, TAG_LIMIT);
+		if (activeTag && !capped.some((t) => t.tag === activeTag)) {
+			const active = tags.find((t) => t.tag === activeTag);
+			if (active) capped.push(active);
+		}
+		return capped;
+	});
+
+	const hiddenCount = $derived(Math.max(0, tags.length - visibleTags.length));
 </script>
 
 <div class="search-bar">
@@ -43,7 +63,7 @@
 	</div>
 	{#if tags.length}
 		<div class="search-tags">
-			{#each tags as { tag, count } (tag)}
+			{#each visibleTags as { tag, count } (tag)}
 				<button
 					class="tag search-tag"
 					class:search-tag-active={activeTag === tag}
@@ -54,6 +74,15 @@
 					{tag}<span class="search-tag-count">{count}</span>
 				</button>
 			{/each}
+			{#if hiddenCount > 0}
+				<button class="search-tags-more" onclick={() => (expanded = true)}>
+					+{hiddenCount} more
+				</button>
+			{:else if expanded && tags.length > TAG_LIMIT}
+				<button class="search-tags-more" onclick={() => (expanded = false)}>
+					show fewer
+				</button>
+			{/if}
 		</div>
 	{/if}
 </div>
