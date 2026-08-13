@@ -4,6 +4,7 @@ description: The local Vercel CLI wasn't even installed, and most existing proje
 date: 2026-08-13T01:25:08Z
 tags: [vercel, tooling, infrastructure]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mswjanecq22l"
 ---
 
 ## Vercel CLI
