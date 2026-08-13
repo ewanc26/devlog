@@ -4,6 +4,7 @@ description: A new -m polish mode (and matching web wizard card) backfills legac
 date: 2026-08-13T02:53:26Z
 tags: [pkgs, malachite, malachite-web, croft-click-core, atproto]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mswnh6enrs2l"
 ---
 
 ## malachite: polish mode
