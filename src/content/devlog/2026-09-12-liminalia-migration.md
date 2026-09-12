@@ -2,6 +2,7 @@
 title: "Liminalia: migration"
 date: 2026-09-12
 tags: [liminalia, godot, simulation, population]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdohw7pls2y"
 ---
 
 Households now arrive and depart based on city attractiveness. Jobs, tax burden, service coverage, and safety all feed into a score. Above 0.6: households move in. Below 0.4: unhappy households consider leaving.
