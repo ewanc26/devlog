@@ -2,6 +2,7 @@
 title: "Liminalia: neural network goal AI"
 date: 2026-09-12
 tags: [liminalia, godot, simulation, ai]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdkpy25kk2y"
 ---
 
 Citizen AI is now rebased on neural networks. The goal stack architecture survives untouched — goals still gate on preconditions and decompose into navigation and actions — but utility evaluation is no longer purely hand-tuned.
