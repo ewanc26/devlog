@@ -1,7 +1,7 @@
 ---
 title: "Malachite: ATProto OAuth CLI and did:web Support"
 date: 2026-06-06
-description: Malachite gains OAuth-based CLI authentication for ATProto and did:web DID resolution, alongside a restructured web frontend.
+description: "Malachite gains OAuth-based CLI authentication for ATProto and did:web DID resolution, alongside a restructured web frontend."
 tags: [malachite, atproto, pkgs, authentication]
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mlen2qhzrt2s"
 ---

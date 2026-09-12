@@ -1,6 +1,6 @@
 ---
 title: Liminalia CLI game loop
-description: Interactive command-line interface for testing the simulation: per-crime sentences, reputation, city events, affinity, save/load.
+description: "Interactive command-line interface for testing the simulation: per-crime sentences, reputation, city events, affinity, save/load."
 date: 2026-09-12T12:00:00Z
 tags: [liminalia, godot, csharp, game]
 draft: false

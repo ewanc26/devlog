@@ -1,6 +1,6 @@
 ---
 title: wolfram grows a multi-tenant resolver, sheds storage, and builds for Wii U
-description: wolfram added a per-request repo/blob resolver for multi-tenant PDS use, moved storage ownership to MetalBear, hardened did:plc against the real PLC directory, and cross-compiles its XRPC server for Wii U.
+description: "wolfram added a per-request repo/blob resolver for multi-tenant PDS use, moved storage ownership to MetalBear, hardened did:plc against the real PLC directory, and cross-compiles its XRPC server for Wii U."
 date: 2026-07-29T11:29:00Z
 tags: [wolfram, atproto, c, sdk]
 draft: false
