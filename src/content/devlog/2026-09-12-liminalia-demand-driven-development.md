@@ -2,6 +2,7 @@
 title: "Liminalia: demand-driven development"
 date: 2026-09-12
 tags: [liminalia, godot, simulation, economy, design]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdpe6bco22y"
 ---
 
 Private developers now build where demand is high. Three readings on the standard 0-100 scale, computed once per simulated day: housing demand from unhoused households, commercial demand from consumer spending potential versus shop capacity, and job demand from unfilled positions across all businesses.
