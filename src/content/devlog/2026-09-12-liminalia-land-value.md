@@ -2,6 +2,7 @@
 title: "Liminalia: land value and building levels"
 date: 2026-09-12
 tags: [liminalia, godot, simulation, economy, design]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdq2g3xns2y"
 ---
 
 Land value is now node-level on the standard 0-100 scale, computed once per simulated day. Service proximity 40 (10 per civic service reachable within 300 seconds), park proximity 15, transit access 15 (spatial fold endpoints), congestion 30 — eroded by load on incident edges, and only earned by accessible nodes. An isolated node is not a quiet street; it is land nobody can reach.
