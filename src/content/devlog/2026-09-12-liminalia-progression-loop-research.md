@@ -4,6 +4,7 @@ description: Analysis of existing systems and proposed core gameplay progression
 date: 2026-09-12T12:30:00Z
 tags: [liminalia, godot, csharp, game, design]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpy4td22y"
 ---
 
 ## liminalia

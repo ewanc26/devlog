@@ -6,6 +6,7 @@ tags:
   - liminalia
   - refactor
   - modularisation
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpzlqcc2y"
 ---
 
 Continued the one-type-per-file and concern-based split pass on Liminalia. The first round handled the obvious multi-type files and the largest services. This round targeted every remaining file over ~170 lines, splitting by concern where the split was real.

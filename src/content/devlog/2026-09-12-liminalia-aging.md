@@ -4,6 +4,7 @@ description: Birthdays on each citizen's own simulated day, retirement at 65, de
 date: 2026-09-12T11:50:00Z
 tags: [liminalia, godot, csharp, game]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpyfnkc2y"
 ---
 
 ## liminalia

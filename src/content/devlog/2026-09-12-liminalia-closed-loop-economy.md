@@ -4,6 +4,7 @@ description: Actions carry economics — meals cost money and work is tiring —
 date: 2026-09-12T09:16:00Z
 tags: [liminalia, godot, csharp, game]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpz5o422y"
 ---
 
 ## liminalia

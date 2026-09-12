@@ -4,6 +4,7 @@ description: Untreated illness and fire now kill, not just old age. Burglary and
 date: 2026-09-12T12:55:00Z
 tags: [liminalia, godot, csharp, game]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpxyoj22y"
 ---
 
 ## liminalia

@@ -4,6 +4,7 @@ description: Edge-exact routes, re-planning on edge removal, and return-safe rou
 date: 2026-09-12T08:28:51Z
 tags: [liminalia, godot, csharp, game]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpzboz22y"
 ---
 
 ## liminalia

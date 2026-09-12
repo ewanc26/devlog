@@ -4,6 +4,7 @@ description: Fold crossings now charge a toll, tolls are per-fold and player-set
 date: 2026-09-12T08:48:51Z
 tags: [liminalia, godot, csharp, game]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpz7qj22y"
 ---
 
 ## liminalia

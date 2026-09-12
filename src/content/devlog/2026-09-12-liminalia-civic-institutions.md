@@ -4,6 +4,7 @@ description: Hospitals, fire stations and police stations are placeable, staff t
 date: 2026-09-12T10:00:00Z
 tags: [liminalia, godot, csharp, game]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpyxmqk2y"
 ---
 
 ## liminalia

@@ -4,6 +4,7 @@ description: Population milestones raise events, logged in the city event log.
 date: 2026-09-12T13:30:00Z
 tags: [liminalia, godot, csharp, game]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpxne7c2y"
 ---
 
 ## liminalia

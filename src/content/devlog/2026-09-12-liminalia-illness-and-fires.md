@@ -4,6 +4,7 @@ description: Hunger, exhaustion and age make citizens ill; doctors dispatch from
 date: 2026-09-12T10:25:00Z
 tags: [liminalia, godot, csharp, game]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpytgxc2y"
 ---
 
 ## liminalia

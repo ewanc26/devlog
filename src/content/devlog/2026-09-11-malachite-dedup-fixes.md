@@ -4,6 +4,7 @@ description: A 102,677-record audit of the Teal dataset found 3,395 duplicates w
 date: 2026-09-11T08:55:00Z
 tags: [pkgs, malachite, croft-click-core, teal, atproto, typescript]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjq23rxs2y"
 ---
 
 ## pkgs

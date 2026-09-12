@@ -4,6 +4,7 @@ description: One type per file across the whole codebase — split multi-type fi
 date: 2026-09-12T13:05:00Z
 tags: [liminalia, godot, csharp, refactoring]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpxrxo22y"
 ---
 
 ## liminalia

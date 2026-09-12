@@ -4,6 +4,7 @@ description: "A full day is now exactly 2000 fixed ticks — 100 real seconds at
 date: 2026-09-12T15:30:00Z
 tags: [liminalia, godot, csharp, simulation]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpx6fos2y"
 ---
 
 ## liminalia

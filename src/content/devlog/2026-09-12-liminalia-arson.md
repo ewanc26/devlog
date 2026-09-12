@@ -4,6 +4,7 @@ description: Desperate citizens with nothing to steal now burn buildings instead
 date: 2026-09-12T11:35:00Z
 tags: [liminalia, godot, csharp, game]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpyhpxc2y"
 ---
 
 ## liminalia

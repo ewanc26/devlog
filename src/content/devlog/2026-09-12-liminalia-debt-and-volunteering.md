@@ -4,6 +4,7 @@ description: Charges citizens cannot pay become debt; wages are garnished toward
 date: 2026-09-12T09:45:00Z
 tags: [liminalia, godot, csharp, game]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpyzo6c2y"
 ---
 
 ## liminalia
