@@ -1,6 +1,6 @@
 ---
 title: MetalBear gets a local dev instance and fixes its own did:web self-resolution
-description: Standing up a real localhost-only PDS surfaced two bugs -- did:web never resolved its own DID document when the DID encoded a port, and account creation had no way to avoid minting a real did:plc on the live PLC directory. Both fixed. 0.39.0 to 0.39.1.
+description: "Standing up a real localhost-only PDS surfaced two bugs -- did:web never resolved its own DID document when the DID encoded a port, and account creation had no way to avoid minting a real did:plc on the live PLC directory. Both fixed. 0.39.0 to 0.39.1."
 date: 2026-08-13T00:24:58Z
 tags: [metalbear, atproto, pds, c, tooling]
 draft: false
