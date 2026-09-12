@@ -2,6 +2,7 @@
 title: "Liminalia: allocation-free neural goal AI"
 date: 2026-09-12
 tags: [liminalia, godot, simulation, ai, performance]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdl4wgte22y"
 ---
 
 The neural goal AI allocated on every evaluation: fresh arrays per forward pass, three candidate lists per goal selection, a pending record per completed goal. At city scale that is steady GC pressure in the per-citizen tick loop, exactly where a simulation can least afford it.
