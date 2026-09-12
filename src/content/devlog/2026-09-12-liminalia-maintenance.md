@@ -2,6 +2,7 @@
 title: "Liminalia: maintenance costs"
 date: 2026-09-12
 tags: [liminalia, godot, simulation, economy, design]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdqlepeks2y"
 ---
 
 Infrastructure now bills the treasury daily. Every road edge costs 20/day — folds and transit edges cost the same; the city maintains whatever it built. Civic buildings cost by type: parks 10, police and fire 80, schools 90, hospitals 100. Homes, workplaces and shops cost nothing — privately maintained, upkeep is not another tax on residents.
