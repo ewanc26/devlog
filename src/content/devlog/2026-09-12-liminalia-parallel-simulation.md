@@ -2,6 +2,7 @@
 title: "Liminalia: parallel citizen simulation"
 date: 2026-09-12
 tags: [liminalia, godot, simulation, performance, threading]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdnpaazms2y"
 ---
 
 Citizen ticks now run in parallel across every available core. Services stay sequential — crime, health and aging have cross-citizen dependencies that must settle first — then the per-citizen phase (needs, goals, movement) fans out through Parallel.ForEach.
