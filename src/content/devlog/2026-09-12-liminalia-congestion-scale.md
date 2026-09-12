@@ -2,6 +2,7 @@
 title: "Liminalia: congestion and the 0-100 scale"
 date: 2026-09-12
 tags: [liminalia, godot, simulation, traffic, design]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdp46fvls2y"
 ---
 
 Edges now carry congestion. Every citizen crossing increments an atomic load counter — same fixed-point-bits pattern as the treasury — and effective travel cost scales with it. Routing already weighed travel cost, so congestion steers new routes with zero routing changes. A decay service halves load each hour so the network recovers when traffic subsides.
