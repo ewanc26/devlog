@@ -2,6 +2,7 @@
 title: "Liminalia: hatred-weighted estates and death cleanup"
 date: 2026-09-12
 tags: [liminalia, godot, simulation]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpzxeek2y"
 ---
 
 Death now settles estates properly. The old behaviour pooled the deceased's money into the household pot; the new one distributes it to the surviving household members directly. Each claimant's share is weighted by their affinity for the deceased, reduced by 0.5 per point of tracked hatred, floored at 0.1 — a hated kin still inherits a sliver, a loved one inherits most. Debt settles from assets first; a negative net estate leaves nothing and debt never passes to the family. No surviving claimants escheats to the treasury.

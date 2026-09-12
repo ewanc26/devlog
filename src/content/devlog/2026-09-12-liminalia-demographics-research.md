@@ -4,6 +4,7 @@ description: What a demographics report needs to show for a city-builder — the
 date: 2026-09-12T12:30:00Z
 tags: [liminalia, godot, csharp, game, research]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpy7ibs2y"
 ---
 
 ## liminalia

@@ -4,6 +4,7 @@ description: landing-ui gained 16px form inputs to stop iOS focus zoom, reduced-
 date: 2026-09-10T12:36:00Z
 tags: [pkgs, landing-ui, jasper-web, opal-web, bismuth-web, design, mobile, typescript]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjq26snk2y"
 ---
 
 ## pkgs

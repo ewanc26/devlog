@@ -4,6 +4,7 @@ description: Rivals forced to share a node build hatred, and hatred kills. Murde
 date: 2026-09-12T13:30:00Z
 tags: [liminalia, godot, csharp, game]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpxjcd22y"
 ---
 
 ## liminalia

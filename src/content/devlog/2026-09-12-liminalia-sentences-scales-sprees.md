@@ -4,6 +4,7 @@ description: Per-crime sentences replace the flat fine, affinity and education m
 date: 2026-09-12T11:30:00Z
 tags: [liminalia, godot, csharp, game]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpyjxak2y"
 ---
 
 ## liminalia

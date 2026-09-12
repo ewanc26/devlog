@@ -4,6 +4,7 @@ description: Centralised the simulation's reused systems — service ownership a
 date: 2026-09-12T13:30:00Z
 tags: [liminalia, godot, csharp, architecture]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpxpx7k2y"
 ---
 
 ## liminalia

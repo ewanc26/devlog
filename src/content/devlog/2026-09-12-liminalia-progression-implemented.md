@@ -4,6 +4,7 @@ description: Population-based difficulty multiplier across crime, health, and fi
 date: 2026-09-12T13:00:00Z
 tags: [liminalia, godot, csharp, game]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpxwec22y"
 ---
 
 ## liminalia

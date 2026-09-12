@@ -4,6 +4,7 @@ description: "Citizens born in the simulation now record their parents, and kin 
 date: 2026-09-12T16:21:00Z
 tags: [liminalia, godot, csharp, simulation]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpwuhdc2y"
 ---
 
 ## liminalia

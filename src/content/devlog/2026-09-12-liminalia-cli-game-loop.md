@@ -4,6 +4,7 @@ description: "Interactive command-line interface for testing the simulation: per
 date: 2026-09-12T12:00:00Z
 tags: [liminalia, godot, csharp, game]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpydry22y"
 ---
 
 ## liminalia

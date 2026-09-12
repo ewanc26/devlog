@@ -4,6 +4,7 @@ description: Recreation and Comfort stop being dead needs — parks are the only
 date: 2026-09-12T10:35:00Z
 tags: [liminalia, godot, csharp, game]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpyr7o22y"
 ---
 
 ## liminalia

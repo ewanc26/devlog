@@ -4,6 +4,7 @@ description: Deterministic seeding for random city events — fixed a 1-in-10 su
 date: 2026-09-12T13:00:00Z
 tags: [liminalia, godot, csharp, testing]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpxufs22y"
 ---
 
 ## liminalia

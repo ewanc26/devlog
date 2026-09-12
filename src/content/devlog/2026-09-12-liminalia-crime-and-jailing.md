@@ -4,6 +4,7 @@ description: Distress drives crime — debt, unemployment, hunger and poverty ac
 date: 2026-09-12T10:10:00Z
 tags: [liminalia, godot, csharp, game]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpyvfhc2y"
 ---
 
 ## liminalia

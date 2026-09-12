@@ -4,6 +4,7 @@ description: Income tax was counted and then dropped — every wage cycle silent
 date: 2026-09-12T10:45:00Z
 tags: [liminalia, godot, csharp, game]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpyovh22y"
 ---
 
 ## liminalia

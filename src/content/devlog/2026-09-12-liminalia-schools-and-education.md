@@ -4,6 +4,7 @@ description: Teacher was the one job with a wage and no way to be hired. Schools
 date: 2026-09-12T10:55:00Z
 tags: [liminalia, godot, csharp, game]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpyms2s2y"
 ---
 
 ## liminalia

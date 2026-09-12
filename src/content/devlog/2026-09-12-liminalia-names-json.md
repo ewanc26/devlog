@@ -4,6 +4,7 @@ description: "The 33 name pools leave the C# and live in names.json as an embedd
 date: 2026-09-12T16:20:00Z
 tags: [liminalia, godot, csharp, simulation]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvdjpwwkpk2y"
 ---
 
 ## liminalia
