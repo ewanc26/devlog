@@ -69,26 +69,30 @@ This creates the player's core engagement: **build the right institutions before
 
 ### implementation direction
 
-1. **Population counter**: track total citizens, display as "population." Already available (`world.Citizens.Count`).
-2. **Population milestones**: tie challenge thresholds to population ranges:
-   - 0-15: founding (crime pressure 1x)
-   - 16-30: growth (crime pressure 1.5x)
-   - 31-50: maturation (crime pressure 2x)
-   - 50+: flourishing (crime pressure 3x)
-3. **Treasury as progress metric**: treasury balance shows city health. Below 0 = city deficit (emergency).
-4. **Day cycle**: each simulated day = one full service tick. Player reviews city state daily and issues commands.
+1. **Population counter**: track total citizens (`world.Citizens.Count`).
+2. **Difficulty multiplier** in CrimeService, HealthService, FireService, tied to population milestones:
+   - 0-30: founding (1x)
+   - 31-60: growth (1.5x)
+   - 61-100: maturation (2x)
+   - 100+: flourishing (3x)
+3. Multiplier applies to:
+   - Crime pressure rate (`CrimeService.AccumulatePressure`)
+   - Illness onset rate (`HealthService.Accumulate`)
+   - Fire ignition chance (`FireService.StartFires`)
+4. **Treasury as progress metric**: treasury balance shows city health. Below 0 = city deficit (emergency).
+5. **Day cycle**: each simulated day = one full service tick. Player reviews city state daily and issues commands.
 
 ### data model for progression
 
 Add to `SimulationWorld`:
 
 ```csharp
-public int Population => _citizens.Count;
+public int Population => Citizens.Count;
 public double CityDifficulty => Population switch
 {
-    <= 15 => 1.0,
-    <= 30 => 1.5,
-    <= 50 => 2.0,
+    <= 30 => 1.0,
+    <= 60 => 1.5,
+    <= 100 => 2.0,
     _ => 3.0
 };
 ```
