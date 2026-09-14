@@ -4,6 +4,7 @@ description: Added a content-negotiated /cv route serving the same AT Protocol r
 date: 2026-09-14T21:43:00Z
 tags: [website, cv, terminal, atproto, sifa]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvj3f2d6es2y"
 ---
 
 ## website
