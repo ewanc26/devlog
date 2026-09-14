@@ -4,6 +4,7 @@ description: The standalone HTML landing page for the terminal CV didn't match t
 date: 2026-09-14T21:55:00Z
 tags: [website, cv, design-system, sveltekit]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvj3v3zuhk2y"
 ---
 
 ## website
