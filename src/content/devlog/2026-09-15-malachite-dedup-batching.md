@@ -4,6 +4,7 @@ description: removeDuplicateRecords in croft-click-core now batches dedup deleti
 date: 2026-09-15T22:55:00+01:00
 tags: [pkgs, malachite, croft-click-core, teal, atproto, typescript]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvlppd3lic2y"
 ---
 
 ## pkgs
