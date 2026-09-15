@@ -4,6 +4,7 @@ description: The CV landing page was too cramped — moved from the narrow shell
 date: 2026-09-14T21:58:00Z
 tags: [website, cv, layout]
 draft: false
+atUri: at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvj46k5yds2y
 ---
 
 ## website
