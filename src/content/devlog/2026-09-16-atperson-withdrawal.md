@@ -4,6 +4,7 @@ description: "atperson gains ATP_LEDGER_OUTCOME_WITHDRAWN and atperson withdraw 
 date: 2026-09-16T05:40:00+01:00
 tags: [atperson, c23, persistence]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvmcsvgzf22y"
 ---
 
 ## atperson
