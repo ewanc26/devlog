@@ -4,6 +4,7 @@ description: atperson sync now consumes bounded multi-page timeline catch-ups th
 date: 2026-09-16T04:10:00+01:00
 tags: [atperson, wolfram, atproto, c23, cpp23, ci]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvm62ohesk2y"
 ---
 
 ## atperson
@@ -31,3 +32,5 @@ New CLI: `sync [max-pages]` (page size via `ATPERSON_SYNC_PAGE_SIZE`), `cursor s
 cJSON (the parser Wolfram already uses) is now fetched unconditionally so the runtime layer builds and tests without the network stack; the network build reuses the same FetchContent.
 
 18 new offline tests cover the format (round trip, malformed JSON, unsupported version, impossible field combinations, source mismatch, leftover `.tmp` never winning) and the restart semantics (active cursor survives restart, exhaustion clears cursor, transport failure keeps the old cursor, mid-page processing failure doesn't advance, refetch deduplicates via the ledger, state operations never mutate learned state). Core-only and Wolfram-backed builds both pass 29/29. Issue #19 closed; roadmap #29 updated.
+
+One CI follow-up: cJSON's `bool` macro broke the Linux Clang and ASan jobs under `-Werror` — fixed with the same `-Wno-keyword-macro` flag Wolfram's build applies to its own cJSON dependency.
