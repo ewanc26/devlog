@@ -4,6 +4,7 @@ description: "Token identity is now a schema-versioned contract — NFKC_Casefol
 date: 2026-09-16
 tags: [atperson, c, release]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvmjgybq522y"
 ---
 
 atperson `807893a` — Unicode normalization and tokenization semantics (issue #8).
