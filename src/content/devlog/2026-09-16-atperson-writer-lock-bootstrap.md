@@ -4,6 +4,7 @@ description: atperson mutating commands now take an exclusive writer lock on the
 date: 2026-09-16T04:35:00+01:00
 tags: [atperson, c23, cpp23, ci]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvm7apq7222y"
 ---
 
 ## atperson
