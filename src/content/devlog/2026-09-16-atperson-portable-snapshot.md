@@ -4,6 +4,7 @@ description: atperson snapshots are now a portable binary format — little-endi
 date: 2026-09-16T05:15:00+01:00
 tags: [atperson, c23, cpp23, ci]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvmen27n4k2y"
 ---
 
 ## atperson
