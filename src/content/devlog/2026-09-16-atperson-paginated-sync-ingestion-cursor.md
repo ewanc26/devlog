@@ -33,4 +33,4 @@ cJSON (the parser Wolfram already uses) is now fetched unconditionally so the ru
 
 18 new offline tests cover the format (round trip, malformed JSON, unsupported version, impossible field combinations, source mismatch, leftover `.tmp` never winning) and the restart semantics (active cursor survives restart, exhaustion clears cursor, transport failure keeps the old cursor, mid-page processing failure doesn't advance, refetch deduplicates via the ledger, state operations never mutate learned state). Core-only and Wolfram-backed builds both pass 29/29. Issue #19 closed; roadmap #29 updated.
 
-One CI follow-up: cJSON's `bool` macro broke the Linux Clang and ASan jobs under `-Werror` — fixed with the same `-Wno-keyword-macro` flag Wolfram's build applies to its own cJSON dependency.
+One CI follow-up: cJSON's `bool` macro broke the Linux Clang and ASan jobs under `-Werror`. Two-part fix — the same `-Wno-keyword-macro` flag Wolfram's build applies to its own cJSON dependency, plus disabling cJSON's vendored test suite (it compiles `cJSON.c` without the suppression and duplicates parser coverage atperson's tests already exercise through real usage).
