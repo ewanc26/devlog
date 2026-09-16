@@ -4,6 +4,7 @@ description: "AGENTS.md now mandates modular atomic files with an explicit concu
 date: 2026-09-16
 tags: [atperson, c, release]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvmlzfn6gk2y"
 ---
 
 atperson `6efbb0f` + `94a41a8` — modularisation begins (issue #42).
