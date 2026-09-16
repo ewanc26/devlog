@@ -4,6 +4,7 @@ description: atperson now runs every fetched timeline record through a reviewabl
 date: 2026-09-16T04:45:00+01:00
 tags: [atperson, c23, cpp23, safety]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvm7onsq722y"
 ---
 
 ## atperson
