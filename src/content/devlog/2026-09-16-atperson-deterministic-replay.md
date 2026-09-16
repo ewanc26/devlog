@@ -4,6 +4,7 @@ description: "atperson gains atp_replay_ledger and an atperson rebuild command â
 date: 2026-09-16T05:15:00+01:00
 tags: [atperson, c23, persistence]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvmbmytiik2y"
 ---
 
 ## atperson
