@@ -4,6 +4,7 @@ description: atperson's observation ledger moves to format v2 — entry records 
 date: 2026-09-16T05:00:00+01:00
 tags: [atperson, c23, persistence]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvmaqrcrhk2y"
 ---
 
 ## atperson
