@@ -4,6 +4,7 @@ description: "Node and edge lookup is now O(1) via hash indexes, with configurab
 date: 2026-09-16
 tags: [atperson, c, release]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvmkpcsbfc2y"
 ---
 
 atperson `e048c3e` — graph growth bounds and scale benchmarks (issue #9).
