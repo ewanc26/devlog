@@ -4,6 +4,7 @@ description: "The observation ledger can now be compacted atomically — patches
 date: 2026-09-16
 tags: [atperson, c, release]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvmiatuqt22y"
 ---
 
 atperson `8d49a76` — safe ledger compaction and checkpointing (issue #7).
