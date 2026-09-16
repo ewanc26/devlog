@@ -4,6 +4,7 @@ description: "Replay and snapshot load now refuse foreign learning schemas with 
 date: 2026-09-16
 tags: [atperson, c, release]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvmgws6zac2y"
 ---
 
 atperson `81aace8` — learning-schema compatibility for replay across algorithm changes (issue #6).
