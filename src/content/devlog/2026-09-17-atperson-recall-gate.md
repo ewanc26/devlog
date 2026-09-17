@@ -2,6 +2,7 @@
 title: "atperson: evidence-gated recall"
 date: 2026-09-17
 tags: [atperson, c, issue-58]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvqkknocrs2y"
 ---
 
 Implemented issue #58: evidence-gated recall and tunable planning abstention.
