@@ -4,6 +4,7 @@ description: "The flat C++23 runtime implementation units and private headers no
 date: 2026-09-17
 tags: [atperson, cpp, release]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvpqgdhc3k2y"
 ---
 
 atperson `6b8c624` and `b399c1d` continue issue #42 by moving the remaining flat compound C++23 runtime modules into scope directories.

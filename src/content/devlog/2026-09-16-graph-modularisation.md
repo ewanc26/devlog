@@ -4,6 +4,7 @@ description: "graph.c (1223 lines, five concerns mashed together) is split into 
 date: 2026-09-16
 tags: [atperson, c, release]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvpqgdosd22y"
 ---
 
 atperson `d232d3d` — the second split under issue #42, closing out the `graph.c` refactor.

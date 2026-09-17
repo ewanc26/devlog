@@ -4,6 +4,7 @@ description: "The 500-line command/runtime composition unit is now process boots
 date: 2026-09-17
 tags: [atperson, cpp, release]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvpqgdkxbk2y"
 ---
 
 atperson `96a3c66` closes the last remaining monolith from issue #42's checklist: `src/app/main.cpp` no longer combines environment helpers, path resolution, usage text, and seventeen command bodies in one translation unit.
