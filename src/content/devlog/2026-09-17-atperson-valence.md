@@ -2,6 +2,7 @@
 title: "atperson: experience-derived valence"
 date: 2026-09-17
 tags: [atperson, c, issue-13]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvpvan4wqs2y"
 ---
 
 Implemented issue #13: per-token valence state learned from explicit events.
