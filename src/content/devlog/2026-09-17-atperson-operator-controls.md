@@ -2,6 +2,7 @@
 title: "atperson: operator controls and approval gates"
 date: 2026-09-17
 tags: [atperson, cpp, runtime]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvpy7n344k2y"
 ---
 
 atperson now has an operator control surface (#22). Before this, the runtime had read-only commands and mutating ingest/sync, but nothing an operator could use to bound what a future autonomous entity might do.
