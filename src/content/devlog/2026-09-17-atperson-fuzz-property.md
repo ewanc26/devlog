@@ -39,3 +39,10 @@ convergence to directly-observed state.
 CI gains a bounded smoke-fuzz job (30s per target) that runs alongside
 the existing matrix without slowing ordinary checks. Both ordinary
 configurations pass 34/34.
+
+Follow-up (`e60a18a`): the first CI run failed to compile the fuzz
+targets on Linux — glibc's strict C hides `mkstemp`/`fdopen` without a
+feature-test macro, and macOS headers expose them by default, so the
+local build passed. The targets now carry the same
+`_POSIX_C_SOURCE=200809L` definition the core library already uses, and
+the smoke job builds only the three fuzzers instead of the full tree.
