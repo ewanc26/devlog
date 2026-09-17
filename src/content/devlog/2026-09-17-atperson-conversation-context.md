@@ -2,6 +2,7 @@
 title: "atperson: conversation and reply context"
 date: 2026-09-17
 tags: [atperson, c, issue-24]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvpwq3jpl22y"
 ---
 
 Implemented issue #24: every observation now carries its conversational position as first-class metadata.
