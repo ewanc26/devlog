@@ -3,6 +3,7 @@ title: atperson — fuzz and property harnesses
 description: libFuzzer targets for snapshot, ledger, and tokenizer boundaries plus deterministic round-trip property tests.
 date: 2026-09-17
 tags: [atperson, testing, fuzzing, libfuzzer, c23]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvptjxfj622y"
 ---
 
 Issue #11 landed (`eb67ffe`): fuzz and property testing for the binary
