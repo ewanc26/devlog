@@ -2,6 +2,7 @@
 title: "atperson: journal map"
 date: 2026-09-17
 tags: [atperson, cpp, issue-56]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvqjictqn22y"
 ---
 
 Implemented issue #56: explicit outcome-to-valence mapping for the action/outcome journal.
