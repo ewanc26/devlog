@@ -3,6 +3,7 @@ title: atperson — scoped private-header atom names
 description: Shortened redundant scoped private-header names and closed the modularisation issue.
 date: 2026-09-17
 tags: [atperson, refactor, c23, cpp23]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvpri2svo22y"
 ---
 
 Closed issue #42 (modularisation). The last two items:
