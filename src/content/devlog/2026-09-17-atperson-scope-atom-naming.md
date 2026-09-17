@@ -2,6 +2,7 @@
 title: "atperson: scope/atom file convention"
 date: 2026-09-17
 tags: [atperson, c, refactor]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvpxfbnsvc2y"
 ---
 
 Dropped every underscored file name in atperson. The tree now follows `<scope>/<atom>.{c,h,cpp,hpp}` throughout: the directory is the scope, the file is a single-word atom.
