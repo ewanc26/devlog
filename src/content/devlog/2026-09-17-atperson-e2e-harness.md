@@ -3,6 +3,7 @@ title: atperson — deterministic e2e lifecycle harness
 description: Scripted-feed scenario harness for multi-run lifecycles, crash recovery, withdrawal, and cross-run determinism.
 date: 2026-09-17
 tags: [atperson, testing, c23, cpp23]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mvpqtqlnn22y"
 ---
 
 Added `tests/e2e_harness.cpp` (issue #28): a deterministic end-to-end
