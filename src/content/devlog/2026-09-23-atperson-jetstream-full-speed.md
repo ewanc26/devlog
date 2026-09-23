@@ -4,6 +4,7 @@ description: Drain readable frames in one batch, account max-events across batch
 date: 2026-09-23
 tags: [atperson, jetstream, atproto, performance, c]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mw7no5erm52y"
 ---
 
 Live Jetstream ingestion ran at a fraction of the achievable rate: a 200k-event catch-up session observed 5 frames in 60 seconds. Three transport changes close that gap.
