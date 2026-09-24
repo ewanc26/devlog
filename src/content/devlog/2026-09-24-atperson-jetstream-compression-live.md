@@ -4,6 +4,7 @@ description: Fix the v2 compress handshake and dictionary URL, rename the projec
 date: 2026-09-24
 tags: [atperson, jetstream, atproto, wolfram, c]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mwbb4lqt7n2y"
 ---
 
 The full-speed jetstream work connected but rejected every frame once compression was requested. Two bugs, one in each repo.
