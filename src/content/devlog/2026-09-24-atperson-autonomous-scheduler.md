@@ -4,6 +4,7 @@ description: Bounded decision-to-execution cycles after perception, composing th
 date: 2026-09-24
 tags: [atperson, scheduler, autonomy, atproto, cpp]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mwbdrgtffn2y"
 ---
 
 The daemon ran only the perception half of the agent loop. Issue #140 adds the scheduling half: after each bounded perception cycle, the runtime can now decide, propose and execute — through the same gates, never around them.

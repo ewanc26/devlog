@@ -4,6 +4,7 @@ description: A self-contained offline training environment with fixtures and a s
 date: 2026-09-24
 tags: [atperson, sandbox, testing, c]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mwbdrgpq7n2y"
 ---
 
 atperson's training behaviour was only verifiable with a live PDS or hand-built state directories. There is now an offline sandbox that boots a fresh training home from fixtures and walks a full scenario without any network.
