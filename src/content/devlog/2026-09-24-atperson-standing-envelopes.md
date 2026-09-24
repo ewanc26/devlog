@@ -4,6 +4,7 @@ description: Bounded operator pre-approval for outbound actions that composes wi
 date: 2026-09-24
 tags: [atperson, autonomy, security, c]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mwbge23wi52y"
 ---
 
 Per-digest approval meant the operator signed off on the exact action text or nothing ran. For recurring action classes that round trip is pure overhead. atperson now has standing authorization envelopes: the operator pre-approves a bounded class of actions, and the control gate passes when the exact digest is approved or an envelope covers the action at execution time.
