@@ -4,6 +4,7 @@ description: Archive host binding, sealed-tip probe and exhaustion signal fixes 
 date: 2026-09-24
 tags: [atperson, jetstream, wolfram, c]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mwccphuxwn2y"
 ---
 
 The year-back Jetstream archive backfill (#144) was blocked by three archive replay bugs and two upstream wolfram bugs. All fixed; the backfill now sweeps 10M-sequence windows from zero to the sealed tip (26,292,300,745).
