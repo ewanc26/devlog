@@ -4,6 +4,7 @@ description: The daemon beats a heartbeat every cycle and autonomy health gives 
 date: 2026-09-24
 tags: [atperson, autonomy, ops, c]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mwcjc64vhf2y"
 ---
 
 The first slice of persistent hosting: a watchdog can now tell a live daemon from a hung one, without a shell.
