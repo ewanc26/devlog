@@ -4,6 +4,7 @@ description: Pin to wolfram 50fefa4 and translate WF_ERR_AUTH into a fail-fast e
 date: 2026-09-25
 tags: [atperson, wolfram, jetstream, c]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mwdliazuh52y"
 ---
 
 The follow-through from wolfram #56: the atperson FetchContent pin moves from 43e245e to 50fefa4, picking up the kind-7 decoder fix and the WF_ERR_AUTH status. The replay client now maps that status to a distinct error instead of the generic transport failure.
