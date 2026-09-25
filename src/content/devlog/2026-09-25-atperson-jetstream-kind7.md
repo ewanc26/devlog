@@ -4,6 +4,7 @@ description: Backfill blocker found and fixed — the archive decoder rejected c
 date: 2026-09-25
 tags: [atperson, wolfram, jetstream, c]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mwcmaoewhn2y"
 ---
 
 The backfill loop died at segment seg_00000005b0 and the first diagnosis — a dead archive token — was wrong. Block 705 of that segment decodes structurally perfectly: 3862 events, every column total exact. It fails because it contains 118 kind-7 rows, and kind 7 is `create_resync` — a commit create re-witnessed while the server rebuilt a repository slice. Wolfram's block decoder rejected any kind outside 1-6, an assumption baked in when the decoder was written, so one kind-7 row made the entire block undecodable.
