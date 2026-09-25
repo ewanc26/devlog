@@ -4,6 +4,7 @@ description: Every outbound record is spooled before the network call, offline m
 date: 2026-09-24
 tags: [atperson, autonomy, durability, c]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mwcix2sd2n2y"
 ---
 
 Network absence never loses or silently delays a record the entity created. atperson's outbound writes are now spool-first: the record is durably staged locally before any transport call, and removed only after a confirmed successful publish.
