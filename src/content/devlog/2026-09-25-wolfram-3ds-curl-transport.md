@@ -4,6 +4,7 @@ description: Route the 3DS target through the shared libcurl transport and back 
 date: 2026-09-25
 tags: [wolfram, atproto, c, sdk, 3ds]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mwefdiutgs26"
 ---
 
 Issue #30 asked to cross-build-verify the 3DS transport and crypto. The real defect was worse than the issue implied: the 3DS target was mis-wired to the libogc-only socket transport, so any executable linking `libwolfram.a` hit undefined `wii_tls_*` symbols — invisible inside the static archive, a hard link failure for consumers. The Wii U had already fixed this exact defect by switching to the shared curl transport; the 3DS now mirrors that.

@@ -4,6 +4,7 @@ description: Bound build parallelism to stop hosted-runner OOM kills on the netw
 date: 2026-09-25
 tags: [atperson, ci, c]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mwefdiybs226"
 ---
 
 Recent CI failures on main (runs 36087511878, 36085523282) and PR #171 (run 36128959450) were killed with exit 137/143 — runner OOM, not test failures. Unbounded `cmake --build` parallelism let GCC consume the entire 7 GB hosted-runner memory on the network job.
