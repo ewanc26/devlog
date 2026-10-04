@@ -4,6 +4,7 @@ description: Search results grow more pages as you scroll, closing issue #10
 date: 2026-10-04
 tags: [indigo, atproto, c, 3ds]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mx3kwo42rr23"
 ---
 
 Search stopped at its first page: a query, a profile's posts, a followers list — all returned twenty entries and no way to ask for more (issue #10). This adds paging to every search-kind that has a server cursor.
