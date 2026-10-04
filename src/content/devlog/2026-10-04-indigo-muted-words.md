@@ -4,6 +4,7 @@ description: Port Cobalt's muted-word and hide-reposts feed filtering to Indigo,
 date: 2026-10-04
 tags: [indigo, atproto, c, 3ds]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mx3kwo5kcw2l"
 ---
 
 The last Cobalt parity gap was feed filtering: Cobalt honours the account's saved muted words and the home timeline's hide-reposts preference (commit `d4c1686`, issue #106); Indigo did not. This ports the whole module.
