@@ -4,6 +4,7 @@ description: The post menu can now open a picture at full size on both screens, 
 date: 2026-10-04
 tags: [cobalt, atproto, c, wiiu]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mx3ow6tv3q2l"
 ---
 
 Images only ever rendered as thumbnails inside the card — a fraction of the TV's 720p, with no way to see the whole picture (issue #100). This adds a full-size viewer, opened from the post menu.
