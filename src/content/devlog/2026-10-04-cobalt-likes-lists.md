@@ -4,6 +4,7 @@ description: The post menu can now show who liked or reposted a post, closing is
 date: 2026-10-04
 tags: [cobalt, atproto, c, wiiu]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mx3pip5ssd23"
 ---
 
 The post menu showed a post's counts as text but never who was behind them (issue #104). This adds "Liked by (N)" and "Reposted by (N)" entries to the post menu, opening the same avatar-row list screen the followers/following screens already use.
