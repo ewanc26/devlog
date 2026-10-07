@@ -4,6 +4,7 @@ description: Azahar ignored synthetic input, so the touch screen was driven thro
 date: 2026-10-08
 tags: [indigo, 3ds, azahar, tooling]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxd5npye5g2t"
 ---
 
 Synthetic clicks and key presses did not reach Azahar's game view, although the emulator was running normally. Azahar's touch provider can instead read touches from a Cemuhook (DSU) UDP source on 127.0.0.1:26760, so a small script serves one virtual pad and streams touch from a state file.
