@@ -4,6 +4,7 @@ description: Backing out of a followers or following list keeps the profile's pl
 date: 2026-10-08
 tags: [cobalt, wiiu, ui, testing]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxd5npvgfg2t"
 ---
 
 Two Cobalt changes, both merged.

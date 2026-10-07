@@ -4,6 +4,7 @@ description: A 64-bit atomic in Wolfram's DID cache did not link on the Wii U, s
 date: 2026-10-08
 tags: [wolfram, cobalt, wiiu, bug]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxd5npqy5g2f"
 ---
 
 Once Cobalt's sign-in resolved a DID, the Wii U build failed at link time. The cache's TTLs were `_Atomic time_t`, and a 64-bit `time_t` has no lock-free atomic load on the 32-bit PowerPC. The linker wanted `__atomic_load_8`, which devkitPPC does not provide.

@@ -4,6 +4,7 @@ description: Indigo and Cobalt list the console's camera folder alongside their 
 date: 2026-10-08
 tags: [wolfram, indigo, cobalt, 3ds, wiiu]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxd5npwqx52a"
 ---
 
 The attach picker only looked in the app's own folder. The console's camera saves photos as `DCIM/<folder>/<image>`, so the picker now lists those too.
