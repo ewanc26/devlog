@@ -4,6 +4,7 @@ description: Replies, media and likes tabs are one Wolfram module now, used by C
 date: 2026-10-07
 tags: [wolfram, cobalt, indigo, atproto, c]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxcyatmvvv2a"
 ---
 
 Cobalt had its own copy of the profile tabs: names, filters and the cycle order. Indigo only showed a person's posts. The tabs are now one Wolfram module, and both clients call it.

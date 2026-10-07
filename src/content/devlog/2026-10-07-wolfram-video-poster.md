@@ -4,6 +4,7 @@ description: wf_post_display and wf_post_embed now carry a video embed's poster,
 date: 2026-10-07
 tags: [wolfram, atproto, c, video]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxcyatkngm2f"
 ---
 
 Clients could only show a video post as a one-line note. Wolfram now reads the poster frame, its alt text and its declared aspect ratio from an `app.bsky.embed.video#view`, in both `wf_post_display` and `wf_post_embed`.
