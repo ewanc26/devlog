@@ -4,6 +4,7 @@ description: Discovery falls back to the typed host when it can't resolve the ac
 date: 2026-10-08
 tags: [wolfram, cobalt, indigo, platinum, atproto]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxd5npsnjo2t"
 ---
 
 Yesterday's entry described sign-in discovery. Two things changed after it.

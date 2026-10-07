@@ -4,6 +4,7 @@ description: The session and settings codecs read lines the same way now, and a 
 date: 2026-10-08
 tags: [indigo, refactor, 3ds]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxd5npu25p2v"
 ---
 
 The session and settings codecs each had their own line reader and their own break check. They share one now, in a small header, and the test-only settings clear is gone ([#75](https://github.com/ewanc26/indigo/pull/75), merged). The code change is roughly neutral in size.
