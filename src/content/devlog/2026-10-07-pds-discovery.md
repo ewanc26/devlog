@@ -4,6 +4,7 @@ description: Wolfram resolves the account's PDS from its handle, and the clients
 date: 2026-10-07
 tags: [wolfram, cobalt, indigo, platinum, atproto]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxcyatoild2k"
 ---
 
 Signing in used to send the login to the host the user typed. An account on another PDS would fail, unless the user knew where it was hosted. Now the handle is resolved, the DID document's `#atproto_pds` endpoint is read, and the login goes there.
