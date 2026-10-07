@@ -4,6 +4,7 @@ description: Four repos had merge commits on main from before protection. Their 
 date: 2026-10-07
 tags: [repository, git, process]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxcyatrfe32k"
 ---
 
 Branch protection was set to require linear history, but four `main` branches already had merge commits from before it was on. The rule is that main stays linear: rebase merges only, no force-pushes to a branch that is not being rebuilt.
