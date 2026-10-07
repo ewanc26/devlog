@@ -4,6 +4,7 @@ description: On the top screen the hint text ran into the counter; it is drawn s
 date: 2026-10-07
 tags: [indigo, 3ds, ui]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxcyatpxhd2k"
 ---
 
 On the timeline header the hint text ("B Menu SEL Reload START Exit") ran into the post counter ("1 / 15+") on the top screen. The layout estimates the hint's width too narrowly, so the hint is now drawn at scale 0.45 instead of 0.5, with its end computed at the same scale.

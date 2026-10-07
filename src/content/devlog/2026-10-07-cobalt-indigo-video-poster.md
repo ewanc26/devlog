@@ -4,6 +4,7 @@ description: A video in a post shows its poster frame and a line saying the cons
 date: 2026-10-07
 tags: [cobalt, indigo, wiiu, 3ds, video]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxcyatsto423"
 ---
 
 Both clients showed a video as a bare note. They now draw its poster frame, sized to the console, with a line saying the video cannot be played there.
