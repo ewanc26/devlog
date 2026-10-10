@@ -4,6 +4,7 @@ description: The PPU learns pattern-table reads from a nominated CHR, un-stubbin
 date: 2026-10-10
 tags: [smbc, c, nes]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxkjwsaxt32r"
 ---
 
 `DrawTitleScreen` is real now. The PPU gained a cartridge-style CHR pointer — the host nominates the pattern tables, and `$2007` reads consult them for `$0000-$1FFF`, still one access behind the read buffer like the hardware. `smbc_init` points it at the donor ROM's CHR, and the title screen task performs its `$1ec0` copy: one priming read, then 314 bytes into the `$0300` buffer page.
