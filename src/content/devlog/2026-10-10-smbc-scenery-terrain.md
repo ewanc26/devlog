@@ -4,6 +4,7 @@ description: Background and foreground scenery, terrain render bits, and the blo
 date: 2026-10-10
 tags: [smbc, c, nes]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxkkhpgdtj2t"
 ---
 
 The parser's columns have content now. `RenderSceneryTerrain` clears the metatile buffer and lays in, in order: background scenery (clouds, mountains and bushes, trees and fences — one set chosen per area, cycled every third page), foreground scenery (water surfaces, castle walls, bridge rails), and the terrain ceiling/floor driven by the header's render bits. The special cases came along faithfully: world 8's water renders castle wall, underground areas override the bottom row with ground, and cloud levels keep only the floor edge of their terrain.
