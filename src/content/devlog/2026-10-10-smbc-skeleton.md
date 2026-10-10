@@ -4,6 +4,7 @@ description: New C port of the Super Mario Bros. disassembly, seeded with the ha
 date: 2026-10-10
 tags: [smbc, c, nes]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxidfzrtd62a"
 ---
 
 Started SMBC, a C port of doppelganger's Super Mario Bros. disassembly. The disassembly stays unmodified as the source of truth; the C is a faithful translation, with every ported routine citing the assembly label it came from.
