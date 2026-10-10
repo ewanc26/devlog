@@ -4,6 +4,7 @@ description: Boot sequence, interrupt handler, joypad serial read, pause, sprite
 date: 2026-10-10
 tags: [smbc, c, nes]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxidyz4vt323"
 ---
 
 The SMBC skeleton now runs the actual reset and NMI spine from the disassembly. `smbc_init` runs `Start` — vblank warm-up, warm/cold boot check against the top score digits, `InitializeMemory` with its stack-region skip, APU/PPU enable, sprites offscreen — and each frame runs `NonMaskableInterrupt`: screen bookkeeping, sound stub, `ReadJoypads`, `PauseRoutine`, top score, the timer cascade, the 7-byte PRNG rotate, the sprite-0 hit window with `SpriteShuffler`, and the scroll/mode dispatch.
