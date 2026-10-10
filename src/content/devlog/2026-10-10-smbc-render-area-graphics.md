@@ -4,6 +4,7 @@ description: The metatile column renderer with its attribute-bit rotations and n
 date: 2026-10-10
 tags: [smbc, c, nes]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxkkbzkwbv2l"
 ---
 
 `RenderAreaGraphics` is translated. Thirteen metatiles from the buffer become 26 tile bytes in VRAM buffer 2, the task number's parity picking each metatile's left or right half (metatiles are four tiles: upper-left, lower-left, upper-right, lower-right).
