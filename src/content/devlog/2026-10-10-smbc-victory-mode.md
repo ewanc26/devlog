@@ -4,6 +4,7 @@ description: The victory task tree with SetupVictoryMode, PrintVictoryMessages a
 date: 2026-10-10
 tags: [smbc, c, nes]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxkhysxdg32r"
 ---
 
 `VictoryMode` is translated, closing [issue #9](https://github.com/ewanc26/smbc/issues/9). Three of its five tasks are self-contained and now run in C: `SetupVictoryMode` (destination page from the screen's right edge, end-of-castle music), `PrintVictoryMessages` and `PlayerEndWorld`.
