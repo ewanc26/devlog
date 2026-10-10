@@ -4,6 +4,7 @@ description: The GameMode skeleton — task tree, GameCoreRoutine's joypad plumb
 date: 2026-10-10
 tags: [smbc, c, nes]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxki6pe2op2a"
 ---
 
 The GameMode skeleton is in, part of [issue #10](https://github.com/ewanc26/smbc/issues/10) — with it, `OperModeExecutionTree` dispatches all four modes. What's translatable without the player, enemy and area-parser atoms now runs: the task tree with `SecondaryGameSetup` wired in, `GameCoreRoutine`'s master joypad copy (the current player's controller bits become the game's single set) and its task gate, and the GameEngine's tail — the star-music check that re-attains the level theme when the invincibility timer hits exactly 4 with the interval timer expired, the palette-cycle control computation, `SaveAB` and `UpdScrollVar`.
