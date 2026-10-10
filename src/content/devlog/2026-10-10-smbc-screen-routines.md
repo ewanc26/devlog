@@ -4,6 +4,7 @@ description: ScreenRoutines — the fourteen tasks behind mode task 1 — with t
 date: 2026-10-10
 tags: [smbc, c, nes]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxkjjfnsfr2a"
 ---
 
 ScreenRoutines is translated — the fourteen-task tree that every mode runs as its task 1. With it wired into TitleScreenMode, GameOverMode and GameMode, the port can now initialise the screen, write the status lines and walk the palette setup on its own.
