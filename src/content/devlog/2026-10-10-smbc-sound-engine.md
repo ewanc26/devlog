@@ -4,6 +4,7 @@ description: SoundEngine, the SFX handlers and the music sequencer ported to C, 
 date: 2026-10-10
 tags: [smbc, c, nes]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxkgyu3qlx2a"
 ---
 
 The sound engine from smb.asm is translated, closing [issue #1](https://github.com/ewanc26/smbc/issues/1). `SoundEngine` dispatches title-mode bypass, the pause branch and `RunSoundSubroutines`; the three SFX handlers (`Square1`, `Square2`, `Noise`) each keep their `Play` and `Continue` routines with the original length-counter schedules, and `MusicHandler` does header loads, per-channel note sequencing, length-table and envelope processing, and the end-of-data loopbacks — including the ground-music header walk that plays the lead-in exactly once.
