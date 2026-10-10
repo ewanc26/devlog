@@ -4,6 +4,7 @@ description: The whole area object decoder in one atom — ProcessAreaData, Deco
 date: 2026-10-10
 tags: [smbc, c, nes]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxklyvn2eh2g"
 ---
 
 `ProcessAreaData` is translated, with `DecodeAreaData` and every area object handler — pipes, blocks, holes, staircases, the flagpole, castles, the loop command, the lot. The level data stream now actually builds columns: the parser core's per-column call into the decoder is live, and with it the last stub in the area parser.
