@@ -4,6 +4,7 @@ description: UpdateScreen and WriteBufferToScreen ported to C, with the PPU mode
 date: 2026-10-10
 tags: [smbc, c, nes]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxieafp36k2r"
 ---
 
 `UpdateScreen` and `WriteBufferToScreen` are translated. Each frame the NMI loads a pointer from `VRAM_AddrTable` (indexed by `VRAM_Buffer_AddrCtrl`) into the zero-page indirect, and the writer walks update sets: an address pair, then a header byte packing increment-by-32 (d7), repeat (d6) and length (d5–d0), then the data, until a zero high byte — falling through to `InitScroll` either way, as the original does.
