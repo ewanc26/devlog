@@ -4,6 +4,7 @@ description: GameMenuRoutine, DrawMushroomIcon and DemoEngine ported to C — th
 date: 2026-10-10
 tags: [smbc, c, nes]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxkhrk3mff2g"
 ---
 
 `TitleScreenMode` is translated, closing [issue #8](https://github.com/ewanc26/smbc/issues/8) — the second of the four mode-tree sub-issues. `GameMenuRoutine` keeps the original control flow: start and A+start both reach `ChkContinue` (the A button bit surviving an `asl` decides whether `ContinueWorld` loads), select toggles the player count and redraws the mushroom icon, B cycles the world-select number when the enable flag is set, and an expired demo timer hands the joypad to `DemoEngine`.
