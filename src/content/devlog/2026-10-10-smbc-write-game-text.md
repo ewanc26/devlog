@@ -4,6 +4,7 @@ description: The message writer with the lives crown, the LUIGI name patch and t
 date: 2026-10-10
 tags: [smbc, c, nes]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxkjoqowpd2r"
 ---
 
 `WriteGameText` is translated, with the whole GameText blob in `data/gametext`: the top status bar, the world/lives display, the time-up and game-over screens, and the warp zone welcome. ScreenRoutines tasks 2, 4 and 6 lose their stubs — the game can now put words on the screen.
