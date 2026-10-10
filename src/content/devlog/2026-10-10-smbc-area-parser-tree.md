@@ -4,6 +4,7 @@ description: The eight-task parser cycle, column position bookkeeping, and the a
 date: 2026-10-10
 tags: [smbc, c, nes]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxkk4tarkb2b"
 ---
 
 Screen task 8 now has its machinery. `AreaParserTaskHandler` runs the original's eight-task cycle — two column increments, four scenery passes, two object decodes — one task per call, counter defaulting to eight, and `AreaParserTaskControl` drives it to completion behind a disabled screen.
