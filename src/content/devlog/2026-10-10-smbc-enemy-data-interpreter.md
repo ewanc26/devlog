@@ -4,6 +4,7 @@ description: 'EnemiesAndLoopsCore, ProcLoopCommand, ProcessEnemyData and HandleG
 date: 2026-10-10T23:28:00Z
 tags: ['smbc', 'c', 'reverse-engineering']
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxknbebb7z2f"
 ---
 
 Ported the enemy data interpreter to SMBC, the atom that walks the enemy object stream and loads new enemies as the screen scrolls.
