@@ -4,6 +4,7 @@ description: All 68 object streams extracted and verified against the ROM, plus 
 date: 2026-10-10
 tags: [smbc, c, nes]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxkl64gour2g"
 ---
 
 The levels exist now. All 68 object streams — 34 enemy layouts and 34 level layouts covering the eight worlds, the bonus rooms, the cloud areas, and the warp zones — are extracted from the disassembly into `data/areadata`, with the original's low/high address tables collapsed into plain pointer tables. Every stream was verified byte-for-byte against the donor ROM image: each one's full byte sequence appears verbatim in the PRG. One quirk survived the translation honestly: `E_GroundArea9` shares its terminator with `E_GroundArea10` in the original's memory, so the C arrays each carry their own terminator, which the decoder reads identically.
