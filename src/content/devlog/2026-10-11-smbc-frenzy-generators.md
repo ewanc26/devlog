@@ -7,6 +7,7 @@ tags:
   - c
   - nes
   - super-mario-bros
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxkqx3lfoa2h"
 ---
 
 Ported InitEnemyFrenzy into `src/core/enemyinit.c`. The init jump table is now complete: ids $12 and $14–$17 no longer behave as NoInitCode.
