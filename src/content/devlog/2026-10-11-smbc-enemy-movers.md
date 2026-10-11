@@ -4,6 +4,7 @@ description: "MovePiranhaPlant, MoveLakitu and MoveFlyingCheepCheep complete the
 date: 2026-10-11
 tags: [smbc, c, 6502, reverse-engineering]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxkujcn3d42r"
 ---
 
 Finished the `EnemyMovementSubs` mover table in SMBC. Three movers today, closing out the twenty-entry dispatch.
