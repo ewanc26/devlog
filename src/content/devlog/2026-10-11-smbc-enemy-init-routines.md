@@ -7,6 +7,7 @@ tags:
   - c
   - nes
   - super-mario-bros
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxkqikr47s2l"
 ---
 
 Ported the InitEnemyRoutines jump table into `src/core/enemyinit.c`. This is the routine set the enemy data interpreter calls for every newly loaded object.
