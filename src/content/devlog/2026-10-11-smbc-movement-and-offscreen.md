@@ -7,6 +7,7 @@ tags:
   - c
   - nes
   - super-mario-bros
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxkt677xzp2a"
 ---
 
 Three atoms, three commits.
