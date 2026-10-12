@@ -3,6 +3,7 @@ title: "smbc: deterministic input recording and replay"
 description: "Frame-indexed recordings with per-frame state hashes, replayable from a fresh reset; CI catches two gcc portability fixes."
 pubDate: 2026-10-12
 tags: ["smbc", "c"]
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxnwfyidnp2v"
 ---
 
 Closed [#37](https://github.com/ewanc26/smbc/issues/37) in [bad3164](https://github.com/ewanc26/smbc/commit/bad3164).
