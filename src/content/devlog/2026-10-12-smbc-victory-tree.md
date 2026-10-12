@@ -4,6 +4,7 @@ description: "BridgeCollapse and PlayerVictoryWalk complete the VictoryMode tree
 date: 2026-10-12
 tags: [smbc, c, 6502, reverse-engineering]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxntuly4fs2b"
 ---
 
 Finished the `VictoryMode` tree in SMBC. With `BridgeCollapse` and `PlayerVictoryWalk` landed, every task in the tree runs and `src/` carries no port TODOs.
