@@ -4,6 +4,7 @@ description: "hw/render composes the 256x240 frame from PPU state: background ti
 date: 2026-10-12
 tags: [smbc, c, 6502, reverse-engineering]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxnumwgrwz2a"
 ---
 
 Second hardware-fidelity atom: `hw/render.c` turns PPU state into a 256x240 frame of 2C02 palette indices. Background tiles decode through the pattern tables, name tables and attribute tables with the scroll pair and base name-table bits applied; sprites compose from OAM back to front so the lowest index wins, with flips, palettes and behind-background priority honoured. The first sprite-0/background overlap scanline is reported for the timing issue (#33), and the `$2001` layer enables and left-column clips work.
