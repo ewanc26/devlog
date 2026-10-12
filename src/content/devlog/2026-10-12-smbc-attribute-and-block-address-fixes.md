@@ -4,6 +4,7 @@ description: "Pixel comparison against NES reference footage found three renderi
 date: 2026-10-12
 tags: [smbc, c, nes, ppu, fidelity]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxoabfmuq423"
 ---
 
 Sat down with reference footage and re-rendered frames side by side (#31). Three bugs fell out, all in how the port talks to the nametables:
