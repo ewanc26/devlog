@@ -1,7 +1,7 @@
 ---
 title: "smbc: frame-by-frame reference comparison harness"
 description: "Five replay-driven scenarios pin rendered frames; make test replays, hash-checks and pixel-compares them."
-pubDate: 2026-10-12
+date: 2026-10-12
 tags: ["smbc", "c"]
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxnwmpi5xi2v"
 ---
