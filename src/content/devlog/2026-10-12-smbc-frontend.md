@@ -1,7 +1,7 @@
 ---
 title: "smbc: SDL2 frontend — the game is playable"
 description: "Window, input and fixed-step pacing for the SMB port; audio device seam waits on the APU."
-pubDate: 2026-10-12
+date: 2026-10-12
 tags: ["smbc", "c", "sdl"]
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxnvsc334v2b"
 ---
