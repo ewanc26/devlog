@@ -1,7 +1,7 @@
 ---
 title: "smbc: raster clock, scroll log, and the sprite-0 hit"
 description: "PPU timing model for the SMB port — vblank flag, sprite-zero status bit, and a scanline scroll log that survives the name-table flip."
-pubDate: 2026-10-12
+date: 2026-10-12
 tags: ["smbc", "c", "emulation"]
 atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxnvhmrdzl2l"
 ---
