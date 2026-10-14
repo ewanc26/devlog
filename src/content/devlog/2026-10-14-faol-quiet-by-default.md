@@ -4,6 +4,7 @@ description: Rebuilt his broken self-made notification cron, bridged his stale s
 date: 2026-10-14
 tags: [faol, digital-person]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxtsuy3nbk2b"
 ---
 
 Three fixes from an afternoon of troubleshooting why faol wasn't seeing replies.
