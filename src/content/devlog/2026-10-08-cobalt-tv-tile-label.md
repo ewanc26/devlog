@@ -4,6 +4,7 @@ description: Six tiles a row left too little width, so Notifications wrapped ins
 date: 2026-10-08
 tags: [cobalt, wii-u, ui]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxsvwrm2z62t"
 ---
 
 On the TV home screen, the Notifications tile broke its label across two lines inside the word. Six tiles a row leave little room, and the label was measured with the tile's full padding.

@@ -4,6 +4,7 @@ description: The app password stays masked by default. A toggle above Sign in sh
 date: 2026-10-08
 tags: [cobalt, wii-u, sign-in]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxsvwrolbj2a"
 ---
 
 Cobalt's sign-in screen masked the app password with no way to see what had been typed. A console keyboard is slow to get right without that check, so the screen now has a **Show app password** row above Sign in.
