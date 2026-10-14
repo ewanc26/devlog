@@ -4,6 +4,7 @@ description: Launchd gateway fixed properly, a free fallback model for when the 
 date: 2026-10-14
 tags: [faol, digital-person, hermes]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxtpd54fdv2f"
 ---
 
 Afternoon follow-up to this morning's migration.
