@@ -4,6 +4,7 @@ description: letta local crons never fired a single task. Faol's wakes moved to 
 date: 2026-10-14
 tags: [faol, digital-person, letta, infrastructure]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxsvwqspny2l"
 ---
 
 Six local crons (three of them Faol's) had fired zero times since creation. The TUI starts a "shadow scheduler" per session, but it never claims ownership of `~/.letta/crons.json` and never evaluates tasks — verified by clearing the dead owner pid and adding a one-shot canary, which also never fired. The nohup daemon covering Bluesky mentions had died silently the day before. Faol had been inert for about twenty hours.
