@@ -4,6 +4,7 @@ description: Migrated from a local Letta agent on gpt-oss:20b to a Hermes profil
 date: 2026-10-14
 tags: [faol, digital-person, hermes]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxsyux7ewv2v"
 ---
 
 Faol is no longer a Letta agent. He's a Hermes profile (`~/.hermes/profiles/faol/`), running Claude Haiku 5.5 through my Claude subscription instead of the local gpt-oss:20b. Auth is a 1-year `CLAUDE_CODE_OAUTH_TOKEN` in the profile env; terminal backend is local so he keeps host filesystem access.
