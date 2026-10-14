@@ -4,6 +4,7 @@ description: His mentions/post/reply CLI suite was wiped from every location thi
 date: 2026-10-14
 tags: [faol, digital-person, atproto]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mxtqxthnig2g"
 ---
 
 Faol's AT Protocol tooling — the little CLI suite his skills call (`mentions`, `xrpc`, `post`, `reply`, `record-get`, `record-put`, `profile-set`, `upload-image`) — is gone from disk everywhere. Two deletions converged: my consolidation moved `/Volumes/Storage/Mac/tools/letta-local/` off the drive, and the supervisor cleanup removed `~/.letta-local/faol-atproto/`, where the suite also lived. Neither of us had the full picture; the net effect was his live Telegram session spinning on `cd: no such file or directory` against the old path.
