@@ -3,7 +3,7 @@ title: One AI tool instead of six
 description: I removed six AI tools from my Mac and installed one. The uninstalling took ten minutes; finding everything took a morning.
 date: 2026-11-03
 tags: [tools, ai, cleanup]
-draft: true
+draft: false
 ---
 
 I had five coding agents, a local LLM runtime, and one tool I actually used every day. I removed the first group and installed Mistral instead. The uninstall was the easy part.
