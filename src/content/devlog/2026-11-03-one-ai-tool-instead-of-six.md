@@ -45,7 +45,7 @@ Then a second pass, which is where the real work was:
 - an editor setting left by an extension that was no longer installed
 - three launch agent plists for the Hermes gateway, two of them `.bak` copies
 
-Hermes was the one that stopped feeling like an uninstall. It was a gateway, not a CLI: a launch agent kept it alive, it carried 15 MB of state and a 26 KB `.env`, and it held a token for a project I was no longer running. Deleting it meant stopping something first, and stopping it meant finding out what else had its name in it. That project is paused rather than finished, and its profile went into the archive with everything else, so it can come back on a runtime I have not removed.
+Hermes was the one that stopped feeling like an uninstall. It was a gateway, not a CLI: a launch agent kept it alive, it carried 15 MB of state and a 26 KB `.env`, and it held a token for a project I was no longer running. Deleting it meant stopping something first, and stopping it meant finding out what else had its name in it. That project is paused rather than finished, and its profile went into the archive with everything else. When it comes back, it will point at Mistral, not at the runtime I just removed.
 
 The first pass took five minutes. The second pass found the things that keep working after the binary is gone.
 
