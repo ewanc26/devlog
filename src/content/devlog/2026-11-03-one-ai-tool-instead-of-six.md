@@ -4,6 +4,7 @@ description: I removed six AI tools from my Mac and installed one. The uninstall
 date: 2026-11-03
 tags: [tools, ai, cleanup]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3mzihazhmh42b"
 ---
 
 I had five coding agents, a local LLM runtime, and one tool I actually used every day. I removed the first group and installed Mistral instead. The uninstall was the easy part.
