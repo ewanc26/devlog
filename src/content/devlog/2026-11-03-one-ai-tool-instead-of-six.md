@@ -22,7 +22,7 @@ Six of them did the same job badly in slightly different ways. Each had its own 
 
 ## Why cut it
 
-The tools overlapped, and the overlap was the expensive part. Not disk — attention. Every week I would pick a different agent, and every agent wanted its config file edited first. Ollama existed to serve local models that were never pulled. Codex was already deprecated by an account closure. Letta was a runtime I set up once and never came back to. Hermes had been running as a gateway since October, for a project I had finished in October.
+The tools overlapped, and the overlap was the expensive part. Not disk — attention. Every week I would pick a different agent, and every agent wanted its config file edited first. Ollama existed to serve local models that were never pulled. Codex was already deprecated by an account closure. Letta was a runtime I set up once and never came back to. Hermes had been running as a gateway since October, for a project I had paused rather than finished.
 
 The honest reason is simpler than any of that: I was maintaining an inventory, not doing work.
 
@@ -45,7 +45,7 @@ Then a second pass, which is where the real work was:
 - an editor setting left by an extension that was no longer installed
 - three launch agent plists for the Hermes gateway, two of them `.bak` copies
 
-Hermes was the one that stopped feeling like an uninstall. It was a gateway, not a CLI: a launch agent kept it alive, it carried 15 MB of state and a 26 KB `.env`, and it held a token for a project I was no longer running. Deleting it meant stopping something first, and stopping it meant finding out what else had its name in it.
+Hermes was the one that stopped feeling like an uninstall. It was a gateway, not a CLI: a launch agent kept it alive, it carried 15 MB of state and a 26 KB `.env`, and it held a token for a project I was no longer running. Deleting it meant stopping something first, and stopping it meant finding out what else had its name in it. That project is paused rather than finished, and its profile went into the archive with everything else, so it can come back on a runtime I have not removed.
 
 The first pass took five minutes. The second pass found the things that keep working after the binary is gone.
 
