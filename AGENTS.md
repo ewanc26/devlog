@@ -20,4 +20,4 @@ devlog.croft.click — changelog and devlog
 
 ## Recent history
 
-Sync AGENTS.md from zincfox; Sync AGENTS.md from zincfox; Sync AGENTS.md from zincfox; Sync CONTRIBUTING.md from zincfox; Sync CONTRIBUTING.md from zincfox
+docs: atUri for one-ai-tool-instead-of-six entry; devlog: publish one AI tool instead of six; devlog: one AI tool instead of six (#11); docs: atUri for faol quiet-by-default entry; docs: devlog — faol quiet-by-default rule, cron rebuild, path shim; devlog: atUri for hermes home entry; devlog: faol atproto tooling moves into hermes profile; devlog: atUri for atproto rebuild entry
