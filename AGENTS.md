@@ -4,9 +4,9 @@ Guidance for AI coding agents working in **devlog**.
 
 ## Project overview
 
-Devlog.croft.click — changelog and devlog
+devlog.croft.click — changelog and devlog
 
-- Language: HTML
+- Language: Svelte
 - Default branch: main
 
 ## Working rules
