@@ -71,8 +71,7 @@ sequoia publish   # publish entries to AT Protocol PDS
 
 ## Publishing
 
-Entries are published to [eurosky.social](https://eurosky.social) via Sequoia using the `site.standard.document` lexicon. The devlog site at [devlog.croft.click](https://devlog.croft.click) is the 
-web frontend for those records.
+Entries are published to [eurosky.social](https://eurosky.social) via Sequoia using the `site.standard.document` lexicon. The devlog site at [devlog.croft.click](https://devlog.croft.click) is the web frontend for those records.
 
 ---
 
