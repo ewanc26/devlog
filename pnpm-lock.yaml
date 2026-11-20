@@ -1791,8 +1791,8 @@ packages:
   undici-types@8.3.0:
     resolution: {integrity: sha512-j375ScV60dom+YkPFIfTLcOiPxkN/buHz5GobjLhixFuANaNs3C9l4GmrWqejgXWJ7BbJcFYpTEUkS1Ge8bpZQ==}
 
-  undici@6.25.0:
-    resolution: {integrity: sha512-ZgpWDC5gmNiuY9CnLVXEH8rl50xhRCuLNA97fAUnKi8RRuV4E6KG31pDTsLVUKnohJE0I3XDrTeEydAXRw47xg==}
+  undici@6.29.1:
+    resolution: {integrity: sha512-EvRlUt/QqAEvXdQeRMYUfwOQsfzpDztykrG2owGEE/rBOBoYv9uF39ZzsNDh4lTFHhTr2XOZjKkYgueD12ZmGA==}
     engines: {node: '>=18.17'}
 
   unicode-segmenter@0.14.5:
@@ -1921,7 +1921,7 @@ snapshots:
       '@atproto-labs/fetch': 0.2.3
       '@atproto-labs/pipe': 0.1.1
       ipaddr.js: 2.4.0
-      undici: 6.25.0
+      undici: 6.29.1
 
   '@atproto-labs/fetch@0.2.3':
     dependencies:
@@ -3609,7 +3609,7 @@ snapshots:
 
   undici-types@8.3.0: {}
 
-  undici@6.25.0: {}
+  undici@6.29.1: {}
 
   unicode-segmenter@0.14.5: {}
 
