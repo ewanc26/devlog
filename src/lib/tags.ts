@@ -20,7 +20,7 @@ function hashTag(tag: string): number {
 export function tagStyle(tag: string): string {
 	const h = hashTag(tag.toLowerCase());
 	const hue = h % 360;
-	const sat = 30 + ((h >>> 8) % 30);       // 30–59%
-	const lit = 60 + ((h >>> 16) % 18);       // 60–77%
+	const sat = 30 + ((h >>> 8) % 30); // 30–59%
+	const lit = 60 + ((h >>> 16) % 18); // 60–77%
 	return `color: hsl(${hue}, ${sat}%, ${lit}%); background: hsla(${hue}, ${sat}%, ${lit}%, 0.15);`;
 }

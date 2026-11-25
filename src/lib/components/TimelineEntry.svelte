@@ -10,16 +10,20 @@
 
 <div class="timeline-entry">
 	<div class="timeline-marker" class:timeline-marker-active={active}></div>
-	<a href="/{post.path}" class="no-underline block">
-		<p class="text-[0.72em] text-[var(--color-dim)] font-mono mb-1">{formatDate(post.date, post.time)}</p>
-		<h2 class="text-[1em] font-medium text-[var(--color-text)] leading-[1.4] mb-1 transition-colors duration-150 group-hover:text-[var(--color-accent)]">
+	<a href="/{post.path}" class="block no-underline">
+		<p class="mb-1 font-mono text-[0.72em] text-[var(--color-dim)]">
+			{formatDate(post.date, post.time)}
+		</p>
+		<h2
+			class="mb-1 text-[1em] leading-[1.4] font-medium text-[var(--color-text)] transition-colors duration-150 group-hover:text-[var(--color-accent)]"
+		>
 			{post.title}
 		</h2>
 		{#if post.description}
-			<p class="text-[0.82em] text-[var(--color-muted)] leading-[1.5] mb-2">{post.description}</p>
+			<p class="mb-2 text-[0.82em] leading-[1.5] text-[var(--color-muted)]">{post.description}</p>
 		{/if}
 		{#if post.tags.length}
-			<div class="flex gap-1.5 flex-wrap">
+			<div class="flex flex-wrap gap-1.5">
 				{#each post.tags as tag}
 					<Tag {tag} />
 				{/each}

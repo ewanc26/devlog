@@ -9,9 +9,7 @@ import type { Root } from 'mdast';
 /** Strip h1 headings — the title is rendered separately above the content. */
 function remarkStripH1() {
 	return (tree: Root) => {
-		tree.children = tree.children.filter(
-			(node) => node.type !== 'heading' || node.depth !== 1
-		);
+		tree.children = tree.children.filter((node) => node.type !== 'heading' || node.depth !== 1);
 	};
 }
 
