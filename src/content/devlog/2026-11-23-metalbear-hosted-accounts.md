@@ -4,6 +4,7 @@ description: Self-serve signup, trusted devices and scoped consent land alongsid
 date: 2026-11-23
 tags: [metalbear, atproto, auth, operations]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342apuby62e"
 ---
 
 MetalBear's hosted-account work stopped being about getting an account created and started being about running a service.

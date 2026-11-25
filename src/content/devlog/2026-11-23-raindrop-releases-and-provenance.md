@@ -4,6 +4,7 @@ description: Verified v0.1.0 through v0.11.0 releases add collection browsing, s
 date: 2026-11-23
 tags: [raindrop, atproto, releases, ui]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342aprrzh2h"
 ---
 
 Raindrop moved from a foundation to something you can hand to someone: tagged releases, record views, and a visual identity that says where a document came from.

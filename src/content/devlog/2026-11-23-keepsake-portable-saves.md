@@ -4,6 +4,7 @@ description: Versioned saves, character bundles and DID-derived world seeds turn
 date: 2026-11-23
 tags: [keepsake, games, save-format, determinism]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342apwuse26"
 ---
 
 Keepsake's premise was always that identity leaves a mark on the world. It now has save formats that can survive that claim.

@@ -4,6 +4,7 @@ description: The language toolchain gained C FFI and compiler opcodes, then made
 date: 2026-11-10
 tags: [numlang, sigi, selenium, ffi, testing]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342aqgiov2u"
 ---
 
 Calling out to C stopped being a special case in one repo and became a capability the toolchain can describe and check.

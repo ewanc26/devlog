@@ -4,6 +4,7 @@ description: Tokenizer to REPL to compiled C, with differential tests and a spin
 date: 2026-11-10
 tags: [gaidheal, compilers, languages, testing]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342aqf6wt2e"
 ---
 
 Gàidheal went from a parsing experiment to a language you can run and compile in the space of a few days.

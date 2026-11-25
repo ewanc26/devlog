@@ -4,6 +4,7 @@ description: A cross-platform dashboard over teal.fm history, with OAuth 2.1 and
 date: 2026-11-10
 tags: [fathom, kotlin-multiplatform, swiftui, atproto]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342aqhq2g2e"
 ---
 
 Fathom started from an existing listening history rather than a blank app. The data was there; what was missing was a way to see it.

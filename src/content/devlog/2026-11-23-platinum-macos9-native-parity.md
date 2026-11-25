@@ -4,6 +4,7 @@ description: Profile reads, search, follows, mutes, blocks, muted words and post
 date: 2026-11-23
 tags: [platinum, macos9, atproto, parity]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342apt22p2h"
 ---
 
 Platinum's macOS 9 client got a parity sweep: the actions that used to take a detour now start in the native session.

@@ -4,6 +4,7 @@ description: A branded Firefox fork gains strict at-uri handling, DID and handle
 date: 2026-11-21
 tags: [raindrop, firefox, atproto, browser]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342apzjr426"
 ---
 
 Raindrop started with an imported Firefox 160.0.1 tree and an identity of its own. By the end of the day it could resolve an `at://` URI properly.

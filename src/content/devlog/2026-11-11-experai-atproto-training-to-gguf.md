@@ -4,6 +4,7 @@ description: A training-to-local-tooling pipeline now works end to end, from arb
 date: 2026-11-11
 tags: [experai, llm, atproto, gguf]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342aqcrxp2h"
 ---
 
 experai's fixes this week all point the same way: data in, a usable local model out.

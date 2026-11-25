@@ -4,6 +4,7 @@ description: numlang, plainspeak, selenium, sigi and Gàidheal converged on the 
 date: 2026-11-10
 tags: [numlang, plainspeak, selenium, sigi, rendering]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342aqiz7v26"
 ---
 
 The spinning donut became a shared conformance test without anyone setting out to make one.
