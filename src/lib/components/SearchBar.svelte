@@ -3,10 +3,17 @@
 	import { Search, X } from '@lucide/svelte';
 	import { fade } from 'svelte/transition';
 
-	interface TagEntry { tag: string; count: number }
+	interface TagEntry {
+		tag: string;
+		count: number;
+	}
 
 	// bindable props: parent owns query/activeTag state, we update via two-way binding
-	let { query = $bindable(''), activeTag = $bindable(''), tags }: {
+	let {
+		query = $bindable(''),
+		activeTag = $bindable(''),
+		tags
+	}: {
 		query: string;
 		activeTag: string;
 		tags: TagEntry[];
@@ -56,7 +63,12 @@
 			aria-label="Search entries"
 		/>
 		{#if hasFilter}
-			<button class="search-clear" onclick={clear} aria-label="Clear search" transition:fade={{ duration: 150 }}>
+			<button
+				class="search-clear"
+				onclick={clear}
+				aria-label="Clear search"
+				transition:fade={{ duration: 150 }}
+			>
 				<X size={14} />
 			</button>
 		{/if}
@@ -79,9 +91,7 @@
 					+{hiddenCount} more
 				</button>
 			{:else if expanded && tags.length > TAG_LIMIT}
-				<button class="search-tags-more" onclick={() => (expanded = false)}>
-					show fewer
-				</button>
+				<button class="search-tags-more" onclick={() => (expanded = false)}> show fewer </button>
 			{/if}
 		</div>
 	{/if}

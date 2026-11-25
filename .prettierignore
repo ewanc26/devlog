@@ -1,0 +1,21 @@
+node_modules
+.svelte-kit
+.vercel
+dist
+build
+pnpm-lock.yaml
+.sequoia-state.json
+/static/
+
+# Authored prose with Sequoia-managed frontmatter. Never reformat it automatically.
+/src/content/
+
+# Vendored agent skills
+/.agents/
+/.claude/
+/.factory/
+/.opencode/
+/.qwen/
+/.rovodev/
+
+package.json

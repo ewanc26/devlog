@@ -29,8 +29,16 @@
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<meta property="og:type" content="article" />
-	{#if data.post.date}<meta property="article:published_time" content={data.post.date.includes('T') ? data.post.date : `${data.post.date}T${data.post.time || '12:00'}:00Z`} />{/if}
-	{#if data.post.tags.length}{#each data.post.tags as tag}<meta property="article:tag" content={tag} />{/each}{/if}
+	{#if data.post.date}<meta
+			property="article:published_time"
+			content={data.post.date.includes('T')
+				? data.post.date
+				: `${data.post.date}T${data.post.time || '12:00'}:00Z`}
+		/>{/if}
+	{#if data.post.tags.length}{#each data.post.tags as tag}<meta
+				property="article:tag"
+				content={tag}
+			/>{/each}{/if}
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="{data.post.title} | devlog" />
 	<meta name="twitter:description" content={data.post.description} />
@@ -38,26 +46,37 @@
 	<!-- sequoia inject stamps the at-uri link tag here -->
 </svelte:head>
 
-<div class="flex gap-10 items-start w-full">
+<div class="flex w-full items-start gap-10">
 	<!-- Article -->
-	<div class="flex-1 min-w-0">
-		<p class="text-[0.75em] text-[var(--color-dim)] font-mono mb-2">{formatDate(data.post.date, data.post.time)}</p>
-		<h1 class="text-[1.5em] font-semibold tracking-tight text-[var(--color-text)] leading-[1.3] mb-3">{data.post.title}</h1>
+	<div class="min-w-0 flex-1">
+		<p class="mb-2 font-mono text-[0.75em] text-[var(--color-dim)]">
+			{formatDate(data.post.date, data.post.time)}
+		</p>
+		<h1
+			class="mb-3 text-[1.5em] leading-[1.3] font-semibold tracking-tight text-[var(--color-text)]"
+		>
+			{data.post.title}
+		</h1>
 
 		{#if data.post.tags.length}
-			<div class="flex gap-1.5 flex-wrap mb-6">
+			<div class="mb-6 flex flex-wrap gap-1.5">
 				{#each data.post.tags as tag}
 					<Tag {tag} />
 				{/each}
 			</div>
 		{/if}
 
-		<hr class="border-0 border-t border-[var(--color-border)] my-6" />
+		<hr class="my-6 border-0 border-t border-[var(--color-border)]" />
 
 		<div class="prose max-w-none">{@html data.html}</div>
 
-		<hr class="border-0 border-t border-[var(--color-border)] my-6" />
-		<a href="/" class="text-[0.85em] no-underline text-[var(--color-muted)] transition-colors hover:text-[var(--color-accent)]">all entries</a>
+		<hr class="my-6 border-0 border-t border-[var(--color-border)]" />
+		<a
+			href="/"
+			class="text-[0.85em] text-[var(--color-muted)] no-underline transition-colors hover:text-[var(--color-accent)]"
+		>
+			all entries
+		</a>
 	</div>
 
 	<!-- ToC -->
