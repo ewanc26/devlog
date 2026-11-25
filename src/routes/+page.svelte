@@ -3,7 +3,7 @@
 
 	import Timeline from '$lib/components/Timeline.svelte';
 	import SearchBar from '$lib/components/SearchBar.svelte';
-	import { PUBLIC_SITE_URL } from '$env/static/public';
+	import { PUBLIC_SITE_URL } from '$app/env/public';
 	import type { PageData } from './$types';
 	let { data }: { data: PageData } = $props();
 

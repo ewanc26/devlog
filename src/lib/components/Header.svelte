@@ -2,9 +2,9 @@
 	// ── Site header: logo, back link, RSS, and main site link ──────────────
 
 	import { ArrowLeft, Rss, ExternalLink } from '@lucide/svelte';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 
-	const isHome = $derived($page.url.pathname === '/');
+	const isHome = $derived(page.url.pathname === '/');
 </script>
 
 <header class="border-b border-[var(--color-border)] px-6 py-4 flex items-center justify-between">

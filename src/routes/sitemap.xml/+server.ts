@@ -3,7 +3,7 @@
 // generate one, and the post routes live under a [...path] catch-all that a
 // crawler cannot enumerate, so every published post is listed explicitly.
 
-import { PUBLIC_SITE_URL } from '$env/static/public';
+import { PUBLIC_SITE_URL } from '$app/env/public';
 import { listPosts } from '$lib/posts';
 import type { RequestHandler } from './$types';
 
