@@ -88,7 +88,7 @@ export function listPosts(): PostMeta[] {
 				description: data.description ?? '',
 				date,
 				time: toTime(data.date, data.time),
-				tags: data.tags ?? [],
+				tags: (data.tags ?? []).map(String),
 				draft: data.draft ?? false
 			};
 		})
@@ -109,7 +109,7 @@ export function getPost(slug: string): Post {
 		description: data.description ?? '',
 		date,
 		time: toTime(data.date, data.time),
-		tags: data.tags ?? [],
+		tags: (data.tags ?? []).map(String),
 		draft: data.draft ?? false,
 		content
 	};
