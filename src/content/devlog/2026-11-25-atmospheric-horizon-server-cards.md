@@ -4,6 +4,7 @@ description: Player-facing Bluesky identity arrives first, then a typed server-c
 date: 2026-11-25
 tags: [atmospheric-horizon, minecraft, atproto, releases]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342apnoqx2s"
 ---
 
 By mid-November the player could edit a Bluesky profile from the game. By the end of the month the server had a card it could publish about itself.

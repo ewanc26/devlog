@@ -4,6 +4,7 @@ description: Bookmarks, drafts, lists, starter packs, reports and feed discovery
 date: 2026-11-11
 tags: [cobalt, indigo, atproto, wii-u, 3ds]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342aqdyzp2h"
 ---
 
 The two console clients moved in lockstep this week: the same missing social features, then the same performance work.

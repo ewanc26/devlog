@@ -4,6 +4,7 @@ description: A config flag, server enforcement, frontend metadata and setup prov
 date: 2026-11-25
 tags: [metalbear, self-hosting, atproto, config]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342apkji62e"
 ---
 
 Not every host wants signups. MetalBear now has a deployment mode that believes that instead of simulating it.

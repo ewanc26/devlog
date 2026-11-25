@@ -4,6 +4,7 @@ description: atmospheric-horizon gained signed labels, a queryable log, a subscr
 date: 2026-11-15
 tags: [atmospheric-horizon, atproto, moderation, labels]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342aq2rqr2v"
 ---
 
 Labeling went end to end in atmospheric-horizon: from a signing key to a label emitted by something a player did.

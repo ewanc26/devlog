@@ -4,6 +4,7 @@ description: Ice, belts, wind and vents join isolith while Hollowfall finishes i
 date: 2026-11-13
 tags: [isolith, hollowfall, games, localization]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342aq46vw2e"
 ---
 
 Both game repos spent the week adding ways to move through a level, then made sure players could understand what they were seeing.

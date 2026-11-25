@@ -4,6 +4,7 @@ description: An Expo client gains chat, discovery and moderation, while accounts
 date: 2026-11-23
 tags: [balla, react-native, atproto, identity]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342apyaoz2v"
 ---
 
 Balla had an architecture and no app. This week it got both the app and a more honest account model.

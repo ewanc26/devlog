@@ -4,6 +4,7 @@ description: A native mod scaffold grew into a JSON-lines sidecar with OAuth, ty
 date: 2026-11-13
 tags: [atmospheric-horizon, minecraft, atproto, rust]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342aq6svg2e"
 ---
 
 The atpcraft port moved through its milestones M2 to M24 in one pass: from a mod skeleton to something that can read a Bluesky profile from the game.

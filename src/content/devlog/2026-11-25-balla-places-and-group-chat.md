@@ -4,6 +4,7 @@ description: A configurable places provider and composer picker land with usable
 date: 2026-11-25
 tags: [balla, atproto, places, chat]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342apmdrx2s"
 ---
 
 Balla's latest work is small on paper and noticeable in use: posts can name a place, and group conversations finally work properly.

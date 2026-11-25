@@ -4,6 +4,7 @@ description: CI gains console and Raspberry Pi cross-builds while lexicons drift
 date: 2026-11-23
 tags: [wolfram, ci, atproto, networking]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342apqhzp2h"
 ---
 
 Wolfram widened at both ends this week: more targets in CI, and better behaviour when a remote service says "slow down".

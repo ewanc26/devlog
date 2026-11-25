@@ -4,6 +4,7 @@ description: A bridge, in-game link claims and server-side identity lead to a jo
 date: 2026-11-13
 tags: [atmospheric-horizon, minecraft, atproto, identity]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342aq5ivo2e"
 ---
 
 Server identity stopped being a config string. Players now have a linked identity the server can check when they join.

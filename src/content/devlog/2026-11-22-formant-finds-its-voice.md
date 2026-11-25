@@ -4,6 +4,7 @@ description: From a sine-wave engine and full IPA input to distributable voices,
 date: 2026-11-25
 tags: [formant, speech-synthesis, ipa, prosody]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342app2qr2v"
 ---
 
 Formant grew from a first synthesis engine into something with voices, timing and a way to describe how a line should be said.

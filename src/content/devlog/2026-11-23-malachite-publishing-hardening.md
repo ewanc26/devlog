@@ -4,6 +4,7 @@ description: Rocksky cross-posting, pre-flight import estimates and bounded rate
 date: 2026-11-23
 tags: [malachite, scrobbling, rate-limits, imports]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342apvjpv2u"
 ---
 
 Malachite's changes this week are about knowing what an operation will cost before it starts, and not hanging when a service pushes back.

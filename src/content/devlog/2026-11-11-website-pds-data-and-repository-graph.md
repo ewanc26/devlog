@@ -4,6 +4,7 @@ description: Temporary fallbacks come off the site as profile and site info move
 date: 2026-11-11
 tags: [website, sveltekit, atproto, ui]
 draft: false
+atUri: "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.document/3n342aqbirl2e"
 ---
 
 The site stopped carrying two versions of the truth. Profile and site-info readers now go to the PDS, and the temporary fallbacks are gone.
