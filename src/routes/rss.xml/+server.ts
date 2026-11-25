@@ -1,5 +1,5 @@
 /** Pre-rendered RSS 2.0 feed of all published posts, most recent first. */
-import { PUBLIC_SITE_URL } from '$env/static/public';
+import { PUBLIC_SITE_URL } from '$app/env/public';
 import { listPosts } from '$lib/posts';
 import type { RequestHandler } from './$types';
 

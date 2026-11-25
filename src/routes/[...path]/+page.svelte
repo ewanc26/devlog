@@ -4,7 +4,7 @@
 	import { formatDate } from '$lib/date';
 	import Tag from '$lib/components/Tag.svelte';
 	import TableOfContents from '$lib/components/TableOfContents.svelte';
-	import { PUBLIC_SITE_URL } from '$env/static/public';
+	import { PUBLIC_SITE_URL } from '$app/env/public';
 	import type { PageData } from './$types';
 	let { data }: { data: PageData } = $props();
 
