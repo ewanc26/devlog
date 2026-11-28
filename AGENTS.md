@@ -23,6 +23,7 @@ Devlog.croft.click — changelog and devlog
 docs: atUri for one-ai-tool-instead-of-six entry; devlog: publish one AI tool instead of six; devlog: one AI tool instead of six (#11); docs: atUri for faol quiet-by-default entry; docs: devlog — faol quiet-by-default rule, cron rebuild, path shim; devlog: atUri for hermes home entry; devlog: faol atproto tooling moves into hermes profile; devlog: atUri for atproto rebuild entry
 
 <!-- allowed-agents -->
+
 ## Allowed agents
 
 Only **Claude** (Anthropic) and **Mistral** (Mistral AI) may be used as coding agents in this repository. This rule supersedes any earlier agent-attribution guidance in this file.

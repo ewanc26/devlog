@@ -1,4 +1,4 @@
-import type { LayoutServerLoad } from './$types';
+import type { LayoutServerLoad } from "./$types";
 
 /**
  * Empty layout load — required to satisfy SvelteKit's layout hierarchy

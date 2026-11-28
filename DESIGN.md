@@ -10,26 +10,26 @@ A developer scanning their own project history between work sessions, on a lapto
 
 ## Palette (OKLCH)
 
-| Token | OKLCH | Hex | Role |
-|-------|-------|-----|------|
-| bg | oklch(0.12 0.01 75) | #1a1816 | Page background |
-| surface | oklch(0.16 0.012 75) | #232019 | Cards, code blocks |
-| surface-1 | oklch(0.20 0.014 75) | #2d2a22 | Hover states |
-| border | oklch(0.25 0.015 75) | #38342b | Borders, dividers |
-| border-1 | oklch(0.30 0.016 75) | #44403a | Stronger borders |
-| text | oklch(0.93 0.01 80) | #ede9e0 | Primary text |
-| muted | oklch(0.65 0.02 75) | #9e9688 | Secondary text |
-| dim | oklch(0.45 0.02 75) | #665e54 | Tertiary, dates |
-| accent | oklch(0.78 0.16 75) | #e2a93b | Amber — primary accent |
-| accent-dim | oklch(0.78 0.16 75 / 0.15) | — | Accent background tint |
-| tag-atproto | oklch(0.78 0.16 75) | #e2a93b | AT Protocol (amber) |
-| tag-website | oklch(0.65 0.15 25) | #6b9fbf | Website (cool blue) |
-| tag-pkgs | oklch(0.72 0.10 310) | #c9a0dc | Pkgs monorepo (lavender) |
-| tag-bots | oklch(0.70 0.10 155) | #7dba8a | Bots (sage) |
-| tag-esolangs | oklch(0.82 0.16 90) | #e8c547 | Esolangs (gold) |
-| tag-infra | oklch(0.70 0.10 155) | #7dba8a | Infra (sage) |
-| tag-game | oklch(0.68 0.12 70) | #d4a054 | Game (copper) |
-| tag-tooling | oklch(0.65 0.02 75) | #9e9688 | Tooling (muted) |
+| Token        | OKLCH                      | Hex     | Role                     |
+| ------------ | -------------------------- | ------- | ------------------------ |
+| bg           | oklch(0.12 0.01 75)        | #1a1816 | Page background          |
+| surface      | oklch(0.16 0.012 75)       | #232019 | Cards, code blocks       |
+| surface-1    | oklch(0.20 0.014 75)       | #2d2a22 | Hover states             |
+| border       | oklch(0.25 0.015 75)       | #38342b | Borders, dividers        |
+| border-1     | oklch(0.30 0.016 75)       | #44403a | Stronger borders         |
+| text         | oklch(0.93 0.01 80)        | #ede9e0 | Primary text             |
+| muted        | oklch(0.65 0.02 75)        | #9e9688 | Secondary text           |
+| dim          | oklch(0.45 0.02 75)        | #665e54 | Tertiary, dates          |
+| accent       | oklch(0.78 0.16 75)        | #e2a93b | Amber — primary accent   |
+| accent-dim   | oklch(0.78 0.16 75 / 0.15) | —       | Accent background tint   |
+| tag-atproto  | oklch(0.78 0.16 75)        | #e2a93b | AT Protocol (amber)      |
+| tag-website  | oklch(0.65 0.15 25)        | #6b9fbf | Website (cool blue)      |
+| tag-pkgs     | oklch(0.72 0.10 310)       | #c9a0dc | Pkgs monorepo (lavender) |
+| tag-bots     | oklch(0.70 0.10 155)       | #7dba8a | Bots (sage)              |
+| tag-esolangs | oklch(0.82 0.16 90)        | #e8c547 | Esolangs (gold)          |
+| tag-infra    | oklch(0.70 0.10 155)       | #7dba8a | Infra (sage)             |
+| tag-game     | oklch(0.68 0.12 70)        | #d4a054 | Game (copper)            |
+| tag-tooling  | oklch(0.65 0.02 75)        | #9e9688 | Tooling (muted)          |
 
 ## Typography
 
@@ -49,6 +49,7 @@ The vertical spine of the page. 2px line in `border-1`. Entry markers are small 
 ## Tags
 
 Scope-based taxonomy. Eight fixed categories with distinct colours:
+
 - **atproto** → amber
 - **website** → cool blue
 - **pkgs** → lavender

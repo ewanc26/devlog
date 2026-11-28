@@ -7,7 +7,7 @@
 
 /* vertical spine — gradient fade at both ends */
 .timeline::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -47,7 +47,7 @@
 
 /* month marker — hollow ring, centered on spine */
 .timeline-month::before {
-  content: '';
+  content: "";
   position: absolute;
   left: -2rem;
   top: 0.3em;
@@ -77,13 +77,16 @@
   background: var(--color-dim);
   transform: translateX(calc(-50% + 1px));
   z-index: 2;
-  transition: background 0.15s, box-shadow 0.15s;
+  transition:
+    background 0.15s,
+    box-shadow 0.15s;
 }
 
 /* hover: subtle accent shift */
 .timeline-entry:hover .timeline-marker {
   background: var(--color-accent);
-  box-shadow: 0 0 4px 1px color-mix(in srgb, var(--color-accent) 25%, transparent);
+  box-shadow: 0 0 4px 1px
+    color-mix(in srgb, var(--color-accent) 25%, transparent);
 }
 
 /* most recent entry — accent dot with pulse */
@@ -97,7 +100,13 @@
 }
 
 @keyframes pulse-dot {
-  0%   { box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-accent) 40%, transparent); }
-  70%  { box-shadow: 0 0 0 8px transparent; }
-  100% { box-shadow: 0 0 0 0 transparent; }
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-accent) 40%, transparent);
+  }
+  70% {
+    box-shadow: 0 0 0 8px transparent;
+  }
+  100% {
+    box-shadow: 0 0 0 0 transparent;
+  }
 }

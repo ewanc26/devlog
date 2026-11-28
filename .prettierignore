@@ -1,0 +1,10 @@
+# Package managers
+pnpm-lock.yaml
+
+# Authored prose — reformatting rewrites frontmatter quoting and published entries
+/src/content/
+
+# Generated output
+/.svelte-kit/
+/build/
+/dist/

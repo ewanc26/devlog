@@ -19,6 +19,7 @@ Entries are written automatically by the agent as part of the git commit and pus
 **Identity:** This is ewan's devlog. It lives at devlog.croft.click. It should feel like a ship's log or a lab notebook — a record of events, not a marketing page. Warm, specific, human, but not chatty.
 
 **Anti-references:**
+
 - Not a generic dark dev tools dashboard (dark blue + neon)
 - Not a SaaS changelog (cards with emoji headers)
 - Not a blog with a timeline skin
@@ -26,6 +27,7 @@ Entries are written automatically by the agent as part of the git commit and pus
 - Not Linear's changelog (too polished, too corporate)
 
 **References:**
+
 - A ship's log book — entries in chronological order, terse, factual
 - A well-kept CHANGELOG.md — semantic, structured, scannable
 - The feel of `git log --oneline` — dense, informative, fast to scan

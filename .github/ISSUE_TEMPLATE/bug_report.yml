@@ -18,6 +18,7 @@ body:
       required: true
   - type: textarea
     id: logs
+    attributes:
       label: Logs, screenshots, or error output
   - type: input
     id: version

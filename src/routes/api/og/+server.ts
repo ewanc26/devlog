@@ -6,15 +6,15 @@
  * - title: Post title (required)
  * - description: Optional one-line description
  */
-import { createOgEndpoint } from '@ewanc26/og';
+import { createOgEndpoint } from "@ewanc26/og";
 
 export const GET = createOgEndpoint({
-	siteName: 'devlog.croft.click',
-	defaultTemplate: 'blog',
-	colors: {
-		background: '#1a1816',
-		text: '#ede9e0',
-		accent: '#e2a93b',
-	},
-	cacheMaxAge: 86_400, // 24 hours
+  siteName: "devlog.croft.click",
+  defaultTemplate: "blog",
+  colors: {
+    background: "#1a1816",
+    text: "#ede9e0",
+    accent: "#e2a93b",
+  },
+  cacheMaxAge: 86_400, // 24 hours
 });
