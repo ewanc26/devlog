@@ -1,5 +1,5 @@
-import { listPosts } from "$lib/posts";
-import type { PageServerLoad } from "./$types";
+import { listPosts } from '$lib/posts';
+import type { PageServerLoad } from './$types';
 
 /**
  * Load the full post list for the homepage timeline.

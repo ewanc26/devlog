@@ -12,7 +12,10 @@
 		const groups: { month: string; posts: PostMeta[] }[] = [];
 		let currentMonth = '';
 		for (const post of posts) {
-			const month = new Date(`${post.date}T12:00:00Z`).toLocaleDateString('en-GB', { month: 'long', year: 'numeric' });
+			const month = new Date(`${post.date}T12:00:00Z`).toLocaleDateString('en-GB', {
+				month: 'long',
+				year: 'numeric'
+			});
 			if (month !== currentMonth) {
 				groups.push({ month, posts: [] });
 				currentMonth = month;
@@ -66,9 +69,7 @@
 </script>
 
 {#if posts.length === 0}
-	<p class="text-[var(--color-dim)] text-[0.88em] italic">
-		No entries yet.
-	</p>
+	<p class="text-[0.88em] text-[var(--color-dim)] italic">No entries yet.</p>
 {:else}
 	<div class="timeline" bind:this={timelineEl}>
 		{#each grouped as group, gi}

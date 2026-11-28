@@ -154,24 +154,24 @@ Return machine-readable JSON for review imports. For `--external-submit`, includ
 
 ```json
 {
-  "session": {
-    "id": "<session_id_from_template>",
-    "token": "<session_hmac_from_template>"
-  },
-  "assessments": {
-    "<dimension_from_query>": 0
-  },
-  "findings": [
-    {
-      "dimension": "<dimension_from_query>",
-      "identifier": "short_id",
-      "summary": "one-line defect summary",
-      "related_files": ["relative/path/to/file.py"],
-      "evidence": ["specific code observation"],
-      "suggestion": "concrete fix recommendation",
-      "confidence": "high|medium|low"
-    }
-  ]
+	"session": {
+		"id": "<session_id_from_template>",
+		"token": "<session_hmac_from_template>"
+	},
+	"assessments": {
+		"<dimension_from_query>": 0
+	},
+	"findings": [
+		{
+			"dimension": "<dimension_from_query>",
+			"identifier": "short_id",
+			"summary": "one-line defect summary",
+			"related_files": ["relative/path/to/file.py"],
+			"evidence": ["specific code observation"],
+			"suggestion": "concrete fix recommendation",
+			"confidence": "high|medium|low"
+		}
+	]
 }
 ```
 

@@ -21,9 +21,9 @@
 	});
 </script>
 
-<div class="min-h-dvh flex flex-col">
+<div class="flex min-h-dvh flex-col">
 	<Header />
-	<main class="flex-1 px-6 py-10 max-w-[680px] w-full mx-auto">
+	<main class="mx-auto w-full max-w-[680px] flex-1 px-6 py-10">
 		{@render children()}
 	</main>
 	<Footer />

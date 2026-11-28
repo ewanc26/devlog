@@ -1,10 +1,10 @@
 {
-  "siteUrl": "https://devlog.croft.click",
-  "contentDir": "./src/content/devlog",
-  "publicDir": "./static",
-  "outputDir": "./dist",
-  "pathTemplate": "/{year}/{month}/{day}/{slug}",
-  "stripDatePrefix": true,
-  "publicationUri": "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.publication/3mlen2qhzrt2s",
-  "identity": "ewancroft.uk"
+	"siteUrl": "https://devlog.croft.click",
+	"contentDir": "./src/content/devlog",
+	"publicDir": "./static",
+	"outputDir": "./dist",
+	"pathTemplate": "/{year}/{month}/{day}/{slug}",
+	"stripDatePrefix": true,
+	"publicationUri": "at://did:plc:ofrbh253gwicbkc5nktqepol/site.standard.publication/3mlen2qhzrt2s",
+	"identity": "ewancroft.uk"
 }
